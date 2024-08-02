@@ -1,6 +1,6 @@
 pkgbase = battery-monitor
 	pkgdesc = A simple tool to monitor battery.
-	pkgver = 0.1
+	pkgver = 0.2
 	pkgrel = 1
 	url = https://github.com/xsy420/battery-monitor
 	arch = x86_64
@@ -9,7 +9,10 @@ pkgbase = battery-monitor
 	makedepends = make
 	depends = zenity
 	options = !debug
-	source = https://github.com/xsy420/battery-monitor/archive/refs/tags/v0.1.tar.gz
-	sha256sums = 0960368cf4153b79fb2c221395079ee915f92c4cc4b81b0c38263bf1d8fc6841
+	source = https://github.com/xsy420/battery-monitor/releases/download/v0.2/battery-monitor-0.2.tar.gz
+	source = https://github.com/xsy420/battery-monitor/releases/download/v0.2/battery-monitor-0.2.tar.gz.asc
+	validpgpkeys = 4C1BEBB093159592D99551703A043DEEA1C7AD10
+	sha256sums = c9e6e9c97dfae4fe0aa74363f841a6e1e024134d09afc7d401a70697ae56c785
+	sha256sums = SKIP
 
 pkgname = battery-monitor

@@ -1,6 +1,6 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=battery-monitor
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="A simple tool to monitor battery."
 groups=(xsy420)
@@ -8,9 +8,14 @@ arch=(x86_64)
 url="https://github.com/xsy420/battery-monitor"
 depends=(zenity)
 makedepends=(gcc make)
-source=("$url/archive/refs/tags/v$pkgver.tar.gz")
+source=($url/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz{,.asc})
 options=(!debug)
-sha256sums=('0960368cf4153b79fb2c221395079ee915f92c4cc4b81b0c38263bf1d8fc6841')
+sha256sums=('c9e6e9c97dfae4fe0aa74363f841a6e1e024134d09afc7d401a70697ae56c785'
+            'SKIP')
+
+validpgpkeys=(
+	4C1BEBB093159592D99551703A043DEEA1C7AD10 # xsy420 <xsy0420@gmail.com>
+)
 
 build() {
 	cd "$srcdir/$pkgname-$pkgver"
