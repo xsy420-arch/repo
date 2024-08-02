@@ -1,4 +1,5 @@
 pkgbase = battery-monitor
+	pkgdesc = A simple tool to monitor battery.
 	pkgver = 0.1
 	pkgrel = 1
 	url = https://github.com/xsy420/battery-monitor

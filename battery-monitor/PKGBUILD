@@ -1,6 +1,7 @@
 pkgname=battery-monitor
 pkgver=0.1
 pkgrel=1
+pkgdesc="A simple tool to monitor battery."
 groups=(xsy420)
 arch=(x86_64)
 url="https://github.com/xsy420/battery-monitor"
