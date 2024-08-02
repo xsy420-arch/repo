@@ -1,0 +1,28 @@
+pkgbase = rofi-fcitx5
+	pkgdesc = A rofi that can use fcitx5 to change input method
+	pkgver = next
+	pkgrel = 1
+	url = https://github.com/DaveDavenport/rofi
+	arch = x86_64
+	groups = xsy420
+	license = MIT
+	makedepends = git
+	depends = libxdg-basedir
+	depends = startup-notification
+	depends = libxkbcommon-x11
+	depends = xcb-util-wm
+	depends = xcb-util-xrm
+	depends = librsvg
+	depends = xcb-util-cursor
+	depends = xcb-util-keysyms
+	depends = xcb-imdkit
+	optdepends = i3-wm: use as a window switcher
+	options = !debug
+	source = git+https://github.com/DaveDavenport/rofi.git#commit=558ab34aa3b6fc8fe6b1715b9750824999036910
+	source = git+https://github.com/sardemff7/libgwater.git
+	source = git+https://github.com/sardemff7/libnkutils.git
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = rofi-fcitx5
