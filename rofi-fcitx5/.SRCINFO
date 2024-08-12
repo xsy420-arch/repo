@@ -17,6 +17,7 @@ pkgbase = rofi-fcitx5
 	depends = xcb-util-keysyms
 	depends = xcb-imdkit
 	optdepends = i3-wm: use as a window switcher
+	conflicts = rofi
 	options = !debug
 	source = git+https://github.com/DaveDavenport/rofi.git#commit=558ab34aa3b6fc8fe6b1715b9750824999036910
 	source = git+https://github.com/sardemff7/libgwater.git
