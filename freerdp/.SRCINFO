@@ -52,6 +52,7 @@ pkgbase = freerdp
 	provides = libfreerdp3.so
 	provides = libwinpr-tools3.so
 	provides = libwinpr3.so
+	options = !debug
 	source = https://github.com/freerdp/freerdp/archive/3.9.0/freerdp-3.9.0.tar.gz
 	source = freerdp-3.9.0-fix-overlapping-check.patch::https://github.com/FreeRDP/FreeRDP/commit/d8dc2956e5df589ca0766d88797f1cd4dbb10882.patch
 	source = freerdp-3.9.0-NTLM-fixes.patch::https://github.com/FreeRDP/FreeRDP/commit/56786ea606fc02dd13757828fb3a73932498b613.patch
