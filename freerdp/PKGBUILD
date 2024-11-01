@@ -4,7 +4,8 @@
 # Contributor: xsy420 <xsy0420@gmail.com>
 
 _name=FreeRDP
-pkgname=freerdp
+_pkgname=freerdp
+pkgname=freerdp-fix
 pkgver=3.9.0
 _libver=${pkgver/.*/}
 pkgrel=5
@@ -13,8 +14,9 @@ pkgdesc="Free implementation of the Remote Desktop Protocol (RDP)"
 arch=(x86_64)
 url="https://www.freerdp.com/"
 license=(Apache-2.0)
-groups=(xsy420)
+groups=(xsy420-repo)
 options=(!debug)
+conflicts=(freerdp)
 depends=(
 	fuse3
 	gcc-libs
@@ -67,9 +69,9 @@ provides=(
 	libwinpr$_libver.so
 )
 source=(
-	https://github.com/$pkgname/$pkgname/archive/$pkgver/$pkgname-$pkgver.tar.gz
-	$pkgname-3.9.0-fix-overlapping-check.patch::https://github.com/FreeRDP/FreeRDP/commit/d8dc2956e5df589ca0766d88797f1cd4dbb10882.patch
-	$pkgname-3.9.0-NTLM-fixes.patch::https://github.com/FreeRDP/FreeRDP/commit/56786ea606fc02dd13757828fb3a73932498b613.patch
+	https://github.com/$_pkgname/$_pkgname/archive/$pkgver/$_pkgname-$pkgver.tar.gz
+	$_pkgname-3.9.0-fix-overlapping-check.patch::https://github.com/FreeRDP/FreeRDP/commit/d8dc2956e5df589ca0766d88797f1cd4dbb10882.patch
+	$_pkgname-3.9.0-NTLM-fixes.patch::https://github.com/FreeRDP/FreeRDP/commit/56786ea606fc02dd13757828fb3a73932498b613.patch
 )
 sha512sums=('c73428975dbe5763cdd7c3334d3482c49f0bc091cab6e9e52b708d132435baa4f60b0a29ced4ace5cd72fc99daa60bd43e33d271d0516b7c05b69d04f348ae52'
 	'3980f3eff7a2b9754b9af83b1cad56683b982acd3a0ece96d57d3f602aef412d731233f517c080f13837d5c3ec6bb8d7829a06cd5534f4c00ae46f9de576bb3e'
@@ -79,8 +81,8 @@ b2sums=('2e20c141a9e9892a748fc6e825c33351d38e73d1e8058dd2c54103b94c69a04783d563d
 	'2c86b543648d532bad0f9b62a2e2ddc5e2e91820235619c1bca98b81010a117691981f06a109b75c16db7fdc932b6007d0668bbe27c950e002485ef7563eedad')
 
 prepare() {
-	patch -Np1 -d $_name-$pkgver -i ../$pkgname-3.9.0-fix-overlapping-check.patch
-	patch -Np1 -d $_name-$pkgver -i ../$pkgname-3.9.0-NTLM-fixes.patch
+	patch -Np1 -d $_name-$pkgver -i ../$_pkgname-3.9.0-fix-overlapping-check.patch
+	patch -Np1 -d $_name-$pkgver -i ../$_pkgname-3.9.0-NTLM-fixes.patch
 }
 
 build() {
@@ -95,7 +97,7 @@ build() {
 		-D CMAKE_INSTALL_LIBDIR=lib
 		-D CMAKE_BUILD_TYPE=None
 		-D CMAKE_SKIP_INSTALL_RPATH=ON
-		-D PROXY_PLUGINDIR=/usr/lib/$pkgname/server/proxy/plugins
+		-D PROXY_PLUGINDIR=/usr/lib/$_pkgname/server/proxy/plugins
 		-D RDTK_FORCE_STATIC_BUILD=ON # prevent file conflicts with freerdp2
 		-D UWAC_FORCE_STATIC_BUILD=ON # prevent file conflicts with freerdp2
 		-D WITH_ALSA=ON
@@ -151,5 +153,5 @@ package() {
 	)
 
 	DESTDIR="$pkgdir" cmake --install build
-	install -vDm 644 $_name-$pkgver/{ChangeLog,README.md} -t "$pkgdir/usr/share/doc/$pkgname/"
+	install -vDm 644 $_name-$pkgver/{ChangeLog,README.md} -t "$pkgdir/usr/share/doc/$_pkgname/"
 }
