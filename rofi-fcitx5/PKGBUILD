@@ -1,7 +1,7 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=rofi-fcitx5
 _pkgname=rofi
-_commit=9d785b5ce19402d28d790e48c9d407fdcdc5aa41
+_commit=08989ab4fcfe586528f783a318b836d2936ac039
 pkgver=next
 pkgrel=1
 pkgdesc="A rofi that can use fcitx5 to change input method"
@@ -10,7 +10,7 @@ url="https://github.com/DaveDavenport/rofi"
 license=(MIT)
 groups=(xsy420-repo)
 depends=(libxdg-basedir startup-notification libxkbcommon-x11 xcb-util-wm xcb-util-xrm librsvg xcb-util-cursor xcb-util-keysyms xcb-imdkit)
-makedepends=(git)
+makedepends=(git check pandoc)
 optdepends=('i3-wm: use as a window switcher')
 options=(!debug)
 conflicts=(rofi)

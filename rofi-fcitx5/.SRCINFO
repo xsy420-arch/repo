@@ -7,6 +7,8 @@ pkgbase = rofi-fcitx5
 	groups = xsy420-repo
 	license = MIT
 	makedepends = git
+	makedepends = check
+	makedepends = pandoc
 	depends = libxdg-basedir
 	depends = startup-notification
 	depends = libxkbcommon-x11
@@ -19,7 +21,7 @@ pkgbase = rofi-fcitx5
 	optdepends = i3-wm: use as a window switcher
 	conflicts = rofi
 	options = !debug
-	source = git+https://github.com/DaveDavenport/rofi.git#commit=9d785b5ce19402d28d790e48c9d407fdcdc5aa41
+	source = git+https://github.com/DaveDavenport/rofi.git#commit=08989ab4fcfe586528f783a318b836d2936ac039
 	source = git+https://github.com/sardemff7/libgwater.git
 	source = git+https://github.com/sardemff7/libnkutils.git
 	sha256sums = SKIP
