@@ -1,0 +1,44 @@
+# Maintainer: xsy420 <xsy0420@gmail.com>
+pkgname=editorconfig-checker-git
+_pkgname=editorconfig-checker
+_commit=af09b21a62b83bbc8060533f9dc8ff746c57fc6f
+#_commit=cf4ae1ccede331b2aa1b115f1de5257737de7eef
+pkgver=next
+pkgrel=1
+pkgdesc='A tool to verify that your files are in harmony with your .editorconfig'
+arch=(x86_64)
+url="https://github.com/editorconfig-checker/$_pkgname"
+license=(MIT)
+groups=(xsy420-repo)
+depends=(glibc)
+makedepends=(go)
+provides=(ec)
+options=(!debug)
+conflicts=("$_pkgname")
+source=(
+	"git+${url}.git#commit=$_commit"
+)
+sha256sums=('SKIP')
+
+build() {
+	cd "$srcdir/$_pkgname"
+	export CGO_CPPFLAGS="$CPPFLAGS"
+	export CGO_CFLAGS="$CFLAGS"
+	export CGO_CXXFLAGS="$CXXFLAGS"
+	export CGO_LDFLAGS="$LDFLAGS"
+	#export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
+	export GOFLAGS="-buildmode=pie -ldflags=-linkmode=external -mod=readonly -modcacherw"
+	go build -o "$_pkgname" ./cmd/...
+}
+
+check() {
+	cd "$srcdir/$_pkgname"
+	go test ./...
+}
+
+package() {
+	cd "$srcdir/$_pkgname"
+	install -Dm755 -t "$pkgdir/usr/bin/" "$_pkgname"
+	ln -sf "$_pkgname" "$pkgdir/usr/bin/ec"
+	install -Dm644 -t "$pkgdir/usr/share/licenses/$_pkgname" LICENSE
+}

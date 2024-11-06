@@ -1,0 +1,17 @@
+pkgbase = editorconfig-checker-git
+	pkgdesc = A tool to verify that your files are in harmony with your .editorconfig
+	pkgver = next
+	pkgrel = 1
+	url = https://github.com/editorconfig-checker/editorconfig-checker
+	arch = x86_64
+	groups = xsy420-repo
+	license = MIT
+	makedepends = go
+	depends = glibc
+	provides = ec
+	conflicts = editorconfig-checker
+	options = !debug
+	source = git+https://github.com/editorconfig-checker/editorconfig-checker.git#commit=af09b21a62b83bbc8060533f9dc8ff746c57fc6f
+	sha256sums = SKIP
+
+pkgname = editorconfig-checker-git
