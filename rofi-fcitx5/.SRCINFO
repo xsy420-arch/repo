@@ -21,7 +21,7 @@ pkgbase = rofi-fcitx5
 	optdepends = i3-wm: use as a window switcher
 	conflicts = rofi
 	options = !debug
-	source = git+https://github.com/DaveDavenport/rofi.git#commit=08989ab4fcfe586528f783a318b836d2936ac039
+	source = git+https://github.com/DaveDavenport/rofi.git#commit=c38dc9a1d91704c859299bb62358bb092ec166bc
 	source = git+https://github.com/sardemff7/libgwater.git
 	source = git+https://github.com/sardemff7/libnkutils.git
 	sha256sums = SKIP

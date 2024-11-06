@@ -1,7 +1,7 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=rofi-fcitx5
 _pkgname=rofi
-_commit=08989ab4fcfe586528f783a318b836d2936ac039
+_commit=c38dc9a1d91704c859299bb62358bb092ec166bc
 pkgver=next
 pkgrel=1
 pkgdesc="A rofi that can use fcitx5 to change input method"
