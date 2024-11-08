@@ -8,7 +8,7 @@ _pkgname=freerdp
 pkgname=freerdp-fix
 pkgver=3.9.0
 _libver=${pkgver/.*/}
-pkgrel=5
+pkgrel=6
 epoch=2
 pkgdesc="Free implementation of the Remote Desktop Protocol (RDP)"
 arch=(x86_64)
@@ -86,10 +86,6 @@ prepare() {
 }
 
 build() {
-	# gcc14 buildfix
-	export CFLAGS+=" -Wno-incompatible-pointer-types"
-	export CXXFLAGS+=" -Wno-incompatible-pointer-types"
-
 	local cmake_options=(
 		-B build
 		-D CHANNEL_URBDRC_CLIENT=ON
