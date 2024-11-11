@@ -1,7 +1,7 @@
-pkgbase = freerdp-fix
+pkgbase = freerdp-git
 	pkgdesc = Free implementation of the Remote Desktop Protocol (RDP)
 	pkgver = 3.9.0
-	pkgrel = 6
+	pkgrel = 5
 	epoch = 2
 	url = https://www.freerdp.com/
 	arch = x86_64
@@ -53,19 +53,12 @@ pkgbase = freerdp-fix
 	provides = libwinpr-tools3.so
 	provides = libwinpr3.so
 	conflicts = freerdp
-	conflicts = freerdp-git
+	conflicts = freerdp-fix
 	options = !debug
-	source = https://github.com/freerdp/freerdp/archive/3.9.0/freerdp-3.9.0.tar.gz
-	source = freerdp-3.9.0-fix-overlapping-check.patch::https://github.com/FreeRDP/FreeRDP/commit/d8dc2956e5df589ca0766d88797f1cd4dbb10882.patch
-	source = freerdp-3.9.0-NTLM-fixes.patch::https://github.com/FreeRDP/FreeRDP/commit/56786ea606fc02dd13757828fb3a73932498b613.patch
-	sha512sums = c73428975dbe5763cdd7c3334d3482c49f0bc091cab6e9e52b708d132435baa4f60b0a29ced4ace5cd72fc99daa60bd43e33d271d0516b7c05b69d04f348ae52
-	sha512sums = 3980f3eff7a2b9754b9af83b1cad56683b982acd3a0ece96d57d3f602aef412d731233f517c080f13837d5c3ec6bb8d7829a06cd5534f4c00ae46f9de576bb3e
-	sha512sums = b4709a10644627cb494b5b31cb20ef5def9d932524fd3fb5d9403ebc22be38f026984c9b139223d9f0bddf77d94f4fd9b4b81bed72d3f0a62e6bc8deadd38d0a
-	b2sums = 2e20c141a9e9892a748fc6e825c33351d38e73d1e8058dd2c54103b94c69a04783d563d1555ec73c3214851fe915609f4e69b3c6e63f478bd3548ec61d976d67
-	b2sums = ea0149f7e15f227a62feb1aad5bdf84d43edc09dc5ce709525d5a88d614c7c3a08eb58afc3c27801f3e16961a5a2fccc2ac27f82fc7886a829747398129cc055
-	b2sums = 2c86b543648d532bad0f9b62a2e2ddc5e2e91820235619c1bca98b81010a117691981f06a109b75c16db7fdc932b6007d0668bbe27c950e002485ef7563eedad
+	source = git+https://github.com/FreeRDP/FreeRDP.git#commit=148549165de2453d4ad57d5bb31057701e409866
+	sha512sums = SKIP
 
-pkgname = freerdp-fix
+pkgname = freerdp-git
 	depends = fuse3
 	depends = gcc-libs
 	depends = glibc
