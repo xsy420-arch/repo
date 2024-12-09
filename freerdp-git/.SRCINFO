@@ -55,7 +55,7 @@ pkgbase = freerdp-git
 	conflicts = freerdp
 	conflicts = freerdp-fix
 	options = !debug
-	source = git+https://github.com/FreeRDP/FreeRDP.git#commit=148549165de2453d4ad57d5bb31057701e409866
+	source = git+https://github.com/FreeRDP/FreeRDP.git#commit=51c3e6a8781546e4b8cabc7c90feb821698441b9
 	sha512sums = SKIP
 
 pkgname = freerdp-git
