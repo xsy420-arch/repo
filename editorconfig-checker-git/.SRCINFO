@@ -11,7 +11,7 @@ pkgbase = editorconfig-checker-git
 	provides = ec
 	conflicts = editorconfig-checker
 	options = !debug
-	source = git+https://github.com/editorconfig-checker/editorconfig-checker.git#commit=af09b21a62b83bbc8060533f9dc8ff746c57fc6f
+	source = git+https://github.com/editorconfig-checker/editorconfig-checker.git#commit=0db708d0c4a07f7089acb8585cc9d6a35ac5ec1e
 	sha256sums = SKIP
 
 pkgname = editorconfig-checker-git

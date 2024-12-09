@@ -2,6 +2,7 @@
 pkgname=editorconfig-checker-git
 _pkgname=editorconfig-checker
 _commit=af09b21a62b83bbc8060533f9dc8ff746c57fc6f
+_commit=0db708d0c4a07f7089acb8585cc9d6a35ac5ec1e
 #_commit=cf4ae1ccede331b2aa1b115f1de5257737de7eef
 pkgver=next
 pkgrel=1
@@ -28,7 +29,7 @@ build() {
 	export CGO_LDFLAGS="$LDFLAGS"
 	#export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
 	export GOFLAGS="-buildmode=pie -ldflags=-linkmode=external -mod=readonly -modcacherw"
-	go build -o "$_pkgname" ./cmd/...
+	go build -trimpath -o "$_pkgname" ./cmd/...
 }
 
 check() {
