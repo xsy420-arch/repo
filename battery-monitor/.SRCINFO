@@ -5,6 +5,7 @@ pkgbase = battery-monitor
 	url = https://github.com/xsy420/battery-monitor
 	arch = x86_64
 	groups = xsy420-repo
+	license = MIT
 	makedepends = gcc
 	makedepends = make
 	depends = zenity

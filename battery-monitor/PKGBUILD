@@ -6,6 +6,7 @@ pkgdesc="A simple tool to monitor battery."
 groups=(xsy420-repo)
 arch=(x86_64)
 url="https://github.com/xsy420/battery-monitor"
+license=('MIT')
 depends=(zenity)
 makedepends=(gcc make)
 source=($url/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz{,.asc})
