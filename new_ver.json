@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "data": {
+    "auth": {
+      "version": "0.1.2",
+      "gitref": "refs/tags/v0.1.2",
+      "url": "https://github.com/nnyyxxxx/auth/releases/tag/v0.1.2"
+    },
+    "battery-monitor": {
+      "version": "0.2",
+      "gitref": "refs/tags/v0.2",
+      "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
+    }
+  }
+}
