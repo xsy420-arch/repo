@@ -7,11 +7,12 @@ pkgbase = editorconfig-checker-git
 	groups = xsy420-repo
 	license = MIT
 	makedepends = go
+	makedepends = git
 	depends = glibc
 	provides = ec
 	conflicts = editorconfig-checker
 	options = !debug
-	source = git+https://github.com/editorconfig-checker/editorconfig-checker.git#commit=0db708d0c4a07f7089acb8585cc9d6a35ac5ec1e
-	sha256sums = SKIP
+	source = git+https://github.com/editorconfig-checker/editorconfig-checker.git#commit=349a4fc18f8511386df9a526221b802964deb41c
+	sha256sums = b829b723caacbfbb3e7f212f94f2be5cf9916d82e2814a4a34c838d697d13716
 
 pkgname = editorconfig-checker-git

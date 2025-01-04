@@ -1,9 +1,7 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=editorconfig-checker-git
 _pkgname=editorconfig-checker
-_commit=af09b21a62b83bbc8060533f9dc8ff746c57fc6f
-_commit=0db708d0c4a07f7089acb8585cc9d6a35ac5ec1e
-#_commit=cf4ae1ccede331b2aa1b115f1de5257737de7eef
+_commit=349a4fc18f8511386df9a526221b802964deb41c
 pkgver=next
 pkgrel=1
 pkgdesc='A tool to verify that your files are in harmony with your .editorconfig'
@@ -12,14 +10,14 @@ url="https://github.com/editorconfig-checker/$_pkgname"
 license=(MIT)
 groups=(xsy420-repo)
 depends=(glibc)
-makedepends=(go)
+makedepends=(go git)
 provides=(ec)
 options=(!debug)
 conflicts=("$_pkgname")
 source=(
 	"git+${url}.git#commit=$_commit"
 )
-sha256sums=('SKIP')
+sha256sums=('b829b723caacbfbb3e7f212f94f2be5cf9916d82e2814a4a34c838d697d13716')
 
 build() {
 	cd "$srcdir/$_pkgname"
@@ -41,5 +39,5 @@ package() {
 	cd "$srcdir/$_pkgname"
 	install -Dm755 -t "$pkgdir/usr/bin/" "$_pkgname"
 	ln -sf "$_pkgname" "$pkgdir/usr/bin/ec"
-	install -Dm644 -t "$pkgdir/usr/share/licenses/$_pkgname" LICENSE
+	install -Dm644 -t "$pkgdir/usr/share/licenses/$pkgname" LICENSE
 }
