@@ -12,7 +12,7 @@ pkgbase = editorconfig-checker-git
 	provides = ec
 	conflicts = editorconfig-checker
 	options = !debug
-	source = git+https://github.com/editorconfig-checker/editorconfig-checker.git#commit=349a4fc18f8511386df9a526221b802964deb41c
-	sha256sums = b829b723caacbfbb3e7f212f94f2be5cf9916d82e2814a4a34c838d697d13716
+	source = git+https://github.com/editorconfig-checker/editorconfig-checker.git#commit=ae781440456b1a164cb064bd5b4358d75a2344e6
+	sha256sums = 155e5f2ad148c2cca347e68c323ee9984f4761e2b1fa391a5b13d9118e65b629
 
 pkgname = editorconfig-checker-git
