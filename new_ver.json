@@ -11,6 +11,11 @@
       "gitref": "refs/tags/v0.2",
       "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
     },
+    "dmg2img": {
+      "version": "1.6.7",
+      "gitref": "",
+      "url": ""
+    },
     "fzf-make": {
       "version": "0.55.0",
       "gitref": "refs/tags/v0.55.0",

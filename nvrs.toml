@@ -20,3 +20,7 @@ source = "github"
 github = "kyu08/fzf-make"
 use_latest_release = true
 prefix = "v"
+
+[dmg2img]
+source = "aur"
+aur = "dmg2img"
