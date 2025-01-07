@@ -6,6 +6,10 @@
       "gitref": "refs/tags/v0.1.3",
       "url": "https://github.com/nnyyxxxx/auth/releases/tag/v0.1.3"
     },
+    "baidunetdisk-bin": {
+      "version": "4.17.7-1",
+      "url": "https://aur.archlinux.org/packages/baidunetdisk-bin"
+    },
     "battery-monitor": {
       "version": "0.2",
       "gitref": "refs/tags/v0.2",
