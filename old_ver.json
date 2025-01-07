@@ -12,14 +12,16 @@
       "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
     },
     "dmg2img": {
-      "version": "1.6.7",
-      "gitref": "",
-      "url": ""
+      "version": "1.6.7-5",
+      "url": "https://aur.archlinux.org/packages/dmg2img"
     },
     "fzf-make": {
       "version": "0.55.0",
       "gitref": "refs/tags/v0.55.0",
       "url": "https://github.com/kyu08/fzf-make/releases/tag/v0.55.0"
+    },
+    "google-chrome": {
+      "version": "131.0.6778.264"
     }
   }
 }

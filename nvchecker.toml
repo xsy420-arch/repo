@@ -23,4 +23,11 @@ prefix = "v"
 
 [dmg2img]
 source = "aur"
-aur = "dmg2img"
+
+[google-chrome]
+source = "apt"
+mirror = "https://dl.google.com/linux/chrome/deb/"
+pkg = "google-chrome-stable"
+suite = "stable"
+repo = "main"
+strip_release = true
