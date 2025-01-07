@@ -9,6 +9,7 @@
 *.log.*
 *.sig
 *.asc
+*.deb
 
 pkg/
 src/
