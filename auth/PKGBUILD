@@ -11,26 +11,26 @@ source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('4745385586216aafeb3803233c5cac62d691f5562f69304d95b9554dcd44b2d9')
 
 prepare() {
-	cd "$pkgname-$pkgver"
-	cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
+    cd "$pkgname-$pkgver"
+    cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
-	cd "$pkgname-$pkgver"
-	export RUSTUP_TOOLCHAIN=stable
-	export CARGO_TARGET_DIR=target
-	cargo build --release --frozen
+    cd "$pkgname-$pkgver"
+    export RUSTUP_TOOLCHAIN=stable
+    export CARGO_TARGET_DIR=target
+    cargo build --release --frozen
 }
 
 check() {
-	cd "$pkgname-$pkgver"
-	export RUSTUP_TOOLCHAIN=stable
-	cargo test --frozen
+    cd "$pkgname-$pkgver"
+    export RUSTUP_TOOLCHAIN=stable
+    cargo test --frozen
 }
 
 package() {
-	cd "$pkgname-$pkgver"
-	install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
-	install -Dm 644 readme.md "$pkgdir/usr/share/doc/$pkgname/README.md"
-	install -Dm 644 license "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+    cd "$pkgname-$pkgver"
+    install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
+    install -Dm 644 readme.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+    install -Dm 644 license "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }

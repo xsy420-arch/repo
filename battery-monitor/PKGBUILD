@@ -12,18 +12,18 @@ makedepends=(gcc make)
 source=($url/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz{,.asc})
 options=(!debug)
 sha256sums=('c9e6e9c97dfae4fe0aa74363f841a6e1e024134d09afc7d401a70697ae56c785'
-	'SKIP')
+    'SKIP')
 
 validpgpkeys=(
-	4C1BEBB093159592D99551703A043DEEA1C7AD10 # xsy420 <xsy0420@gmail.com>
+    4C1BEBB093159592D99551703A043DEEA1C7AD10 # xsy420 <xsy0420@gmail.com>
 )
 
 build() {
-	cd "$srcdir/$pkgname-$pkgver"
-	make
+    cd "$srcdir/$pkgname-$pkgver"
+    make
 }
 
 package() {
-	cd "$srcdir/$pkgname-$pkgver"
-	make DESTDIR="$pkgdir" install
+    cd "$srcdir/$pkgname-$pkgver"
+    make DESTDIR="$pkgdir" install
 }
