@@ -38,6 +38,9 @@
     "google-chrome": {
       "version": "131.0.6778.264"
     },
+    "linuxqq-nt-bwrap": {
+      "version": "3.2.15_2024.12.24"
+    },
     "python-aenum": {
       "version": "3.1.15",
       "url": "https://pypi.org/project/aenum/3.1.15/"
