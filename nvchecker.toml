@@ -2,6 +2,8 @@
 oldver = "old_ver.json"
 newver = "new_ver.json"
 keyfile = "apikey.crypt"
+proxy = "http://localhost:7890"
+tries = 5
 
 [auth]
 source = "github"
