@@ -3,7 +3,6 @@ pkgbase = python-scikit-image
 	pkgver = 0.25.0
 	pkgrel = 1
 	url = http://scikit-image.org
-	arch = i686
 	arch = x86_64
 	license = BSD-3-Clause
 	makedepends = cython>=3.0.8

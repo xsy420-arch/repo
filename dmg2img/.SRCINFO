@@ -3,7 +3,6 @@ pkgbase = dmg2img
 	pkgver = 1.6.7
 	pkgrel = 5
 	url = http://vu1tur.eu.org/tools/
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	depends = openssl
