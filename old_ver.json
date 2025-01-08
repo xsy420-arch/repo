@@ -32,6 +32,75 @@
     },
     "google-chrome": {
       "version": "131.0.6778.264"
+    },
+    "python-aenum": {
+      "version": "3.1.15",
+      "url": "https://pypi.org/project/aenum/3.1.15/"
+    },
+    "python-chafapy": {
+      "version": "1.2.0",
+      "gitref": "refs/tags/v1.2.0",
+      "url": "https://github.com/GuardKenzie/chafa.py/releases/tag/v1.2.0"
+    },
+    "python-euporie": {
+      "version": "2.8.2",
+      "gitref": "refs/tags/v2.8.2",
+      "url": "https://github.com/joouha/euporie/releases/tag/v2.8.2"
+    },
+    "python-flatlatex": {
+      "version": "0.15",
+      "gitref": "refs/tags/v0.15",
+      "revision": "8e396906dd5d0d40ac466d60cd948046090d6c59",
+      "url": "https://github.com/jb-leger/flatlatex/releases/tag/v0.15"
+    },
+    "python-imageio": {
+      "version": "2.36.1",
+      "gitref": "refs/tags/v2.36.1",
+      "url": "https://github.com/imageio/imageio/releases/tag/v2.36.1"
+    },
+    "python-img2unicode": {
+      "version": "20241024.154234",
+      "revision": "9e59b34480398d9b585572477ea840508a12ac27",
+      "url": "https://github.com/matrach/img2unicode/commit/9e59b34480398d9b585572477ea840508a12ac27"
+    },
+    "python-jupytext": {
+      "version": "1.16.6",
+      "gitref": "refs/tags/v1.16.6",
+      "url": "https://github.com/mwouts/jupytext/releases/tag/v1.16.6"
+    },
+    "python-mtable": {
+      "version": "20241206.052617",
+      "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
+      "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
+    },
+    "python-scikit-image": {
+      "version": "0.25.0",
+      "gitref": "refs/tags/v0.25.0",
+      "url": "https://github.com/scikit-image/scikit-image/releases/tag/v0.25.0"
+    },
+    "python-sixelcrop": {
+      "version": "0.1.9",
+      "url": "https://pypi.org/project/sixelcrop/0.1.9/"
+    },
+    "python-teimpy": {
+      "version": "0.1.1",
+      "gitref": "refs/tags/0.1.1",
+      "revision": "e2d77933ab0677dbe339198a830d6dbd1b07e161",
+      "url": "https://github.com/ar90n/teimpy/releases/tag/0.1.1"
+    },
+    "python-tifffile": {
+      "version": "2024.12.12",
+      "gitref": "refs/tags/v2024.12.12",
+      "url": "https://github.com/cgohlke/tifffile/releases/tag/v2024.12.12"
+    },
+    "python-timg": {
+      "version": "1.1.6",
+      "url": "https://pypi.org/project/timg/1.1.6/"
+    },
+    "python-universal_pathlib": {
+      "version": "0.2.6",
+      "gitref": "refs/tags/v0.2.6",
+      "url": "https://github.com/fsspec/universal_pathlib/releases/tag/v0.2.6"
     }
   }
 }

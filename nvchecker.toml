@@ -40,3 +40,79 @@ source = "github"
 github = "editorconfig-checker/editorconfig-checker"
 prefix = "v"
 use_max_tag = true
+
+[python-aenum]
+source = "pypi"
+pypi = "aenum"
+
+[python-chafapy]
+source = "github"
+github = "guardkenzie/chafa.py"
+use_latest_release = true
+prefix = "v"
+
+[python-flatlatex]
+source = "github"
+github = "jb-leger/flatlatex"
+use_max_tag = true
+prefix = "v"
+
+[python-imageio]
+source = "github"
+github = "imageio/imageio"
+use_latest_release = true
+prefix = "v"
+
+[python-img2unicode]
+source = "github"
+github = "matrach/img2unicode"
+use_commit = true
+
+[python-jupytext]
+source = "github"
+github = "mwouts/jupytext"
+use_latest_release = true
+prefix = "v"
+
+[python-mtable]
+source = "github"
+github = "liuyug/mtable"
+use_commit = true
+
+[python-scikit-image]
+source = "github"
+github = "scikit-image/scikit-image"
+use_latest_release = true
+prefix = "v"
+
+[python-sixelcrop]
+source = "pypi"
+pypi = "sixelcrop"
+
+[python-teimpy]
+source = "github"
+github = "ar90n/teimpy"
+use_max_tag = true
+prefix = "v"
+
+[python-tifffile]
+source = "github"
+github = "cgohlke/tifffile"
+use_latest_release = true
+prefix = "v"
+
+[python-timg]
+source = "pypi"
+pypi = "timg"
+
+[python-universal_pathlib]
+source = "github"
+github = "fsspec/universal_pathlib"
+use_latest_release = true
+prefix = "v"
+
+[python-euporie]
+source = "github"
+github = "joouha/euporie"
+use_latest_release = true
+prefix = "v"
