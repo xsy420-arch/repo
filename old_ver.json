@@ -76,6 +76,12 @@
     "python-sixelcrop": {
       "version": "0.1.9",
       "url": "https://pypi.org/project/sixelcrop/0.1.9/"
+    },
+    "python-teimpy": {
+      "version": "0.1.1",
+      "gitref": "refs/tags/0.1.1",
+      "revision": "e2d77933ab0677dbe339198a830d6dbd1b07e161",
+      "url": "https://github.com/ar90n/teimpy/releases/tag/0.1.1"
     }
   }
 }
