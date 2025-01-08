@@ -40,3 +40,7 @@ source = "github"
 github = "editorconfig-checker/editorconfig-checker"
 prefix = "v"
 use_max_tag = true
+
+[python-aenum]
+source = "pypi"
+pypi = "aenum"
