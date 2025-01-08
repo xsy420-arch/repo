@@ -111,7 +111,7 @@ github = "fsspec/universal_pathlib"
 use_latest_release = true
 prefix = "v"
 
-[python-euporie]
+[euporie]
 source = "github"
 github = "joouha/euporie"
 use_latest_release = true
