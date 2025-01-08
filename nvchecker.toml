@@ -84,3 +84,7 @@ source = "github"
 github = "scikit-image/scikit-image"
 use_latest_release = true
 prefix = "v"
+
+[python-sixelcrop]
+source = "pypi"
+pypi = "sixelcrop"

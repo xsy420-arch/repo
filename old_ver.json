@@ -72,6 +72,10 @@
       "version": "0.25.0",
       "gitref": "refs/tags/v0.25.0",
       "url": "https://github.com/scikit-image/scikit-image/releases/tag/v0.25.0"
+    },
+    "python-sixelcrop": {
+      "version": "0.1.9",
+      "url": "https://pypi.org/project/sixelcrop/0.1.9/"
     }
   }
 }
