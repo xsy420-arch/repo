@@ -1,6 +1,6 @@
 pkgbase = editorconfig-checker
 	pkgdesc = A tool to verify that your files are in harmony with your .editorconfig
-	pkgver = 3.1.0
+	pkgver = 3.1.1
 	pkgrel = 1
 	url = https://github.com/editorconfig-checker/editorconfig-checker
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = editorconfig-checker
 	depends = glibc
 	provides = ec
 	options = !debug
-	source = https://github.com/editorconfig-checker/editorconfig-checker/archive/refs/tags/v3.1.0/editorconfig-checker-3.1.0.tar.gz
-	sha256sums = 971cac44f20323c2b49d39d14cf210637dfcde94d486a314374c78bd77f1d3ce
+	source = https://github.com/editorconfig-checker/editorconfig-checker/archive/refs/tags/v3.1.1/editorconfig-checker-3.1.1.tar.gz
+	sha256sums = d6de48e949d11382bcdab68e76f6ea5e63bfc113f0132a8a888de4faf3bff569
 
 pkgname = editorconfig-checker
