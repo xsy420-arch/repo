@@ -57,6 +57,11 @@
       "version": "20241024.154234",
       "revision": "9e59b34480398d9b585572477ea840508a12ac27",
       "url": "https://github.com/matrach/img2unicode/commit/9e59b34480398d9b585572477ea840508a12ac27"
+    },
+    "python-jupytext": {
+      "version": "1.16.6",
+      "gitref": "refs/tags/v1.16.6",
+      "url": "https://github.com/mwouts/jupytext/releases/tag/v1.16.6"
     }
   }
 }

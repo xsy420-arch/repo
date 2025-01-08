@@ -67,3 +67,9 @@ prefix = "v"
 source = "github"
 github = "matrach/img2unicode"
 use_commit = true
+
+[python-jupytext]
+source = "github"
+github = "mwouts/jupytext"
+use_latest_release = true
+prefix = "v"
