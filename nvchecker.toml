@@ -44,3 +44,9 @@ use_max_tag = true
 [python-aenum]
 source = "pypi"
 pypi = "aenum"
+
+[python-chafapy]
+source = "github"
+github = "guardkenzie/chafa.py"
+use_latest_release = true
+prefix = "v"

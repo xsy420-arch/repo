@@ -36,6 +36,11 @@
     "python-aenum": {
       "version": "3.1.15",
       "url": "https://pypi.org/project/aenum/3.1.15/"
+    },
+    "python-chafapy": {
+      "version": "1.2.0",
+      "gitref": "refs/tags/v1.2.0",
+      "url": "https://github.com/GuardKenzie/chafa.py/releases/tag/v1.2.0"
     }
   }
 }
