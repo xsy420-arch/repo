@@ -78,3 +78,9 @@ prefix = "v"
 source = "github"
 github = "liuyug/mtable"
 use_commit = true
+
+[python-scikit-image]
+source = "github"
+github = "scikit-image/scikit-image"
+use_latest_release = true
+prefix = "v"
