@@ -42,6 +42,11 @@
       "gitref": "refs/tags/v1.2.0",
       "url": "https://github.com/GuardKenzie/chafa.py/releases/tag/v1.2.0"
     },
+    "python-euporie": {
+      "version": "2.8.2",
+      "gitref": "refs/tags/v2.8.2",
+      "url": "https://github.com/joouha/euporie/releases/tag/v2.8.2"
+    },
     "python-flatlatex": {
       "version": "0.15",
       "gitref": "refs/tags/v0.15",
