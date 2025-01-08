@@ -19,6 +19,12 @@
       "version": "1.6.7-5",
       "url": "https://aur.archlinux.org/packages/dmg2img"
     },
+    "editorconfig-checker": {
+      "version": "3.1.0",
+      "gitref": "refs/tags/v3.1.0",
+      "revision": "51fcdf065e53b1161caa88acd49cf09bb3fd28fa",
+      "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/tag/v3.1.0"
+    },
     "fzf-make": {
       "version": "0.55.0",
       "gitref": "refs/tags/v0.55.0",

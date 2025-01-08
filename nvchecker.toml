@@ -34,3 +34,9 @@ strip_release = true
 
 [baidunetdisk-bin]
 source = "aur"
+
+[editorconfig-checker]
+source = "github"
+github = "editorconfig-checker/editorconfig-checker"
+prefix = "v"
+use_max_tag = true
