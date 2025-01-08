@@ -104,3 +104,9 @@ prefix = "v"
 [python-timg]
 source = "pypi"
 pypi = "timg"
+
+[python-universal_pathlib]
+source = "github"
+github = "fsspec/universal_pathlib"
+use_latest_release = true
+prefix = "v"
