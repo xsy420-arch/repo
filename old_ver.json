@@ -62,6 +62,11 @@
       "version": "1.16.6",
       "gitref": "refs/tags/v1.16.6",
       "url": "https://github.com/mwouts/jupytext/releases/tag/v1.16.6"
+    },
+    "python-mtable": {
+      "version": "20241206.052617",
+      "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
+      "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     }
   }
 }

@@ -73,3 +73,8 @@ source = "github"
 github = "mwouts/jupytext"
 use_latest_release = true
 prefix = "v"
+
+[python-mtable]
+source = "github"
+github = "liuyug/mtable"
+use_commit = true
