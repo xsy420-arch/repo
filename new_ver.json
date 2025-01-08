@@ -41,6 +41,12 @@
       "version": "1.2.0",
       "gitref": "refs/tags/v1.2.0",
       "url": "https://github.com/GuardKenzie/chafa.py/releases/tag/v1.2.0"
+    },
+    "python-flatlatex": {
+      "version": "0.15",
+      "gitref": "refs/tags/v0.15",
+      "revision": "8e396906dd5d0d40ac466d60cd948046090d6c59",
+      "url": "https://github.com/jb-leger/flatlatex/releases/tag/v0.15"
     }
   }
 }

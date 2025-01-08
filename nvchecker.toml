@@ -50,3 +50,9 @@ source = "github"
 github = "guardkenzie/chafa.py"
 use_latest_release = true
 prefix = "v"
+
+[python-flatlatex]
+source = "github"
+github = "jb-leger/flatlatex"
+use_max_tag = true
+prefix = "v"
