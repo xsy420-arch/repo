@@ -118,3 +118,7 @@ source = "github"
 github = "joouha/euporie"
 use_latest_release = true
 prefix = "v"
+
+[linuxqq-nt-bwrap]
+source = "cmd"
+cmd = "curl -s https://im.qq.com/linuxqq/index.shtml | awk -F\\\" '/var rainbowConfigUrl/{print $2}' | xargs curl -s | awk -F\\\" '/version/{printf \"%s_%s\", $8, $12}'"
