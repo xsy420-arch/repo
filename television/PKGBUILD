@@ -15,25 +15,25 @@ sha512sums=('209d639866fc90a42204e78f34f4be28995a11bfc7a23d2a5f2f4c2262e84a72c3a
 options=('!lto')
 
 prepare() {
-  cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
+    cd "$pkgname-$pkgver"
+    cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
-  cd "$pkgname-$pkgver"
-  cargo build --release --frozen
+    cd "$pkgname-$pkgver"
+    cargo build --release --frozen
 }
 
 check() {
-  cd "$pkgname-$pkgver"
-  cargo test --frozen
+    cd "$pkgname-$pkgver"
+    cargo test --frozen
 }
 
 package() {
-  cd "$pkgname-$pkgver"
-  install -Dm 755 "target/release/$_pkgname" -t "$pkgdir/usr/bin"
-  install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
-  install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+    cd "$pkgname-$pkgver"
+    install -Dm 755 "target/release/$_pkgname" -t "$pkgdir/usr/bin"
+    install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
+    install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
 }
 
 # vim: ts=2 sw=2 et:
