@@ -12,5 +12,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install git-crypt -y && echo ${{ secrets.GIT_CRYPT_KEY }} | base64 -d > gck && git-crypt unlock gck && rm gck
       - name: editorconfig-checker
         run: sudo npm install --global --save-dev editorconfig-checker && editorconfig-checker
+      - name: Remove proxy in nvchecker.toml when running GitHub Action
+        run: sed -i '/^proxy/d' nvchecker.toml
       - name: nvchecker
         run: sudo pip install nvchecker --break-system-packages && time nvchecker -c nvchecker.toml
