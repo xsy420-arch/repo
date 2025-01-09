@@ -116,7 +116,7 @@ prefix = "v"
 [euporie]
 source = "github"
 github = "joouha/euporie"
-use_latest_release = true
+use_max_tag = true
 prefix = "v"
 
 [linuxqq-nt-bwrap]
