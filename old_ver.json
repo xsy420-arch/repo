@@ -106,6 +106,11 @@
       "gitref": "refs/tags/v0.2.6",
       "url": "https://github.com/fsspec/universal_pathlib/releases/tag/v0.2.6"
     },
+    "television": {
+      "version": "0.9.1",
+      "gitref": "refs/tags/0.9.1",
+      "url": "https://github.com/alexpasmantier/television/releases/tag/0.9.1"
+    },
     "typora": {
       "version": "1.9.3"
     }
