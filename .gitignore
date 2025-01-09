@@ -10,5 +10,9 @@
 *.sig
 *.deb
 
-pkg/
-src/
+# subfolders, e.g. source or built package trees, vcs
+*/**/
+
+# backup files
+*~
+*.bak
