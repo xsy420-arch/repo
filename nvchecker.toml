@@ -123,3 +123,7 @@ prefix = "v"
 source = "regex"
 url = "https://im.qq.com/rainbow/linuxQQDownload"
 regex = "QQ_(.*)_amd64_01.deb"
+
+[typora]
+source = "cmd"
+cmd = "curl -s https://www.typora.io/linux/Packages | grep Version | cut -f 2 -d ' ' | sort -V | cut -f 1 -d '-' | uniq | tail -n1"
