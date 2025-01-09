@@ -9,8 +9,8 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Unlock secrets
-        run: apt-get update && apt-get install git-crypt -y && echo ${{ secrets.GIT_CRYPT_KEY }} | base64 -d > gck && git-crypt unlock gck && rm gck
+        run: sudo apt-get update && sudo apt-get install git-crypt -y && echo ${{ secrets.GIT_CRYPT_KEY }} | base64 -d > gck && git-crypt unlock gck && rm gck
       - name: editorconfig-checker
-        run: npm install --global --save-dev editorconfig-checker && editorconfig-checker
+        run: sudo npm install --global --save-dev editorconfig-checker && editorconfig-checker
       - name: nvchecker
-        run: pip install nvchecker --break-system-packages && time nvchecker -c nvchecker.toml
+        run: sudo pip install nvchecker --break-system-packages && time nvchecker -c nvchecker.toml
