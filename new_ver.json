@@ -39,6 +39,12 @@
     "google-chrome": {
       "version": "132.0.6834.83"
     },
+    "java8-openjdk": {
+      "version": "jdk8u442-b05",
+      "gitref": "refs/tags/jdk8u442-b05",
+      "revision": "6bfe6f01a597ee7ad303ae23eaf862b14b2e6dd8",
+      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u442-b05"
+    },
     "linuxqq-nt-bwrap": {
       "version": "3.2.15_250110"
     },

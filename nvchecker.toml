@@ -133,3 +133,9 @@ source = "github"
 github = "alexpasmantier/television"
 use_latest_release = true
 prefix = "v"
+
+[java8-openjdk]
+source = "github"
+github = "openjdk/jdk8u"
+use_max_tag = true
+prefix = "v"
