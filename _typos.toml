@@ -1,0 +1,6 @@
+[type.html.extend-words]
+cros = "cros"
+
+[type.diff.extend-words]
+ede = "ede"
+EDE = "EDE"
