@@ -2,9 +2,9 @@
   "version": 2,
   "data": {
     "auth": {
-      "version": "0.1.6",
-      "gitref": "refs/tags/v0.1.6",
-      "url": "https://github.com/nnyyxxxx/auth/releases/tag/v0.1.6"
+      "version": "0.1.7",
+      "gitref": "refs/tags/v0.1.7",
+      "url": "https://github.com/nnyyxxxx/auth/releases/tag/v0.1.7"
     },
     "baidunetdisk-bin": {
       "version": "4.17.7-1",
