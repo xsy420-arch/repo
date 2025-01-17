@@ -1,0 +1,17 @@
+pkgbase = superfile-bin
+	pkgdesc = Pretty fancy and modern file manager in terminal file manager.Written in Go.(Prebuilt version)
+	pkgver = 1.1.7.1
+	pkgrel = 1
+	url = https://github.com/MHNightCat/superfile
+	arch = x86_64
+	license = MIT
+	optdepends = perl-archive-zip: Support for zip files, including epub
+	optdepends = perl-io-compress-brotli: Support for brotli-compressed metadata
+	provides = superfile=1.1.7.1
+	conflicts = superfile
+	source = LICENSE-1.1.7.1::https://raw.githubusercontent.com/MHNightCat/superfile/v1.1.7.1/LICENSE
+	sha256sums = 8c20ae0ba48051c642aea028cf0ea6331e49e99a10e57b98bd3e4d8ec0795f1b
+	source_x86_64 = superfile-1.1.7.1-x86-64.tar.gz::https://github.com/MHNightCat/superfile/releases/download/v1.1.7.1/superfile-linux-v1.1.7.1-amd64.tar.gz
+	sha256sums_x86_64 = 9358af4dcb3b2365c9dcb4d8c4f98a2bda30ffff1b1872dbd8b3692de752e437
+
+pkgname = superfile-bin
