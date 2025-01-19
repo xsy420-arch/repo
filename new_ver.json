@@ -48,6 +48,9 @@
     "linuxqq-nt-bwrap": {
       "version": "3.2.15_250110"
     },
+    "navicat17-premium-cs": {
+      "version": "17.1.7"
+    },
     "python-aenum": {
       "version": "3.1.15",
       "url": "https://pypi.org/project/aenum/3.1.15/"

@@ -5,6 +5,7 @@
 *.msi
 *.zip
 *.tgz
+*.AppImage
 *.log
 *.log.*
 *.sig
