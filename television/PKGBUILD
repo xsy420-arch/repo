@@ -2,7 +2,7 @@
 
 pkgname=television
 _pkgname=tv
-pkgver=0.9.3
+pkgver=0.9.4
 pkgrel=1
 pkgdesc="A general purpose fuzzy finder for your terminal"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('eafea69e0af89866284dd3dcf974c07586e2c9b0da8ee3636fe48fb88bd55c0cff072ed5f09a0cce8626c0da9afd8b7e8039082036e21915107d7be5381af5e0')
+sha512sums=('f4d0a500e2fa4b7e61070268ae8aaea60c1e7ead9ff6191a3557f8c70ee22e3eefedc73d9d1dcbe67553facd9497dc761d2e53d968dbc51ec6dd028a522e27b7')
 options=('!lto')
 
 prepare() {
