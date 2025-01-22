@@ -139,6 +139,7 @@ source = "github"
 github = "openjdk/jdk8u"
 use_max_tag = true
 prefix = "v"
+exclude_regex = ".*-ga$"
 
 [superfile-bin]
 source = "github"

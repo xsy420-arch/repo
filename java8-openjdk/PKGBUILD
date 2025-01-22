@@ -8,7 +8,7 @@ pkgbase=java8-openjdk
 
 _majorver=8
 _minorver=442
-_updatever=05
+_updatever=06
 pkgver=${_majorver}.${_minorver}.u${_updatever}
 pkgrel=1
 arch=('x86_64')
@@ -35,7 +35,7 @@ optdepends=(
 options=(!lto)
 source=(https://github.com/openjdk/jdk${_majorver}u/archive/refs/tags/jdk${_majorver}u${_minorver}-b${_updatever}.tar.gz
     gcc11.patch)
-b2sums=('96b80446e51cb4b32e50398d933c20d641273923ac7ab864174e31978211f3cddcf40bafd7f4a36036a0955e22faea8d524c667d797820a5a8d1530b90e5d463'
+b2sums=('9e3686aec7b3cff99eea5b6948e20cd86aca3af3c29c5a641fa989079354b75f9ca05b4da0ad61318981027c41e66f8f3ef0706b06eae6fff2652301bddbf686'
         '9679e4dfb6027a87376081489c09810812d6849573afac4ea96abe3a3e00ca5b6af7d0ffb010c43b93cfa913f9e97fbb9f11e19fcc86a89b4548442671c32da1')
 
 _jdkname=openjdk8
