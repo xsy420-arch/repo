@@ -87,9 +87,9 @@
       "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     },
     "python-scikit-image": {
-      "version": "0.25.0",
-      "gitref": "refs/tags/v0.25.0",
-      "url": "https://github.com/scikit-image/scikit-image/releases/tag/v0.25.0"
+      "version": "0.25.1",
+      "gitref": "refs/tags/v0.25.1",
+      "url": "https://github.com/scikit-image/scikit-image/releases/tag/v0.25.1"
     },
     "python-sixelcrop": {
       "version": "0.1.9",
