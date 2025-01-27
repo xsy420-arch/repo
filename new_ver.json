@@ -20,10 +20,10 @@
       "url": "https://aur.archlinux.org/packages/dmg2img"
     },
     "editorconfig-checker": {
-      "version": "3.1.2",
-      "gitref": "refs/tags/v3.1.2",
-      "revision": "3f5484ec3d86ec50b4201ae8bf4671cba3ba9e38",
-      "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/tag/v3.1.2"
+      "version": "3.2.0",
+      "gitref": "refs/tags/v3.2.0",
+      "revision": "3bf69e34d0c84ad7c3ba9e490c4b150139a28f55",
+      "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/tag/v3.2.0"
     },
     "euporie": {
       "version": "2.8.5",
