@@ -120,6 +120,11 @@
       "gitref": "refs/tags/v1.1.7.1",
       "url": "https://github.com/yorukot/superfile/releases/tag/v1.1.7.1"
     },
+    "td-tui": {
+      "version": "0.3.1",
+      "gitref": "refs/tags/v0.3.1",
+      "url": "https://github.com/voioo/td/releases/tag/v0.3.1"
+    },
     "television": {
       "version": "0.10.2",
       "gitref": "refs/tags/0.10.2",
