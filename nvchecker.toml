@@ -157,3 +157,9 @@ source = "github"
 github = "voioo/td"
 use_latest_release = true
 prefix = "v"
+
+[libcyaml]
+source = "github"
+github = "tlsa/libcyaml"
+use_latest_release = true
+prefix = "v"
