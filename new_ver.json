@@ -82,9 +82,9 @@
       "url": "https://github.com/matrach/img2unicode/commit/9e59b34480398d9b585572477ea840508a12ac27"
     },
     "python-jupytext": {
-      "version": "1.16.6",
-      "gitref": "refs/tags/v1.16.6",
-      "url": "https://github.com/mwouts/jupytext/releases/tag/v1.16.6"
+      "version": "1.16.7",
+      "gitref": "refs/tags/v1.16.7",
+      "url": "https://github.com/mwouts/jupytext/releases/tag/v1.16.7"
     },
     "python-mtable": {
       "version": "20241206.052617",
