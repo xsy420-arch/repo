@@ -2,7 +2,7 @@
 # Maintainer: Biaogo <5topks7fp@mozmail.com>
 
 pkgname=navicat17-premium-cs
-pkgver=17.0.8
+pkgver=17.1.8
 pkgrel=1
 pkgdesc="Navicat Premium is a multi-connection database development tool. (Chinese Simplified)"
 arch=(x86_64)
