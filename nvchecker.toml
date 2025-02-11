@@ -149,7 +149,7 @@ prefix = "v"
 
 [navicat17-premium-cs]
 source = "regex"
-url = "https://www.navicat.com.cn/products/navicat-premium-release-note#L"
+url = "https://www.navicat.com/products/navicat-premium-release-note#L"
 regex = "Navicat Premium \\(Linux\\) version (.*)</b>"
 
 [td-tui]
