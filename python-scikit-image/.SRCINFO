@@ -1,6 +1,6 @@
 pkgbase = python-scikit-image
 	pkgdesc = Image processing routines for SciPy
-	pkgver = 0.25.1
+	pkgver = 0.25.2
 	pkgrel = 1
 	url = http://scikit-image.org
 	arch = x86_64
@@ -31,7 +31,7 @@ pkgbase = python-scikit-image
 	optdepends = python-scikit-learn>=1.1
 	optdepends = python-pywavelets>=1.1.1
 	options = !emptydirs
-	source = https://files.pythonhosted.org/packages/source/s/scikit_image/scikit_image-0.25.1.tar.gz
-	sha256sums = d4ab30540d114d37c35fe5c837f89b94aaba2a7643afae8354aa353319e9bbbb
+	source = https://files.pythonhosted.org/packages/source/s/scikit_image/scikit_image-0.25.2.tar.gz
+	sha256sums = e5a37e6cd4d0c018a7a55b9d601357e3382826d3888c10d0213fc63bff977dde
 
 pkgname = python-scikit-image
