@@ -71,6 +71,11 @@
       "revision": "8e396906dd5d0d40ac466d60cd948046090d6c59",
       "url": "https://github.com/jb-leger/flatlatex/releases/tag/v0.15"
     },
+    "python-imagecodecs": {
+      "version": "2024.12.30",
+      "gitref": "refs/tags/v2024.12.30",
+      "url": "https://github.com/cgohlke/imagecodecs/releases/tag/v2024.12.30"
+    },
     "python-imageio": {
       "version": "2.37.0",
       "gitref": "refs/tags/v2.37.0",

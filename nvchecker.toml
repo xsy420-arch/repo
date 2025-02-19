@@ -163,3 +163,9 @@ source = "github"
 github = "tlsa/libcyaml"
 use_latest_release = true
 prefix = "v"
+
+[python-imagecodecs]
+source = "github"
+github = "cgohlke/imagecodecs"
+use_latest_release = true
+prefix = "v"
