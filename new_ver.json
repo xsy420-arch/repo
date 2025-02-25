@@ -40,10 +40,10 @@
       "version": "133.0.6943.126"
     },
     "java8-openjdk": {
-      "version": "jdk8u452-b02",
-      "gitref": "refs/tags/jdk8u452-b02",
-      "revision": "4058c67d1ac9ae91fa64f4c40b5305aea38bed2a",
-      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u452-b02"
+      "version": "jdk8u452-b03",
+      "gitref": "refs/tags/jdk8u452-b03",
+      "revision": "d72880370c6ae735ee286b81f1475ec0220413f1",
+      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u452-b03"
     },
     "libcyaml": {
       "version": "1.4.2",
