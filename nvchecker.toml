@@ -169,3 +169,6 @@ source = "hackage"
 
 [wordexp]
 source = "hackage"
+
+[greenclip]
+source = "hackage"
