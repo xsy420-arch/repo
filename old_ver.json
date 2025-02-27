@@ -141,6 +141,10 @@
     },
     "typora": {
       "version": "1.10.7"
+    },
+    "wordexp": {
+      "version": "0.2.2",
+      "url": "https://hackage.haskell.org/package/wordexp-0.2.2"
     }
   }
 }

@@ -166,3 +166,6 @@ prefix = "v"
 
 [semigroups]
 source = "hackage"
+
+[wordexp]
+source = "hackage"
