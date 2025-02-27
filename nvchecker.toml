@@ -163,3 +163,6 @@ source = "github"
 github = "tlsa/libcyaml"
 use_latest_release = true
 prefix = "v"
+
+[semigroups]
+source = "hackage"
