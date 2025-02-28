@@ -173,3 +173,9 @@ source = "hackage"
 
 [greenclip]
 source = "hackage"
+
+[asdf-vm]
+source = "github"
+github = "asdf-vm/asdf"
+use_latest_release = true
+prefix = "v"

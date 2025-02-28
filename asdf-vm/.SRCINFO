@@ -1,0 +1,27 @@
+pkgbase = asdf-vm
+	pkgdesc = Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+	pkgver = 0.16.4
+	pkgrel = 1
+	url = https://asdf-vm.com
+	install = asdf-vm.install
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = curl
+	depends = git
+	optdepends = autoconf
+	optdepends = automake
+	optdepends = bash-completion: For completions to work in Bash
+	optdepends = libffi
+	optdepends = libtool
+	optdepends = libxslt
+	optdepends = libyaml
+	optdepends = ncurses
+	optdepends = openssl
+	optdepends = readline
+	optdepends = unixodbc
+	optdepends = unzip: Needed by some plugins, like Elixir
+	source = asdf-vm-0.16.4.tar.gz::https://github.com/asdf-vm/asdf/archive/v0.16.4.tar.gz
+	sha256sums = 6b63b7b5edc37fb8af9d676a0f7bf2cc3cf449045eef8f9d1bf45b99b42842ee
+
+pkgname = asdf-vm
