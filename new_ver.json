@@ -49,10 +49,10 @@
       "url": "https://hackage.haskell.org/package/greenclip-4.2.0"
     },
     "java8-openjdk": {
-      "version": "jdk8u452-b03",
-      "gitref": "refs/tags/jdk8u452-b03",
-      "revision": "d72880370c6ae735ee286b81f1475ec0220413f1",
-      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u452-b03"
+      "version": "jdk8u452-b04",
+      "gitref": "refs/tags/jdk8u452-b04",
+      "revision": "1b62374049952ddb26e779c304203c746f016d98",
+      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u452-b04"
     },
     "libcyaml": {
       "version": "1.4.2",

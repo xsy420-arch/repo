@@ -1,5 +1,5 @@
 pkgbase = java8-openjdk
-	pkgver = 8.452.u03
+	pkgver = 8.452.u04
 	pkgrel = 1
 	url = https://openjdk.java.net/
 	arch = x86_64
@@ -19,9 +19,9 @@ pkgbase = java8-openjdk
 	makedepends = zip
 	optdepends = gvfs: open links e.g. hyperlinks
 	options = !lto
-	source = https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u452-b03.tar.gz
+	source = https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u452-b04.tar.gz
 	source = gcc11.patch
-	b2sums = abcd3a61193028528339836790099c44d97e9156ac77864d8198e3be3811d461eaf42156d6bdd4057d0c0cacfdd623d7590d3e79f1edd202185b694baecc4d2f
+	b2sums = b9b23a936afc38d6dfff5392bf84d1121210dd9e480471a5225f78f5cd9f21184b1acbf2f7f0c6194bbcea3da41311b8c94cb839543172fea80f60c837d928c8
 	b2sums = 9679e4dfb6027a87376081489c09810812d6849573afac4ea96abe3a3e00ca5b6af7d0ffb010c43b93cfa913f9e97fbb9f11e19fcc86a89b4548442671c32da1
 
 pkgname = jre8-openjdk-headless
@@ -54,7 +54,7 @@ pkgname = jre8-openjdk-headless
 pkgname = jre8-openjdk
 	pkgdesc = OpenJDK Java 8 full runtime environment
 	install = install_jre8-openjdk.sh
-	depends = jre8-openjdk-headless=8.452.u03-1
+	depends = jre8-openjdk-headless=8.452.u04-1
 	depends = xdg-utils
 	depends = hicolor-icon-theme
 	depends = giflib
@@ -70,7 +70,7 @@ pkgname = jdk8-openjdk
 	pkgdesc = OpenJDK Java 8 development kit
 	install = install_jdk8-openjdk.sh
 	depends = java-environment-common
-	depends = jre8-openjdk=8.452.u03-1
+	depends = jre8-openjdk=8.452.u04-1
 	provides = java-environment=8
 	provides = java-environment-openjdk=8
 	replaces = jdk8-openjdk-wm
