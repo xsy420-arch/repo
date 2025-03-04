@@ -2,9 +2,9 @@
   "version": 2,
   "data": {
     "asdf-vm": {
-      "version": "0.16.4",
-      "gitref": "refs/tags/v0.16.4",
-      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.16.4"
+      "version": "0.16.5",
+      "gitref": "refs/tags/v0.16.5",
+      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.16.5"
     },
     "auth": {
       "version": "0.2.3",
