@@ -1,6 +1,6 @@
 pkgbase = euporie
 	pkgdesc = Jupyter notebooks in the terminal
-	pkgver = 2.8.6
+	pkgver = 2.8.7
 	pkgrel = 1
 	url = https://euporie.readthedocs.io
 	arch = any
@@ -49,7 +49,7 @@ pkgbase = euporie
 	depends = python-teimpy
 	depends = python-pylatexenc
 	optdepends = python-asyncssh: for Euporie hub support
-	source = euporie-2.8.6.tar.gz::https://github.com/joouha/euporie/archive/v2.8.6.tar.gz
-	sha256sums = 53a616b842a87ebe9c008c06d12a3b22e2acb9abcc23d342573f452699fa64c8
+	source = euporie-2.8.7.tar.gz::https://github.com/joouha/euporie/archive/v2.8.7.tar.gz
+	sha256sums = 8f64099670aa45f243e917046f5c0797cb2572515bc1a8cafeae89211d294d44
 
 pkgname = euporie

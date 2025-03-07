@@ -31,10 +31,10 @@
       "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/tag/v3.2.0"
     },
     "euporie": {
-      "version": "2.8.6",
-      "gitref": "refs/tags/v2.8.6",
-      "revision": "8b81f701e70054193d80061980ac443223ad750b",
-      "url": "https://github.com/joouha/euporie/releases/tag/v2.8.6"
+      "version": "2.8.7",
+      "gitref": "refs/tags/v2.8.7",
+      "revision": "b51ed1b73b1e40fcc07fd80fce4e624d245a2009",
+      "url": "https://github.com/joouha/euporie/releases/tag/v2.8.7"
     },
     "fzf-make": {
       "version": "0.56.0",
