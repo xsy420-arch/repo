@@ -2,14 +2,14 @@
 # Maintainer: Biaogo <5topks7fp@mozmail.com>
 
 pkgname=navicat17-premium-cs
-pkgver=17.1.8
+pkgver=17.2.1
 pkgrel=1
 pkgdesc="Navicat Premium is a multi-connection database development tool. (Chinese Simplified)"
 arch=(x86_64)
 url='https://www.navicat.com.cn/navicat-17-highlights'
 license=('NOASSERTION')
 source_x86_64=("navicat17-premium-cs-$CARCH-$pkgver.AppImage::https://dn.navicat.com/download/navicat17-premium-cs-x86_64.AppImage")
-sha256sums_x86_64=('ddf7449a378611665c08311052d0ae80ca8c0cb29c2cdb932d3551aa59273fc2')
+sha256sums_x86_64=('a5eabec305161599d0a292b19de7e68a69c9eed824079c2e0995c3ce6c7b38f5')
 
 package() {
     cd $srcdir
