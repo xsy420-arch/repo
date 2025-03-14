@@ -116,9 +116,9 @@
       "url": "https://github.com/ar90n/teimpy/releases/tag/0.1.1"
     },
     "python-tifffile": {
-      "version": "2025.2.18",
-      "gitref": "refs/tags/v2025.2.18",
-      "url": "https://github.com/cgohlke/tifffile/releases/tag/v2025.2.18"
+      "version": "2025.3.13",
+      "gitref": "refs/tags/v2025.3.13",
+      "url": "https://github.com/cgohlke/tifffile/releases/tag/v2025.3.13"
     },
     "python-timg": {
       "version": "1.1.6",
