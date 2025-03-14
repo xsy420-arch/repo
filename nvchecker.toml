@@ -5,6 +5,12 @@ keyfile = "apikey.crypt"
 proxy = "http://localhost:7890"
 tries = 5
 
+[asdf-vm]
+source = "github"
+github = "asdf-vm/asdf"
+use_latest_release = true
+prefix = "v"
+
 [auth]
 source = "github"
 github = "nnyyxxxx/auth"
@@ -17,14 +23,29 @@ github = "xsy420/battery-monitor"
 use_latest_release = true
 prefix = "v"
 
+[baidunetdisk-bin]
+source = "aur"
+
+[dmg2img]
+source = "aur"
+
+[editorconfig-checker]
+source = "github"
+github = "editorconfig-checker/editorconfig-checker"
+prefix = "v"
+use_max_tag = true
+
+[euporie]
+source = "github"
+github = "joouha/euporie"
+use_max_tag = true
+prefix = "v"
+
 [fzf-make]
 source = "github"
 github = "kyu08/fzf-make"
 use_latest_release = true
 prefix = "v"
-
-[dmg2img]
-source = "aur"
 
 [google-chrome]
 source = "apt"
@@ -34,14 +55,37 @@ suite = "stable"
 repo = "main"
 strip_release = true
 
-[baidunetdisk-bin]
-source = "aur"
+[greenclip]
+source = "hackage"
 
-[editorconfig-checker]
+[semigroups]
+source = "hackage"
+
+[wordexp]
+source = "hackage"
+
+[java8-openjdk]
 source = "github"
-github = "editorconfig-checker/editorconfig-checker"
-prefix = "v"
+github = "openjdk/jdk8u"
 use_max_tag = true
+prefix = "v"
+exclude_regex = ".*-ga$"
+
+[libcyaml]
+source = "github"
+github = "tlsa/libcyaml"
+use_latest_release = true
+prefix = "v"
+
+[linuxqq-nt-bwrap]
+source = "regex"
+url = "https://im.qq.com/rainbow/linuxQQDownload"
+regex = "QQ_(.*)_amd64_01.deb"
+
+[navicat17-premium-cs]
+source = "regex"
+url = "https://www.navicat.com/products/navicat-premium-release-note#L"
+regex = "Navicat Premium \\(Linux\\) version (.*)</b>"
 
 [python-aenum]
 source = "pypi"
@@ -113,45 +157,11 @@ github = "fsspec/universal_pathlib"
 use_latest_release = true
 prefix = "v"
 
-[euporie]
-source = "github"
-github = "joouha/euporie"
-use_max_tag = true
-prefix = "v"
-
-[linuxqq-nt-bwrap]
-source = "regex"
-url = "https://im.qq.com/rainbow/linuxQQDownload"
-regex = "QQ_(.*)_amd64_01.deb"
-
-[typora]
-source = "regex"
-url = "https://www.typora.io/releases/stable.html"
-regex = "typora_([0-9\\.]+)_amd64.deb"
-
-[television]
-source = "github"
-github = "alexpasmantier/television"
-use_latest_release = true
-prefix = "v"
-
-[java8-openjdk]
-source = "github"
-github = "openjdk/jdk8u"
-use_max_tag = true
-prefix = "v"
-exclude_regex = ".*-ga$"
-
 [superfile-bin]
 source = "github"
 github = "yorukot/superfile"
 use_latest_release = true
 prefix = "v"
-
-[navicat17-premium-cs]
-source = "regex"
-url = "https://www.navicat.com/products/navicat-premium-release-note#L"
-regex = "Navicat Premium \\(Linux\\) version (.*)</b>"
 
 [td-tui]
 source = "github"
@@ -159,23 +169,14 @@ github = "voioo/td"
 use_latest_release = true
 prefix = "v"
 
-[libcyaml]
+[television]
 source = "github"
-github = "tlsa/libcyaml"
+github = "alexpasmantier/television"
 use_latest_release = true
 prefix = "v"
 
-[semigroups]
-source = "hackage"
+[typora]
+source = "regex"
+url = "https://www.typora.io/releases/stable.html"
+regex = "typora_([0-9\\.]+)_amd64.deb"
 
-[wordexp]
-source = "hackage"
-
-[greenclip]
-source = "hackage"
-
-[asdf-vm]
-source = "github"
-github = "asdf-vm/asdf"
-use_latest_release = true
-prefix = "v"
