@@ -125,6 +125,12 @@ source = "github"
 github = "liuyug/mtable"
 use_commit = true
 
+[python-proglog]
+source = "github"
+github = "Edinburgh-Genome-Foundry/Proglog"
+use_latest_release = true
+prefix = "v"
+
 [python-scikit-image]
 source = "github"
 github = "scikit-image/scikit-image"
