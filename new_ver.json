@@ -100,6 +100,11 @@
       "gitref": "refs/tags/v1.16.7",
       "url": "https://github.com/mwouts/jupytext/releases/tag/v1.16.7"
     },
+    "python-moviepy": {
+      "version": "2.1.2",
+      "gitref": "refs/tags/v2.1.2",
+      "url": "https://github.com/Zulko/moviepy/releases/tag/v2.1.2"
+    },
     "python-mtable": {
       "version": "20241206.052617",
       "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",

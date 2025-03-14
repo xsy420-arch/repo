@@ -126,6 +126,12 @@ github = "mwouts/jupytext"
 use_latest_release = true
 prefix = "v"
 
+[python-moviepy]
+source = "github"
+github = "Zulko/moviepy"
+use_latest_release = true
+prefix = "v"
+
 [python-mtable]
 source = "github"
 github = "liuyug/mtable"
