@@ -85,6 +85,11 @@
       "gitref": "refs/tags/v2.37.0",
       "url": "https://github.com/imageio/imageio/releases/tag/v2.37.0"
     },
+    "python-imageio-ffmpeg": {
+      "version": "0.6.0",
+      "gitref": "refs/tags/v0.6.0",
+      "url": "https://github.com/imageio/imageio-ffmpeg/releases/tag/v0.6.0"
+    },
     "python-img2unicode": {
       "version": "20241024.154234",
       "revision": "9e59b34480398d9b585572477ea840508a12ac27",

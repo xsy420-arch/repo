@@ -109,6 +109,12 @@ github = "imageio/imageio"
 use_latest_release = true
 prefix = "v"
 
+[python-imageio-ffmpeg]
+source = "github"
+github = "imageio/imageio-ffmpeg"
+use_latest_release = true
+prefix = "v"
+
 [python-img2unicode]
 source = "github"
 github = "matrach/img2unicode"
