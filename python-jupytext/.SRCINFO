@@ -24,6 +24,6 @@ pkgbase = python-jupytext
 	optdepends = jupyterlab
 	optdepends = python-sphinx-gallery
 	source = jupytext-1.16.7.tar.gz::https://github.com/mwouts/jupytext/archive/v1.16.7.tar.gz
-	sha256sums = 9b71fd6ac4f4aeeada411d00e4e309bdaf1f2ff9d42790cfdb522f08eba2b8fd
+	sha256sums = 260b2b4add30b6c33245710c17e856d2de9fe4dbb0568773f1a80d51f0807c8d
 
 pkgname = python-jupytext
