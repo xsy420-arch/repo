@@ -126,7 +126,7 @@ regex = "QQ_(.*)_amd64_01.deb"
 
 [typora]
 source = "regex"
-url = "https://typora.io/releases/stable.html"
+url = "https://www.typora.io/releases/stable.html"
 regex = "typora_([0-9\\.]+)_amd64.deb"
 
 [television]
