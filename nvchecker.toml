@@ -109,6 +109,12 @@ github = "imageio/imageio"
 use_latest_release = true
 prefix = "v"
 
+[python-imageio-ffmpeg]
+source = "github"
+github = "imageio/imageio-ffmpeg"
+use_latest_release = true
+prefix = "v"
+
 [python-img2unicode]
 source = "github"
 github = "matrach/img2unicode"
@@ -120,10 +126,22 @@ github = "mwouts/jupytext"
 use_latest_release = true
 prefix = "v"
 
+[python-moviepy]
+source = "github"
+github = "Zulko/moviepy"
+use_latest_release = true
+prefix = "v"
+
 [python-mtable]
 source = "github"
 github = "liuyug/mtable"
 use_commit = true
+
+[python-proglog]
+source = "github"
+github = "Edinburgh-Genome-Foundry/Proglog"
+use_latest_release = true
+prefix = "v"
 
 [python-scikit-image]
 source = "github"

@@ -85,6 +85,11 @@
       "gitref": "refs/tags/v2.37.0",
       "url": "https://github.com/imageio/imageio/releases/tag/v2.37.0"
     },
+    "python-imageio-ffmpeg": {
+      "version": "0.6.0",
+      "gitref": "refs/tags/v0.6.0",
+      "url": "https://github.com/imageio/imageio-ffmpeg/releases/tag/v0.6.0"
+    },
     "python-img2unicode": {
       "version": "20241024.154234",
       "revision": "9e59b34480398d9b585572477ea840508a12ac27",
@@ -95,10 +100,20 @@
       "gitref": "refs/tags/v1.16.7",
       "url": "https://github.com/mwouts/jupytext/releases/tag/v1.16.7"
     },
+    "python-moviepy": {
+      "version": "2.1.2",
+      "gitref": "refs/tags/v2.1.2",
+      "url": "https://github.com/Zulko/moviepy/releases/tag/v2.1.2"
+    },
     "python-mtable": {
       "version": "20241206.052617",
       "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
       "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
+    },
+    "python-proglog": {
+      "version": "0.1.10",
+      "gitref": "refs/tags/v0.1.10",
+      "url": "https://github.com/Edinburgh-Genome-Foundry/Proglog/releases/tag/v0.1.10"
     },
     "python-scikit-image": {
       "version": "0.25.2",
