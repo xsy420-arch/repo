@@ -29,6 +29,12 @@ source = "aur"
 [dmg2img]
 source = "aur"
 
+[duckdb]
+source = "github"
+github = "duckdb/duckdb"
+use_latest_release = true
+prefix = "v"
+
 [euporie]
 source = "github"
 github = "joouha/euporie"
@@ -51,6 +57,18 @@ strip_release = true
 
 [greenclip]
 source = "hackage"
+
+[harlequin]
+source = "github"
+github = "tconbeer/harlequin"
+use_latest_release = true
+prefix = "v"
+
+[harlequin-mysql]
+source = "github"
+github = "tconbeer/harlequin-mysql"
+use_latest_release = true
+prefix = "v"
 
 [haskell-semigroups]
 source = "hackage"
@@ -86,6 +104,12 @@ regex = "Navicat Premium \\(Linux\\) version (.*)</b>"
 [python-aenum]
 source = "pypi"
 pypi = "aenum"
+
+['python-backports.cached_property']
+source = "github"
+github = "penguinolog/backports.cached_property"
+use_latest_release = true
+prefix = "v"
 
 [python-chafapy]
 source = "github"
@@ -133,9 +157,27 @@ source = "github"
 github = "liuyug/mtable"
 use_commit = true
 
+[python-pandas-stubs]
+source = "github"
+github = "pandas-dev/pandas-stubs"
+use_max_tag = true
+prefix = "v"
+
 [python-proglog]
 source = "github"
 github = "Edinburgh-Genome-Foundry/Proglog"
+use_latest_release = true
+prefix = "v"
+
+[python-questionary]
+source = "github"
+github = "tmbo/questionary"
+use_max_tag = true
+prefix = "v"
+
+[python-rich-click]
+source = "github"
+github = "ewels/rich-click"
 use_latest_release = true
 prefix = "v"
 
@@ -144,6 +186,10 @@ source = "github"
 github = "scikit-image/scikit-image"
 use_latest_release = true
 prefix = "v"
+
+[python-shandy-sqlfmt]
+source = "pypi"
+pypi = "shandy-sqlfmt"
 
 [python-sixelcrop]
 source = "pypi"
@@ -154,6 +200,16 @@ source = "github"
 github = "ar90n/teimpy"
 use_max_tag = true
 prefix = "v"
+
+[python-textual-fastdatatable]
+source = "github"
+github = "tconbeer/textual-fastdatatable"
+use_latest_release = true
+prefix = "v"
+
+[python-textual-textarea]
+source = "pypi"
+pypi = "textual-textarea"
 
 [python-tifffile]
 source = "github"

@@ -24,6 +24,11 @@
       "version": "1.6.7-5",
       "url": "https://aur.archlinux.org/packages/dmg2img"
     },
+    "duckdb": {
+      "version": "1.2.1",
+      "gitref": "refs/tags/v1.2.1",
+      "url": "https://github.com/duckdb/duckdb/releases/tag/v1.2.1"
+    },
     "euporie": {
       "version": "2.8.7",
       "gitref": "refs/tags/v2.8.7",
@@ -41,6 +46,16 @@
     "greenclip": {
       "version": "4.2.0",
       "url": "https://hackage.haskell.org/package/greenclip-4.2.0"
+    },
+    "harlequin": {
+      "version": "2.1.0",
+      "gitref": "refs/tags/v2.1.0",
+      "url": "https://github.com/tconbeer/harlequin/releases/tag/v2.1.0"
+    },
+    "harlequin-mysql": {
+      "version": "1.1.0",
+      "gitref": "refs/tags/v1.1.0",
+      "url": "https://github.com/tconbeer/harlequin-mysql/releases/tag/v1.1.0"
     },
     "haskell-semigroups": {
       "version": "0.20",
@@ -70,6 +85,11 @@
     "python-aenum": {
       "version": "3.1.15",
       "url": "https://pypi.org/project/aenum/3.1.15/"
+    },
+    "python-backports.cached_property": {
+      "version": "1.0.2",
+      "gitref": "refs/tags/1.0.2",
+      "url": "https://github.com/penguinolog/backports.cached_property/releases/tag/1.0.2"
     },
     "python-chafapy": {
       "version": "1.2.0",
@@ -112,15 +132,36 @@
       "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
       "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     },
+    "python-pandas-stubs": {
+      "version": "2.2.3.250308",
+      "gitref": "refs/tags/v2.2.3.250308",
+      "revision": "6db30fc168beb804e18583a5ad2774987fab5397",
+      "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.2.3.250308"
+    },
     "python-proglog": {
       "version": "0.1.10",
       "gitref": "refs/tags/v0.1.10",
       "url": "https://github.com/Edinburgh-Genome-Foundry/Proglog/releases/tag/v0.1.10"
     },
+    "python-questionary": {
+      "version": "2.1.0",
+      "gitref": "refs/tags/2.1.0",
+      "revision": "9fbbfa4fd01cebfd7001e1d10ab4102305ecbec4",
+      "url": "https://github.com/tmbo/questionary/releases/tag/2.1.0"
+    },
+    "python-rich-click": {
+      "version": "1.8.8",
+      "gitref": "refs/tags/v1.8.8",
+      "url": "https://github.com/ewels/rich-click/releases/tag/v1.8.8"
+    },
     "python-scikit-image": {
       "version": "0.25.2",
       "gitref": "refs/tags/v0.25.2",
       "url": "https://github.com/scikit-image/scikit-image/releases/tag/v0.25.2"
+    },
+    "python-shandy-sqlfmt": {
+      "version": "0.26.0",
+      "url": "https://pypi.org/project/shandy-sqlfmt/0.26.0/"
     },
     "python-sixelcrop": {
       "version": "0.1.9",
@@ -131,6 +172,15 @@
       "gitref": "refs/tags/0.1.1",
       "revision": "e2d77933ab0677dbe339198a830d6dbd1b07e161",
       "url": "https://github.com/ar90n/teimpy/releases/tag/0.1.1"
+    },
+    "python-textual-fastdatatable": {
+      "version": "0.12.0",
+      "gitref": "refs/tags/v0.12.0",
+      "url": "https://github.com/tconbeer/textual-fastdatatable/releases/tag/v0.12.0"
+    },
+    "python-textual-textarea": {
+      "version": "0.15.0",
+      "url": "https://pypi.org/project/textual-textarea/0.15.0/"
     },
     "python-tifffile": {
       "version": "2025.3.13",
