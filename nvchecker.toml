@@ -58,6 +58,12 @@ strip_release = true
 [greenclip]
 source = "hackage"
 
+[harlequin]
+source = "github"
+github = "tconbeer/harlequin"
+use_latest_release = true
+prefix = "v"
+
 [haskell-semigroups]
 source = "hackage"
 hackage = "semigroups"

@@ -47,6 +47,11 @@
       "version": "4.2.0",
       "url": "https://hackage.haskell.org/package/greenclip-4.2.0"
     },
+    "harlequin": {
+      "version": "2.1.0",
+      "gitref": "refs/tags/v2.1.0",
+      "url": "https://github.com/tconbeer/harlequin/releases/tag/v2.1.0"
+    },
     "haskell-semigroups": {
       "version": "0.20",
       "url": "https://hackage.haskell.org/package/semigroups-0.20"

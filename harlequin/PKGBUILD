@@ -1,0 +1,43 @@
+# Maintainer: AlphaJack <alphajack at tuta dot io>
+
+pkgname="harlequin"
+pkgver=2.1.0
+pkgrel=1
+pkgdesc="The SQL IDE for Your Terminal"
+url="https://harlequin.sh/"
+license=("MIT")
+arch=("any")
+depends=("python"
+    "python-textual"
+    "python-textual-fastdatatable"
+    "python-textual-textarea"
+    "python-click"
+    "python-rich-click"
+    "python-duckdb"
+    "python-shandy-sqlfmt"
+    "python-platformdirs"
+    "python-pyperclip"
+    "python-importlib-metadata"
+    "python-tomli"
+    "python-tomlkit"
+    "python-questionary"
+    "python-black"
+    "python-ruff"
+    "mypy")
+makedepends=("python-build"
+    "python-installer"
+    "python-poetry"
+    "python-wheel")
+options=("!strip")
+source=("https://files.pythonhosted.org/packages/source/${pkgname::1}/${pkgname}/${pkgname}-${pkgver}.tar.gz")
+b2sums=('597c0fefb2dc7458203a3f29fad3786751d98e4401500428d076eb55b344be3a88b9feb418e839c6eedb1fdea5e8635d42cd0f633348c5ef5db00a5e26214382')
+
+build() {
+    cd "$pkgname-$pkgver"
+    python -m build --wheel --no-isolation
+}
+
+package() {
+    cd "$pkgname-$pkgver"
+    python -m installer --destdir="$pkgdir" dist/*.whl
+}
