@@ -151,6 +151,12 @@ github = "tmbo/questionary"
 use_max_tag = true
 prefix = "v"
 
+[python-rich-click]
+source = "github"
+github = "ewels/rich-click"
+use_latest_release = true
+prefix = "v"
+
 [python-scikit-image]
 source = "github"
 github = "scikit-image/scikit-image"
