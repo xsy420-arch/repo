@@ -52,6 +52,11 @@
       "gitref": "refs/tags/v2.1.0",
       "url": "https://github.com/tconbeer/harlequin/releases/tag/v2.1.0"
     },
+    "harlequin-mysql": {
+      "version": "1.1.0",
+      "gitref": "refs/tags/v1.1.0",
+      "url": "https://github.com/tconbeer/harlequin-mysql/releases/tag/v1.1.0"
+    },
     "haskell-semigroups": {
       "version": "0.20",
       "url": "https://hackage.haskell.org/package/semigroups-0.20"

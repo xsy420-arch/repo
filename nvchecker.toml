@@ -64,6 +64,12 @@ github = "tconbeer/harlequin"
 use_latest_release = true
 prefix = "v"
 
+[harlequin-mysql]
+source = "github"
+github = "tconbeer/harlequin-mysql"
+use_latest_release = true
+prefix = "v"
+
 [haskell-semigroups]
 source = "hackage"
 hackage = "semigroups"

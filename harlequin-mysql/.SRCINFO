@@ -1,0 +1,18 @@
+pkgbase = harlequin-mysql
+	pkgdesc = The SQL IDE for Your Terminal
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/tconbeer/harlequin-mysql
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-poetry
+	makedepends = python-wheel
+	depends = harlequin
+	depends = python-mysql-connector
+	options = !strip
+	source = https://github.com/tconbeer/harlequin-mysql/archive/v1.1.0.tar.gz
+	b2sums = 0b489f5e0e7ffc454e52085ec1bf3af611767fcbf942ba6d32b71ba83aaf0d8210e30bdc760287101982ab78dd428bbbc67e79c70fc8fd1c256673fcd820d097
+
+pkgname = harlequin-mysql
