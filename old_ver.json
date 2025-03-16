@@ -122,6 +122,12 @@
       "gitref": "refs/tags/v0.1.10",
       "url": "https://github.com/Edinburgh-Genome-Foundry/Proglog/releases/tag/v0.1.10"
     },
+    "python-questionary": {
+      "version": "2.1.0",
+      "gitref": "refs/tags/2.1.0",
+      "revision": "9fbbfa4fd01cebfd7001e1d10ab4102305ecbec4",
+      "url": "https://github.com/tmbo/questionary/releases/tag/2.1.0"
+    },
     "python-scikit-image": {
       "version": "0.25.2",
       "gitref": "refs/tags/v0.25.2",
