@@ -163,6 +163,11 @@
       "revision": "e2d77933ab0677dbe339198a830d6dbd1b07e161",
       "url": "https://github.com/ar90n/teimpy/releases/tag/0.1.1"
     },
+    "python-textual-fastdatatable": {
+      "version": "0.12.0",
+      "gitref": "refs/tags/v0.12.0",
+      "url": "https://github.com/tconbeer/textual-fastdatatable/releases/tag/v0.12.0"
+    },
     "python-tifffile": {
       "version": "2025.3.13",
       "gitref": "refs/tags/v2025.3.13",

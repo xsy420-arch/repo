@@ -189,6 +189,12 @@ github = "ar90n/teimpy"
 use_max_tag = true
 prefix = "v"
 
+[python-textual-fastdatatable]
+source = "github"
+github = "tconbeer/textual-fastdatatable"
+use_latest_release = true
+prefix = "v"
+
 [python-tifffile]
 source = "github"
 github = "cgohlke/tifffile"
