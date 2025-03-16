@@ -145,6 +145,12 @@ source = "github"
 github = "liuyug/mtable"
 use_commit = true
 
+[python-pandas-stubs]
+source = "github"
+github = "pandas-dev/pandas-stubs"
+use_max_tag = true
+prefix = "v"
+
 [python-proglog]
 source = "github"
 github = "Edinburgh-Genome-Foundry/Proglog"
