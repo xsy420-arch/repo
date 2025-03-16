@@ -52,11 +52,13 @@ strip_release = true
 [greenclip]
 source = "hackage"
 
-[semigroups]
+[haskell-semigroups]
 source = "hackage"
+hackage = "semigroups"
 
-[wordexp]
+[haskell-wordexp]
 source = "hackage"
+hackage = "wordexp"
 
 [java8-openjdk]
 source = "github"

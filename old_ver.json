@@ -42,6 +42,14 @@
       "version": "4.2.0",
       "url": "https://hackage.haskell.org/package/greenclip-4.2.0"
     },
+    "haskell-semigroups": {
+      "version": "0.20",
+      "url": "https://hackage.haskell.org/package/semigroups-0.20"
+    },
+    "haskell-wordexp": {
+      "version": "0.2.2",
+      "url": "https://hackage.haskell.org/package/wordexp-0.2.2"
+    },
     "java8-openjdk": {
       "version": "jdk8u452-b06",
       "gitref": "refs/tags/jdk8u452-b06",
