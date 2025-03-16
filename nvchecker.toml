@@ -169,6 +169,10 @@ github = "scikit-image/scikit-image"
 use_latest_release = true
 prefix = "v"
 
+[python-shandy-sqlfmt]
+source = "pypi"
+pypi = "shandy-sqlfmt"
+
 [python-sixelcrop]
 source = "pypi"
 pypi = "sixelcrop"
