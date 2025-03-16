@@ -195,6 +195,10 @@ github = "tconbeer/textual-fastdatatable"
 use_latest_release = true
 prefix = "v"
 
+[python-textual-textarea]
+source = "pypi"
+pypi = "textual-textarea"
+
 [python-tifffile]
 source = "github"
 github = "cgohlke/tifffile"

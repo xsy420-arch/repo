@@ -168,6 +168,10 @@
       "gitref": "refs/tags/v0.12.0",
       "url": "https://github.com/tconbeer/textual-fastdatatable/releases/tag/v0.12.0"
     },
+    "python-textual-textarea": {
+      "version": "0.15.0",
+      "url": "https://pypi.org/project/textual-textarea/0.15.0/"
+    },
     "python-tifffile": {
       "version": "2025.3.13",
       "gitref": "refs/tags/v2025.3.13",
