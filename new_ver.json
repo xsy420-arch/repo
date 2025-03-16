@@ -76,6 +76,11 @@
       "version": "3.1.15",
       "url": "https://pypi.org/project/aenum/3.1.15/"
     },
+    "python-backports.cached_property": {
+      "version": "1.0.2",
+      "gitref": "refs/tags/1.0.2",
+      "url": "https://github.com/penguinolog/backports.cached_property/releases/tag/1.0.2"
+    },
     "python-chafapy": {
       "version": "1.2.0",
       "gitref": "refs/tags/v1.2.0",

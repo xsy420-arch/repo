@@ -93,6 +93,12 @@ regex = "Navicat Premium \\(Linux\\) version (.*)</b>"
 source = "pypi"
 pypi = "aenum"
 
+['python-backports.cached_property']
+source = "github"
+github = "penguinolog/backports.cached_property"
+use_latest_release = true
+prefix = "v"
+
 [python-chafapy]
 source = "github"
 github = "guardkenzie/chafa.py"
