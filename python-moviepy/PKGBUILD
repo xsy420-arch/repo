@@ -1,3 +1,4 @@
+# Maintainer: xsy420 <xsy0420@gmail.com>
 pkgbase='python-moviepy'
 pkgname=('python-moviepy')
 _module='moviepy'

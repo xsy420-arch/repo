@@ -27,7 +27,7 @@ build() {
     python setup.py build
     #   python -m build --wheel --no-isolation
 
-    msg "Building Docs"
+    echo "Building Docs"
     #   PYTHONPATH="../build/lib" make -C docs html
     PYTHONPATH="build/lib" python docs/make.py
 }

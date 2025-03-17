@@ -17,7 +17,7 @@ source=("$pkgname-$pkgver.tar.gz::https://github.com/imageio/imageio/archive/v${
 sha256sums=('e9d1dc913a480339a8adacd31917327964bab4706e7f97dac621278a3180328a')
 
 build() {
-    msg "Building Python 3"
+    echo "Building Python 3"
     cd "$srcdir/${_pkgname}-${pkgver}"
     python -m build --wheel --no-isolation
 }

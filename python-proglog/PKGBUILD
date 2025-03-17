@@ -1,3 +1,4 @@
+# Maintainer: xsy420 <xsy0420@gmail.com>
 pkgbase='python-proglog'
 pkgname=('python-proglog')
 _module='proglog'
