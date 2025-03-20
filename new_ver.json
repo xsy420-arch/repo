@@ -79,6 +79,9 @@
     "linuxqq-nt-bwrap": {
       "version": "3.2.16_250318"
     },
+    "mysql": {
+      "version": "9.2.0"
+    },
     "navicat17-premium-cs": {
       "version": "17.2.1"
     },
