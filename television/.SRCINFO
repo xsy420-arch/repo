@@ -1,6 +1,6 @@
 pkgbase = television
 	pkgdesc = A general purpose fuzzy finder for your terminal
-	pkgver = 0.11.0
+	pkgver = 0.11.1
 	pkgrel = 1
 	url = https://github.com/alexpasmantier/television
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = television
 	makedepends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = television-0.11.0.tar.gz::https://github.com/alexpasmantier/television/archive/0.11.0.tar.gz
-	sha512sums = d9bddb8ad05b641e304e1ea737bde8977b7ed5476028ae8e362b2abc33adda5147e567bd279eaf6f324a16f64dbe37f280d9dfbcd4cbd3858ebe6fee55cfd013
+	source = television-0.11.1.tar.gz::https://github.com/alexpasmantier/television/archive/0.11.1.tar.gz
+	sha512sums = 3c21bbcef546e73e49e23c5532c44f0815b5119cbbba2821a7971164b7d4b705ba585bebfa9927c75a113493fb07c99135bf7393a6e5604a0670d593f27d1435
 
 pkgname = television
