@@ -4,3 +4,4 @@ cros = "cros"
 [type.diff.extend-words]
 ede = "ede"
 EDE = "EDE"
+enviroment = "enviroment"
