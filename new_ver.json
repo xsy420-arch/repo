@@ -30,10 +30,10 @@
       "url": "https://github.com/duckdb/duckdb/releases/tag/v1.2.1"
     },
     "euporie": {
-      "version": "2.8.7",
-      "gitref": "refs/tags/v2.8.7",
-      "revision": "b51ed1b73b1e40fcc07fd80fce4e624d245a2009",
-      "url": "https://github.com/joouha/euporie/releases/tag/v2.8.7"
+      "version": "2.8.8",
+      "gitref": "refs/tags/v2.8.8",
+      "revision": "eead7a198f1d90af1340eba75ea55fa087ab9953",
+      "url": "https://github.com/joouha/euporie/releases/tag/v2.8.8"
     },
     "fzf-make": {
       "version": "0.56.0",
