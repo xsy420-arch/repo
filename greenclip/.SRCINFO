@@ -1,6 +1,6 @@
 pkgbase = greenclip
 	pkgdesc = Simple clipboard manager to be integrated with rofi
-	pkgver = 4.3.0
+	pkgver = 4.3.1
 	pkgrel = 1
 	url = https://github.com/erebe/greenclip
 	arch = x86_64
@@ -17,7 +17,7 @@ pkgbase = greenclip
 	depends = haskell-wordexp
 	depends = haskell-base16-bytestring
 	depends = haskell-cryptohash-md5
-	source = greenclip-4.3.0.tar.gz::https://hackage.haskell.org/packages/archive/greenclip/4.3.0/greenclip-4.3.0.tar.gz
-	sha512sums = 8de8b390b2e6401fd0253115d6c6193866f42125832943ec0a12acd2a5b6e1d4c11343b3139b18bda8227097adc296347513a166f7d9cc76fa6b56e609b837f9
+	source = greenclip-4.3.1.tar.gz::https://hackage.haskell.org/packages/archive/greenclip/4.3.1/greenclip-4.3.1.tar.gz
+	sha512sums = 92c85aafcbb91068144a6a2adaeabce4141362ab63a1cabbb50b216ca1be1ad11452d9e3dc46894ee8fb21e045eb9d1ac48f7608a71a3e131b35d29d9335899a
 
 pkgname = greenclip
