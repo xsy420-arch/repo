@@ -85,6 +85,12 @@
     "navicat17-premium-cs": {
       "version": "17.2.1"
     },
+    "pacfiles": {
+      "version": "0.2.6",
+      "gitref": "refs/tags/v0.2.6",
+      "revision": "4dbe23a2510973bae63c034b81a7a90e2c65ea21",
+      "url": "https://github.com/lilydjwg/pacfiles/releases/tag/v0.2.6"
+    },
     "python-aenum": {
       "version": "3.1.15",
       "url": "https://pypi.org/project/aenum/3.1.15/"
