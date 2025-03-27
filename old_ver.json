@@ -86,10 +86,10 @@
       "version": "17.2.1"
     },
     "pacfiles": {
-      "version": "0.2.6",
-      "gitref": "refs/tags/v0.2.6",
-      "revision": "4dbe23a2510973bae63c034b81a7a90e2c65ea21",
-      "url": "https://github.com/lilydjwg/pacfiles/releases/tag/v0.2.6"
+      "version": "0.2.7",
+      "gitref": "refs/tags/v0.2.7",
+      "revision": "ea2ade38afbba984962a6f24fd4daf64814f12c1",
+      "url": "https://github.com/lilydjwg/pacfiles/releases/tag/v0.2.7"
     },
     "python-aenum": {
       "version": "3.1.15",
