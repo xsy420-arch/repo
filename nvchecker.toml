@@ -82,7 +82,7 @@ hackage = "wordexp"
 [java8-openjdk]
 source = "github"
 github = "openjdk/jdk8u"
-use_max_tag = true
+use_latest_tag = true
 prefix = "v"
 exclude_regex = ".*-ga$"
 
