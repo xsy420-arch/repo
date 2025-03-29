@@ -206,9 +206,9 @@
       "url": "https://github.com/fsspec/universal_pathlib/releases/tag/v0.2.6"
     },
     "superfile-bin": {
-      "version": "1.2.0.0",
-      "gitref": "refs/tags/v1.2.0.0",
-      "url": "https://github.com/yorukot/superfile/releases/tag/v1.2.0.0"
+      "version": "1.2.1",
+      "gitref": "refs/tags/v1.2.1",
+      "url": "https://github.com/yorukot/superfile/releases/tag/v1.2.1"
     },
     "td-tui": {
       "version": "0.3.2",
