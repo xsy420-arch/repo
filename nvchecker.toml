@@ -27,6 +27,12 @@ prefix = "v"
 [baidunetdisk-bin]
 source = "aur"
 
+[cherry-studio-bin]
+source = "github"
+github = "cherryHQ/cherry-studio"
+use_latest_release = true
+prefix = "v"
+
 [dmg2img]
 source = "aur"
 

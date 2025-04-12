@@ -20,6 +20,11 @@
       "gitref": "refs/tags/v0.2",
       "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
     },
+    "cherry-studio-bin": {
+      "version": "1.2.2",
+      "gitref": "refs/tags/v1.2.2",
+      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.2.2"
+    },
     "dmg2img": {
       "version": "1.6.7-5",
       "url": "https://aur.archlinux.org/packages/dmg2img"
