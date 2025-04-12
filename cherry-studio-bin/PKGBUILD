@@ -14,14 +14,15 @@ source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/Che
     "${_pkgname}.desktop"
     "${_pkgname}.png")
 sha256sums=('5244d0c5c5e6a2663d723adf722871a8d2ff712e7e777160598f7a3798f8b92a'
-    '05ba657d8bd89353170c3e70a2729b284a8f088d676def9517543ef3c1e877da'
-    '8706b76d225c761820b18e7d79c3c8d0dd9f712b3d6a6737d90fb96e7c8fc2a4')
+            '05ba657d8bd89353170c3e70a2729b284a8f088d676def9517543ef3c1e877da'
+            '8706b76d225c761820b18e7d79c3c8d0dd9f712b3d6a6737d90fb96e7c8fc2a4')
 conflicts=("$_pkgname")
 
 package() {
     cd "$srcdir"
 
     # Create directories
+    install -dm755 "$pkgdir/usr/bin"
     install -dm755 "$pkgdir/usr/share/applications"
     install -dm755 "$pkgdir/usr/share/icons/hicolor/256x256/apps"
 
