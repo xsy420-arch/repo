@@ -1,0 +1,31 @@
+# Maintainer: xsy420 <xsy0420@gmail.com>
+_pkgname=auth
+pkgname=auth-cli
+pkgver=0.1.1
+pkgrel=1
+pkgdesc="Authenticator CLI. Generate totps on the fly."
+arch=('x86_64')
+url="https://github.com/nnyyxxxx/auth"
+license=('BSD-3-Clause')
+depends=('gcc-libs' 'glibc' 'openssl')
+makedepends=('make' 'cmake' 'git')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
+sha256sums=('3e1052a548ac18d37de9d8f678405c6ed2a6e2114a5004cac90d8cc22721e004')
+
+prepare() {
+    cd "$_pkgname-$pkgver"
+    cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:STRING="/usr" -S . -B ./build
+}
+
+build() {
+    cd "$_pkgname-$pkgver"
+    cmake --build ./build --config Release --target all -j`nproc 2>/dev/null || getconf NPROCESSORS_CONF`
+}
+
+package() {
+    cd "$_pkgname-$pkgver"
+    DESTDIR="$pkgdir" cmake --install ./build
+    install -Dm 644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+    install -Dm 644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+    rm "$pkgdir/usr/bin/auth"
+}
