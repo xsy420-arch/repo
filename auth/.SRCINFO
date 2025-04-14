@@ -9,6 +9,6 @@ pkgbase = auth
 	depends = gcc-libs
 	depends = glibc
 	source = auth-0.2.5.tar.gz::https://github.com/nnyyxxxx/auth/archive/v0.2.5.tar.gz
-	sha256sums = c0038620cbf48f3114c491d7b80d1db6caf771621a6ccac55f1f8654b00eee34
+	sha256sums = 571c3bcf9920f2b3aef380147760b4e65aa3789522c0787ffbfd588012187b18
 
 pkgname = auth
