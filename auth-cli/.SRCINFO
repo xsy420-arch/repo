@@ -1,6 +1,6 @@
 pkgbase = auth-cli
 	pkgdesc = Authenticator CLI. Generate totps on the fly.
-	pkgver = 0.1.2
+	pkgver = 0.2.0
 	pkgrel = 1
 	url = https://github.com/nnyyxxxx/auth
 	arch = x86_64
@@ -10,8 +10,12 @@ pkgbase = auth-cli
 	makedepends = git
 	depends = gcc-libs
 	depends = glibc
-	depends = openssl
-	source = auth-cli-0.1.2.tar.gz::https://github.com/nnyyxxxx/auth/archive/v0.1.2.tar.gz
-	sha256sums = e38f5463d7a71a6d258a34d067470ee49bbf3861d7f28d218c582f8b37e8020c
+	depends = libcrypto.so
+	source = auth-cli::git+https://github.com/nnyyxxxx/auth.git#tag=v0.2.0
+	source = catch2::git+https://github.com/catchorg/Catch2.git
+	source = tomlplusplus::git+https://github.com/marzer/tomlplusplus.git
+	sha256sums = 3719396f4fda325c9df2321e3034f7cfb18de3d505819d37e208c6d49312609e
+	sha256sums = SKIP
+	sha256sums = SKIP
 
 pkgname = auth-cli

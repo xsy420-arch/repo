@@ -1,36 +1,50 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 _pkgname=auth
 pkgname=auth-cli
-pkgver=0.1.2
+pkgver=0.2.0
 pkgrel=1
 pkgdesc="Authenticator CLI. Generate totps on the fly."
 arch=('x86_64')
 url="https://github.com/nnyyxxxx/auth"
 license=('BSD-3-Clause')
-depends=('gcc-libs' 'glibc' 'openssl')
+depends=(
+    'gcc-libs'
+    'glibc'
+    'libcrypto.so'
+)
 makedepends=('make' 'cmake' 'git')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('e38f5463d7a71a6d258a34d067470ee49bbf3861d7f28d218c582f8b37e8020c')
+source=(
+    "$pkgname::git+$url.git#tag=v$pkgver"
+    'catch2::git+https://github.com/catchorg/Catch2.git'
+    'tomlplusplus::git+https://github.com/marzer/tomlplusplus.git'
+)
+sha256sums=('3719396f4fda325c9df2321e3034f7cfb18de3d505819d37e208c6d49312609e'
+            'SKIP'
+            'SKIP')
 
 prepare() {
-    cd "$_pkgname-$pkgver"
-    cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:STRING="/usr" -S . -B ./build
+    cd "$pkgname"
+    for submodule in $(git config --file .gitmodules --get-regexp path | awk '{ print $2 }'); do
+        git submodule init "$submodule"
+        git config "submodule.$submodule.url" "file://$srcdir/$(basename "$submodule")"
+    done
+    git -c protocol.file.allow=always submodule update
 }
 
 build() {
-    cd "$_pkgname-$pkgver"
-    cmake --build ./build --config Release --target all -j$(nproc 2>/dev/null || getconf NPROCESSORS_CONF)
+    cd "$pkgname"
+    make release
 }
 
 check() {
-    cd "$_pkgname-$pkgver"
+    cd "$pkgname"
     ctest --test-dir ./build --output-on-failure
 }
 
 package() {
-    cd "$_pkgname-$pkgver"
-    DESTDIR="$pkgdir" cmake --install ./build
+    cd "$pkgname"
+    install -Dm 755 build/Auth "$pkgdir/usr/bin/$pkgname"
     install -Dm 644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
     install -Dm 644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
-    rm "$pkgdir/usr/bin/auth"
+    install -Dm 644 "man/$_pkgname.1" "$pkgdir/usr/share/man/man1/$pkgname.1"
 }
