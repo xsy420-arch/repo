@@ -88,9 +88,8 @@ hackage = "wordexp"
 [java8-openjdk]
 source = "github"
 github = "openjdk/jdk8u"
-use_latest_tag = true
-prefix = "v"
-exclude_regex = ".*-ga$"
+use_max_tag = true
+exclude_regex = ".*-b00|.*-ga"
 
 [libcyaml]
 source = "github"

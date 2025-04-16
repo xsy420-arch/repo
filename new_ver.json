@@ -71,10 +71,10 @@
       "url": "https://hackage.haskell.org/package/wordexp-0.2.2"
     },
     "java8-openjdk": {
-      "version": "jdk8u452-b07",
-      "gitref": "refs/tags/jdk8u452-b07",
-      "revision": "d3bd871b4a14c92559b7110e0c1e8af0d0727b14",
-      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u452-b07"
+      "version": "jdk8u452-b09",
+      "gitref": "refs/tags/jdk8u452-b09",
+      "revision": "17fc25acd10f4a6ad2d4fc41a5b7266c406b0c75",
+      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u452-b09"
     },
     "libcyaml": {
       "version": "1.4.2",
