@@ -1,7 +1,7 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 _pkgname=auth
 pkgname=auth-cli
-pkgver=0.2.0
+pkgver=0.2.1
 pkgrel=1
 pkgdesc="Authenticator CLI. Generate totps on the fly."
 arch=('x86_64')
@@ -12,18 +12,34 @@ depends=(
     'glibc'
     'libcrypto.so'
 )
-makedepends=('make' 'cmake' 'git')
+makedepends=('make' 'cmake' 'git' 'less')
 source=(
     "$pkgname::git+$url.git#tag=v$pkgver"
     'catch2::git+https://github.com/catchorg/Catch2.git'
     'tomlplusplus::git+https://github.com/marzer/tomlplusplus.git'
+    'nlohmann_json::git+https://github.com/nlohmann/json.git'
+    'sqlite::git+https://github.com/sqlite/sqlite.git'
 )
-sha256sums=('3719396f4fda325c9df2321e3034f7cfb18de3d505819d37e208c6d49312609e'
+sha256sums=('6d52cc770ef6d238994cde1ca8eb1375f439c71636713f983a14a9156be42471'
+            'SKIP'
+            'SKIP'
             'SKIP'
             'SKIP')
+_backports=(
+    '98a8aade8446f8cc6f7d22d4b1302e7b45642f55'
+)
 
 prepare() {
     cd "$pkgname"
+    local _c
+    for _c in "${_backports[@]}"; do
+        if [[ $_c == *..* ]]; then
+            git log --oneline --reverse "${_c}"
+        else
+            git log --oneline -1 "${_c}"
+        fi
+        git cherry-pick -n -m1 "${_c}"
+    done
     for submodule in $(git config --file .gitmodules --get-regexp path | awk '{ print $2 }'); do
         git submodule init "$submodule"
         git config "submodule.$submodule.url" "file://$srcdir/$(basename "$submodule")"
