@@ -245,6 +245,12 @@ github = "fsspec/universal_pathlib"
 use_latest_release = true
 prefix = "v"
 
+[reg]
+source = "github"
+github = "genuinetools/reg"
+use_latest_release = true
+prefix = "v"
+
 [superfile-bin]
 source = "github"
 github = "yorukot/superfile"
