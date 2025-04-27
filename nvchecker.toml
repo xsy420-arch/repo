@@ -120,8 +120,10 @@ use_latest_tag = true
 prefix = "v"
 
 [python-aenum]
-source = "pypi"
-pypi = "aenum"
+source = "github"
+github = "ethanfurman/aenum"
+use_latest_tag = true
+prefix = "v"
 
 ['python-backports.cached_property']
 source = "github"
