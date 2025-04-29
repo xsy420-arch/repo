@@ -98,7 +98,9 @@
     },
     "python-aenum": {
       "version": "3.1.15",
-      "url": "https://pypi.org/project/aenum/3.1.15/"
+      "gitref": "refs/tags/3.1.15",
+      "revision": "9bb716539a8134da8746c028a5b8b56e068a7cd1",
+      "url": "https://github.com/ethanfurman/aenum/releases/tag/3.1.15"
     },
     "python-backports.cached_property": {
       "version": "1.0.2",
