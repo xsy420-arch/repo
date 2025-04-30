@@ -11,6 +11,7 @@
 *.sig
 *.asc
 *.deb
+*.gem
 *LICENSE-*
 
 # subfolders, e.g. source or built package trees, vcs
