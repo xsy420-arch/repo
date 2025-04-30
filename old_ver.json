@@ -217,6 +217,10 @@
       "gitref": "refs/tags/v0.16.1",
       "url": "https://github.com/genuinetools/reg/releases/tag/v0.16.1"
     },
+    "ruby-fusuma": {
+      "version": "3.8.1",
+      "url": "https://rubygems.org/gems/fusuma/versions/3.8.1"
+    },
     "superfile-bin": {
       "version": "1.2.1",
       "gitref": "refs/tags/v1.2.1",

@@ -253,6 +253,10 @@ github = "genuinetools/reg"
 use_latest_release = true
 prefix = "v"
 
+[ruby-fusuma]
+source = "gems"
+gems = "fusuma"
+
 [superfile-bin]
 source = "github"
 github = "yorukot/superfile"
