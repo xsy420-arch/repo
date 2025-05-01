@@ -21,6 +21,7 @@ makedepends=(
     'ccache'
     'cpio'
     'fontconfig'
+    'gcc14'
     'giflib'
     'git'
     'java-environment=8'
@@ -62,6 +63,8 @@ build() {
     # http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1346
     export MAKEFLAGS=${MAKEFLAGS/-j*/}
 
+    export CC=gcc-14
+    export CXX=g++-14
     # Avoid optimization of HotSpot being lowered from O3 to O2
     # -fno-exceptions for FS#73134
     export CFLAGS="${CFLAGS//-O2/-O3} -Wno-error=nonnull -Wno-error=deprecated-declarations -Wno-error=stringop-overflow= -Wno-error=return-type -Wno-error=cpp -fno-lifetime-dse -fno-delete-null-pointer-checks -fcommon -fno-exceptions -Wno-error=format-overflow= -Wno-error=int-conversion -Wno-error=incompatible-pointer-types"

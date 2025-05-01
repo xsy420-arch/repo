@@ -10,6 +10,7 @@ pkgbase = java8-openjdk
 	makedepends = ccache
 	makedepends = cpio
 	makedepends = fontconfig
+	makedepends = gcc14
 	makedepends = giflib
 	makedepends = git
 	makedepends = java-environment=8
