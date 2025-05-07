@@ -1,6 +1,6 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=fzf-make
-pkgver=0.57.0
+pkgver=0.58.0
 pkgrel=1
 pkgdesc="A command line tool that executes make target using fuzzy finder with preview window"
 arch=('x86_64')
@@ -9,7 +9,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo' 'gcc14')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('5230ea1da29463a717974a70daacb3145c7ba4e44473e7b685f8b66ffb8cd235')
+sha256sums=('54496764a55d6cbd3ab76135dab7b0b07384a698c70d19ba8a6abfdb7d9d2792')
 options=('!lto')
 
 prepare() {
