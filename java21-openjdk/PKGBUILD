@@ -20,7 +20,7 @@ license=('LicenseRef-Java')
 makedepends=('java-environment=21' 'cpio' 'unzip' 'zip' 'libelf' 'libcups' 'libx11'
     'libxrender' 'libxtst' 'libxt' 'libxext' 'libxrandr' 'alsa-lib' 'pandoc'
     'graphviz' 'freetype2' 'libjpeg-turbo' 'giflib' 'libpng' 'lcms2'
-    'libnet' 'bash' 'harfbuzz' 'gcc-libs' 'glibc')
+    'libnet' 'bash' 'harfbuzz' 'gcc-libs' 'glibc' 'gcc14')
 source=(https://github.com/openjdk/jdk${_majorver}u/archive/${_git_tag}.tar.gz
     freedesktop-java.desktop
     freedesktop-jconsole.desktop
@@ -51,6 +51,8 @@ _commondeps=('java-runtime-common>=3' 'ca-certificates-utils' 'nss' 'libjpeg-tur
 build() {
     cd ${_jdkdir}
 
+    export CC=gcc-14
+    export CXX=g++-14
     NUM_PROC_OPT=''
     MAKEFLAG_J=$(echo ${MAKEFLAGS} | sed -En 's/.*-j([0-9]+).*/\1/p')
     if [ -n "${MAKEFLAG_J}" ]; then

@@ -29,6 +29,7 @@ pkgbase = java21-openjdk
 	makedepends = harfbuzz
 	makedepends = gcc-libs
 	makedepends = glibc
+	makedepends = gcc14
 	source = https://github.com/openjdk/jdk21u/archive/jdk-21.0.8+2.tar.gz
 	source = freedesktop-java.desktop
 	source = freedesktop-jconsole.desktop
