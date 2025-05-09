@@ -161,9 +161,9 @@
       "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.2.3.250308"
     },
     "python-proglog": {
-      "version": "0.1.11",
-      "gitref": "refs/tags/v0.1.11",
-      "url": "https://github.com/Edinburgh-Genome-Foundry/Proglog/releases/tag/v0.1.11"
+      "version": "0.1.12",
+      "gitref": "refs/tags/v0.1.12",
+      "url": "https://github.com/Edinburgh-Genome-Foundry/Proglog/releases/tag/v0.1.12"
     },
     "python-questionary": {
       "version": "2.1.0",
