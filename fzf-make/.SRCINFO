@@ -1,6 +1,6 @@
 pkgbase = fzf-make
 	pkgdesc = A command line tool that executes make target using fuzzy finder with preview window
-	pkgver = 0.58.0
+	pkgver = 0.59.0
 	pkgrel = 1
 	url = https://github.com/kyu08/fzf-make
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = fzf-make
 	makedepends = gcc14
 	depends = gcc-libs
 	options = !lto
-	source = fzf-make-0.58.0.tar.gz::https://github.com/kyu08/fzf-make/archive/v0.58.0.tar.gz
-	sha256sums = 54496764a55d6cbd3ab76135dab7b0b07384a698c70d19ba8a6abfdb7d9d2792
+	source = fzf-make-0.59.0.tar.gz::https://github.com/kyu08/fzf-make/archive/v0.59.0.tar.gz
+	sha256sums = 9180cd307891aa36647d64c2eaaa492850e15c4af035086c7465cfcf0a1fa362
 
 pkgname = fzf-make
