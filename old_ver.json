@@ -205,9 +205,9 @@
       "url": "https://pypi.org/project/textual-textarea/0.15.0/"
     },
     "python-tifffile": {
-      "version": "2025.3.30",
-      "gitref": "refs/tags/v2025.3.30",
-      "url": "https://github.com/cgohlke/tifffile/releases/tag/v2025.3.30"
+      "version": "2025.5.10",
+      "gitref": "refs/tags/v2025.5.10",
+      "url": "https://github.com/cgohlke/tifffile/releases/tag/v2025.5.10"
     },
     "python-timg": {
       "version": "1.1.6",
