@@ -14,7 +14,7 @@ jobs:
         run: sudo npm install --global --save-dev editorconfig-checker && sudo editorconfig-checker
       - name: Run spellcheck
         uses: crate-ci/typos@v1.26.0
-      - name: Remove proxy in nvchecker.toml when running GitHub Action
-        run: sed -i '/^proxy/d' nvchecker.toml
+      # - name: Remove proxy in nvchecker.toml when running GitHub Action
+      #   run: sed -i '/^proxy/d' nvchecker.toml
       - name: nvchecker
         run: sudo pip install nvchecker --break-system-packages && time nvchecker -c nvchecker.toml
