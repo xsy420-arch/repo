@@ -11,12 +11,6 @@ github = "asdf-vm/asdf"
 use_latest_release = true
 prefix = "v"
 
-[auth]
-source = "github"
-github = "nnyyxxxx/auth"
-use_latest_release = true
-prefix = "v"
-
 [battery-monitor]
 source = "github"
 github = "xsy420/battery-monitor"
