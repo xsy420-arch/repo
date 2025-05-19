@@ -5,7 +5,7 @@
 
 pkgname=python-rich-click
 _pkgname=${pkgname#python-}
-pkgver=1.8.8
+pkgver=1.8.9
 pkgrel=1
 pkgdesc="Python module to format click help output nicely with Rich."
 arch=('any')
@@ -25,7 +25,7 @@ makedepends=(
 )
 checkdepends=(python-pytest)
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('b07798a0ba49346a143983573faaf8ca349c52a94709f373a0d4617c04943c72')
+sha256sums=('228b761874e0c04a3ead5eeff2745bbf0f9adc694c692ab051a2dbd6a80151f6')
 
 build() {
     cd "${_pkgname}-${pkgver}"
@@ -34,8 +34,10 @@ build() {
 
 check() {
     cd "${_pkgname}-${pkgver}"
-    # test_error_to_stderr is not passing - disabling it for now
-    PYTHONPATH=src pytest --deselect tests/test_rich_click_cli.py::test_error_to_stderr
+    # Create the virtual environment, install the wheel, and run the tests
+    python -m venv --system-site-packages test-env
+    test-env/bin/python -m installer dist/*.whl
+    test-env/bin/python -m pytest -vv
 }
 
 package() {
