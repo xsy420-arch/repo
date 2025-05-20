@@ -2,9 +2,9 @@
   "version": 2,
   "data": {
     "asdf-vm": {
-      "version": "0.16.7",
-      "gitref": "refs/tags/v0.16.7",
-      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.16.7"
+      "version": "0.17.0",
+      "gitref": "refs/tags/v0.17.0",
+      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.17.0"
     },
     "baidunetdisk-bin": {
       "version": "4.17.7-1",
