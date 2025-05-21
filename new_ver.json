@@ -146,9 +146,9 @@
       "url": "https://github.com/mwouts/jupytext/releases/tag/v1.17.1"
     },
     "python-moviepy": {
-      "version": "2.1.2",
-      "gitref": "refs/tags/v2.1.2",
-      "url": "https://github.com/Zulko/moviepy/releases/tag/v2.1.2"
+      "version": "2.2",
+      "gitref": "refs/tags/v2.2",
+      "url": "https://github.com/Zulko/moviepy/releases/tag/v2.2"
     },
     "python-mtable": {
       "version": "20241206.052617",

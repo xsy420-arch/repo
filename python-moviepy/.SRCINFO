@@ -1,6 +1,6 @@
 pkgbase = python-moviepy
 	pkgdesc = Video editing with Python
-	pkgver = 2.1.2
+	pkgver = 2.2.0
 	pkgrel = 1
 	url = https://zulko.github.io/moviepy/
 	arch = any
@@ -16,7 +16,7 @@ pkgbase = python-moviepy
 	depends = python-proglog
 	depends = python-imageio-ffmpeg
 	depends = python-tqdm
-	source = https://files.pythonhosted.org/packages/source/m/moviepy/moviepy-2.1.2.tar.gz
-	sha256sums = 22c57a7472f607eaad9fe80791df67c05082e1060fb74817c4eaac68e138ee77
+	source = https://files.pythonhosted.org/packages/source/m/moviepy/moviepy-2.2.0.tar.gz
+	sha256sums = 895e8f08a338eb1e3a9bcf793b66fff48ab496f28185e7923788d1751a249e7a
 
 pkgname = python-moviepy

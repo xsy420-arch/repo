@@ -2,7 +2,7 @@
 pkgbase='python-moviepy'
 pkgname=('python-moviepy')
 _module='moviepy'
-pkgver='2.1.2'
+pkgver='2.2.0'
 pkgrel=1
 pkgdesc="Video editing with Python"
 url="https://zulko.github.io/moviepy/"
@@ -12,7 +12,7 @@ makedepends=('python-build' 'python-installer' 'python-setuptools')
 license=('MIT')
 arch=('any')
 source=("https://files.pythonhosted.org/packages/source/${_module::1}/$_module/$_module-$pkgver.tar.gz")
-sha256sums=('22c57a7472f607eaad9fe80791df67c05082e1060fb74817c4eaac68e138ee77')
+sha256sums=('895e8f08a338eb1e3a9bcf793b66fff48ab496f28185e7923788d1751a249e7a')
 
 build() {
     cd "${srcdir}/${_module}-${pkgver}"
