@@ -72,10 +72,10 @@
       "url": "https://github.com/openjdk/jdk11u/releases/tag/jdk-11.0.28+2"
     },
     "java21-openjdk": {
-      "version": "jdk-21.0.8+3",
-      "gitref": "refs/tags/jdk-21.0.8+3",
-      "revision": "687cd4e4d5b9ce9df44b8422929efa122154d57e",
-      "url": "https://github.com/openjdk/jdk21u/releases/tag/jdk-21.0.8+3"
+      "version": "jdk-21.0.8+4",
+      "gitref": "refs/tags/jdk-21.0.8+4",
+      "revision": "5ac77bef78a846eefff39dd6fef97007511080e4",
+      "url": "https://github.com/openjdk/jdk21u/releases/tag/jdk-21.0.8+4"
     },
     "java8-openjdk": {
       "version": "jdk8u462-b02",
