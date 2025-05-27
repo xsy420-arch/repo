@@ -156,10 +156,10 @@
       "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     },
     "python-pandas-stubs": {
-      "version": "2.2.3.250308",
-      "gitref": "refs/tags/v2.2.3.250308",
-      "revision": "6db30fc168beb804e18583a5ad2774987fab5397",
-      "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.2.3.250308"
+      "version": "2.2.3.250527",
+      "gitref": "refs/tags/v2.2.3.250527",
+      "revision": "ba4ebd88d936eb47c2ccea79474d9f7fbd36f8bb",
+      "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.2.3.250527"
     },
     "python-proglog": {
       "version": "0.1.12",
