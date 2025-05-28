@@ -1,0 +1,14 @@
+pkgbase = xsy420-keyring
+	pkgdesc = xsy420's keyring
+	pkgver = 1
+	pkgrel = 2
+	install = xsy420-keyring.install
+	arch = x86_64
+	license = MIT
+	depends = pacman
+	source = xsy420.gpg
+	source = xsy420-trusted
+	sha256sums = b69016348bfe0bbd6bfeab427de74dc2d34a2d9838029a379dc5bd067093a71e
+	sha256sums = 1a05d14d5a760cc82dfd2f4c55be180fb3daed1783d6ead7581f926381b5b484
+
+pkgname = xsy420-keyring
