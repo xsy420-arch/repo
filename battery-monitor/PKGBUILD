@@ -1,18 +1,18 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=battery-monitor
 pkgver=0.2
-pkgrel=1
+pkgrel=2
 pkgdesc="A simple tool to monitor battery."
 groups=(xsy420-repo)
 arch=(x86_64)
 url="https://github.com/xsy420/battery-monitor"
 license=('MIT')
 depends=(zenity)
-makedepends=(gcc make)
+makedepends=(gcc make xsy420-keyring)
 source=($url/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz{,.asc})
 options=(!debug)
 sha256sums=('c9e6e9c97dfae4fe0aa74363f841a6e1e024134d09afc7d401a70697ae56c785'
-    'SKIP')
+            'SKIP')
 
 validpgpkeys=(
     4C1BEBB093159592D99551703A043DEEA1C7AD10 # xsy420 <xsy0420@gmail.com>
