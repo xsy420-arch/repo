@@ -11,6 +11,12 @@ github = "asdf-vm/asdf"
 use_latest_release = true
 prefix = "v"
 
+[auth]
+source = "github"
+github = "xsy420/auth"
+use_latest_tag = true
+prefix = "v"
+
 [battery-monitor]
 source = "github"
 github = "xsy420/battery-monitor"
