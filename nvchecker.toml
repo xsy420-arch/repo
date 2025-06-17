@@ -110,6 +110,12 @@ github = "tlsa/libcyaml"
 use_latest_release = true
 prefix = "v"
 
+[libxls]
+source = "github"
+github = "libxls/libxls"
+use_latest_release = true
+prefix = "v"
+
 [linuxqq-nt-bwrap]
 source = "regex"
 url = "https://im.qq.com/rainbow/linuxQQDownload"

@@ -94,6 +94,11 @@
       "gitref": "refs/tags/v1.4.2",
       "url": "https://github.com/tlsa/libcyaml/releases/tag/v1.4.2"
     },
+    "libxls": {
+      "version": "1.6.3",
+      "gitref": "refs/tags/v1.6.3",
+      "url": "https://github.com/libxls/libxls/releases/tag/v1.6.3"
+    },
     "linuxqq-nt-bwrap": {
       "version": "3.2.18_250616"
     },
