@@ -1,21 +1,21 @@
 # Maintainer: Guillaume Horel <guillaume.horel@gmail.com>
 pkgname='python-aenum'
 _module='aenum'
-pkgver='3.1.15'
+pkgver='3.1.16'
 pkgrel=1
 pkgdesc="Advanced Enumerations (compatible with Python's stdlib Enum)"
-url="https://pypi.org/project/aenum"
+url="https://github.com/ethanfurman/aenum"
 depends=(python)
 checkdepends=()
 makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
 license=('BSD-3-Clause')
 arch=('any')
-source=("$pkgname-$pkgver.tar.gz::https://files.pythonhosted.org/packages/source/${_module::1}/$_module/$_module-${pkgver}.tar.gz"
+source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz"
     fix-tests-for-python12.patch::https://patch-diff.githubusercontent.com/raw/ethanfurman/aenum/pull/36.patch
     https://raw.githubusercontent.com/ethanfurman/aenum/master/aenum/test_v37.py)
 
-sha256sums=('8cbd76cd18c4f870ff39b24284d3ea028fbe8731a58df3aa581e434c575b9559'
-            '9151a5147b8d72bda40f62078d0780bb6926a045137f6bcd7137ef04a051a649'
+sha256sums=('4c7a5fb76a04ad8dc0c82b13c4cd858b755c69d16c2060a248bf3380a4d1067e'
+            'd5522b85199d271f47f5b1e48ae97bac1b9a309b833acd5d6f467d94484b89c0'
             'e852ca671727e491dfa95af27fa2385a36056a306419efe3420cd34c03c9214e')
 
 prepare() {

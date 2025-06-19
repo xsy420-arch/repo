@@ -115,10 +115,10 @@
       "url": "https://github.com/lilydjwg/pacfiles/releases/tag/v0.2.7"
     },
     "python-aenum": {
-      "version": "3.1.15",
-      "gitref": "refs/tags/3.1.15",
-      "revision": "9bb716539a8134da8746c028a5b8b56e068a7cd1",
-      "url": "https://github.com/ethanfurman/aenum/releases/tag/3.1.15"
+      "version": "3.1.16",
+      "gitref": "refs/tags/3.1.16",
+      "revision": "5ea15e334cbb04c52bebb435b08e800e0620122f",
+      "url": "https://github.com/ethanfurman/aenum/releases/tag/3.1.16"
     },
     "python-backports.cached_property": {
       "version": "1.0.2",
