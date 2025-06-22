@@ -22,9 +22,9 @@
       "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
     },
     "cherry-studio-bin": {
-      "version": "1.4.4",
-      "gitref": "refs/tags/v1.4.4",
-      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.4.4"
+      "version": "1.4.5",
+      "gitref": "refs/tags/v1.4.5",
+      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.4.5"
     },
     "dmg2img": {
       "version": "1.6.7-5",
