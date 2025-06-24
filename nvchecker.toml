@@ -23,6 +23,12 @@ github = "xsy420/battery-monitor"
 use_latest_release = true
 prefix = "v"
 
+[bilibili]
+source = "github"
+github = "msojocs/bilibili-linux"
+use_latest_release = true
+prefix = "v"
+
 [baidunetdisk-bin]
 source = "aur"
 
