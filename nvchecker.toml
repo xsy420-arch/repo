@@ -41,6 +41,9 @@ github = "duckdb/duckdb"
 use_latest_release = true
 prefix = "v"
 
+[electron33-bin]
+source = "aur"
+
 [euporie]
 source = "github"
 github = "joouha/euporie"
