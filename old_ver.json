@@ -265,6 +265,10 @@
     },
     "typora": {
       "version": "1.10.8"
+    },
+    "xwin": {
+      "version": "0.6.6",
+      "url": "https://crates.io/crates/xwin/0.6.6"
     }
   }
 }
