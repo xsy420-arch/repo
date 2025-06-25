@@ -93,10 +93,10 @@
       "url": "https://github.com/openjdk/jdk21u/releases/tag/jdk-21.0.8+7"
     },
     "java8-openjdk": {
-      "version": "jdk8u462-b06",
-      "gitref": "refs/tags/jdk8u462-b06",
-      "revision": "0313d2d49aeb96e84086bb824e2a161dd85f516f",
-      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u462-b06"
+      "version": "jdk8u462-b07",
+      "gitref": "refs/tags/jdk8u462-b07",
+      "revision": "946f1056e3709234d39202551c9a10e01c3fc0f5",
+      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u462-b07"
     },
     "libcyaml": {
       "version": "1.4.2",
