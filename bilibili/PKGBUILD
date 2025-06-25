@@ -5,7 +5,7 @@ _subver=2
 pkgver="${_pkgver}_${_subver}"
 _electronversion=33
 _nodeversion=22
-pkgrel=1
+pkgrel=2
 pkgdesc="Linux version based on Beilai official client porting supports roaming.(Use system-wide electron).基于哔哩哔哩官方客户端移植的Linux版本,支持漫游"
 arch=('x86_64')
 url="https://github.com/msojocs/bilibili-linux"
@@ -18,6 +18,7 @@ depends=(
     "electron${_electronversion}"
     'ffmpeg'
     'libappindicator-gtk3'
+    'xclip'
 )
 makedepends=(
     'wget'
@@ -88,6 +89,9 @@ package() {
     install -Dm755 "${srcdir}/${pkgname}.sh" "${pkgdir}/usr/bin/${pkgname}"
     install -Dm644 "${srcdir}/${pkgname}-${pkgver}/app/app.asar" -t "${pkgdir}/usr/lib/${pkgname}"
     cp -Pr --no-preserve=ownership "${srcdir}/${pkgname}-${pkgver}/app/"{app.asar.unpacked,extensions} "${pkgdir}/usr/lib/${pkgname}"
+    clipboardy="${pkgdir}/usr/lib/${pkgname}/app.asar.unpacked/node_modules/clipboardy"
+    rm -rf "${clipboardy}/fallbacks/"
+    sed -e "s/xsel/xclip/g" -e "s/put//g" -e "s/, '-/, '/g" -e "s/'--/'-selection', '/g" -i "$clipboardy/lib/linux.js"
     install -Dm644 "${srcdir}/${pkgname}-${pkgver}/res/${pkgname}.desktop" -t "${pkgdir}/usr/share/applications"
     _icon_sizes=(16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512 1024x1024)
     for _icons in "${_icon_sizes[@]}"; do
