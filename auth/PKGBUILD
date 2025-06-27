@@ -1,13 +1,17 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=auth
 pkgver=0.2.5
-pkgrel=2
+pkgrel=3
 pkgdesc="Authenticator TUI. Generate totps on the fly."
 arch=('x86_64')
 url="https://github.com/xsy420/auth"
 license=('GPL-2.0-only')
 depends=('gcc-libs' 'glibc')
 makedepends=('cargo')
+optdepends=(
+    'xclip: for clipboard support on X11'
+    'wl-clipboard: for clipboard support on wayland'
+)
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('571c3bcf9920f2b3aef380147760b4e65aa3789522c0787ffbfd588012187b18')
 
