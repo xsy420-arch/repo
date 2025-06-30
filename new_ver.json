@@ -7,10 +7,10 @@
       "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.18.0"
     },
     "auth": {
-      "version": "0.2.5",
-      "gitref": "refs/tags/v0.2.5",
-      "revision": "ec233cbeaa6f5b718de0882142a1328c96d2e264",
-      "url": "https://github.com/xsy420/auth/releases/tag/v0.2.5"
+      "version": "0.3.5",
+      "gitref": "refs/tags/v0.3.5",
+      "revision": "cd723bcebc6eaabc5baee619eb10f560aad9b7c8",
+      "url": "https://github.com/xsy420/auth/releases/tag/v0.3.5"
     },
     "baidunetdisk-bin": {
       "version": "4.17.7-1",

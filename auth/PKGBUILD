@@ -1,22 +1,19 @@
 # Maintainer: xsy420 <xsy0420@gmail.com>
 pkgname=auth
-pkgver=0.2.5
-pkgrel=3
+pkgver=0.3.5
+pkgrel=1
 pkgdesc="Authenticator TUI. Generate totps on the fly."
 arch=('x86_64')
 url="https://github.com/xsy420/auth"
 license=('GPL-2.0-only')
 depends=('gcc-libs' 'glibc')
 makedepends=('cargo')
-optdepends=(
-    'xclip: for clipboard support on X11'
-    'wl-clipboard: for clipboard support on wayland'
-)
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('571c3bcf9920f2b3aef380147760b4e65aa3789522c0787ffbfd588012187b18')
+sha256sums=('27a99a9d74003f9d1977aee5d2ad1e604564d66fe5179658f85d3f11dadb09d7')
 
 prepare() {
     cd "$pkgname-$pkgver"
+    mkdir -p completions/
     cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
@@ -25,6 +22,7 @@ build() {
     export RUSTUP_TOOLCHAIN=stable
     export CARGO_TARGET_DIR=target
     cargo build --release --frozen
+    OUT_DIR=completions/ "./target/release/$pkgname-completions"
 }
 
 check() {
@@ -36,6 +34,10 @@ check() {
 package() {
     cd "$pkgname-$pkgver"
     install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
-    install -Dm 644 readme.md "$pkgdir/usr/share/doc/$pkgname/README.md"
-    install -Dm 644 license "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+    install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
+    install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+    install -Dm 644 "completions/$pkgname.bash" "$pkgdir/usr/share/bash-completion/completions/$pkgname"
+    install -Dm 644 "completions/$pkgname.fish" -t "$pkgdir/usr/share/fish/vendor_completions.d"
+    install -Dm 644 "completions/_$pkgname" -t "$pkgdir/usr/share/zsh/site-functions"
+    install -Dm 644 "man/$pkgname.1" -t "$pkgdir/usr/share/man/man1"
 }
