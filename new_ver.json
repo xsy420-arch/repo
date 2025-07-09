@@ -259,9 +259,9 @@
       "url": "https://github.com/voioo/td/releases/tag/v0.4.1"
     },
     "television": {
-      "version": "0.12.0",
-      "gitref": "refs/tags/0.12.0",
-      "url": "https://github.com/alexpasmantier/television/releases/tag/0.12.0"
+      "version": "0.12.1",
+      "gitref": "refs/tags/0.12.1",
+      "url": "https://github.com/alexpasmantier/television/releases/tag/0.12.1"
     },
     "typora": {
       "version": "1.10.8"
