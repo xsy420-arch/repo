@@ -249,9 +249,9 @@
       "url": "https://rubygems.org/gems/fusuma/versions/3.9.0"
     },
     "superfile-bin": {
-      "version": "1.3.1",
-      "gitref": "refs/tags/v1.3.1",
-      "url": "https://github.com/yorukot/superfile/releases/tag/v1.3.1"
+      "version": "1.3.2",
+      "gitref": "refs/tags/v1.3.2",
+      "url": "https://github.com/yorukot/superfile/releases/tag/v1.3.2"
     },
     "td-tui": {
       "version": "0.4.1",
