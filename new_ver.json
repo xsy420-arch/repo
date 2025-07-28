@@ -203,8 +203,8 @@
       "url": "https://github.com/scikit-image/scikit-image/releases/tag/v0.25.2"
     },
     "python-shandy-sqlfmt": {
-      "version": "0.26.0",
-      "url": "https://pypi.org/project/shandy-sqlfmt/0.26.0/"
+      "version": "0.27.0",
+      "url": "https://pypi.org/project/shandy-sqlfmt/0.27.0/"
     },
     "python-sixelcrop": {
       "version": "0.1.9",
