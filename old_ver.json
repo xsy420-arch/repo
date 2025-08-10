@@ -22,9 +22,9 @@
       "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
     },
     "bilibili": {
-      "version": "1.17.0-1",
-      "gitref": "refs/tags/v1.17.0-1",
-      "url": "https://github.com/msojocs/bilibili-linux/releases/tag/v1.17.0-1"
+      "version": "1.17.0-2",
+      "gitref": "refs/tags/v1.17.0-2",
+      "url": "https://github.com/msojocs/bilibili-linux/releases/tag/v1.17.0-2"
     },
     "cherry-studio-bin": {
       "version": "1.5.5",
