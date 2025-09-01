@@ -2,7 +2,7 @@
 
 pkgname=cherry-studio-bin
 _pkgname=cherry-studio
-pkgver=1.5.7
+pkgver=1.5.8
 pkgrel=1
 pkgdesc="🍒 Cherry Studio is a desktop client that supports for multiple LLM providers "
 arch=('x86_64')
@@ -13,7 +13,7 @@ depends=()
 source=("${_pkgname}-${pkgver}.AppImage::${url}/releases/download/v${pkgver}/Cherry-Studio-${pkgver}-${arch}.AppImage"
     "${_pkgname}.desktop"
     "${_pkgname}.png")
-sha256sums=('5db1f44e78ba7d765536313649f8f2121775b6daef0b75acdf0b468d54b60616'
+sha256sums=('01fc4c95d514ab9abc510d1657b4e2500d5d2118a78be3d6a404ca32aca474ad'
             '05ba657d8bd89353170c3e70a2729b284a8f088d676def9517543ef3c1e877da'
             '8706b76d225c761820b18e7d79c3c8d0dd9f712b3d6a6737d90fb96e7c8fc2a4')
 conflicts=("$_pkgname")
