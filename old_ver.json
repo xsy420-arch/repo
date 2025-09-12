@@ -27,9 +27,9 @@
       "url": "https://github.com/msojocs/bilibili-linux/releases/tag/v1.17.1-6"
     },
     "cherry-studio-bin": {
-      "version": "1.5.10",
-      "gitref": "refs/tags/v1.5.10",
-      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.5.10"
+      "version": "1.5.11",
+      "gitref": "refs/tags/v1.5.11",
+      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.5.11"
     },
     "dmg2img": {
       "version": "1.6.7-5",
