@@ -5,30 +5,62 @@
 # TODO add test, see about packaging jtreg and using it here
 
 pkgbase=java11-openjdk
-pkgname=('jre11-openjdk-headless' 'jre11-openjdk' 'jdk11-openjdk' 'openjdk11-src' 'openjdk11-doc')
+pkgname=(
+    jre11-openjdk-headless
+    jre11-openjdk
+    jdk11-openjdk
+    openjdk11-src
+    openjdk11-doc
+)
 _majorver=11
 _minorver=0
 _securityver=29
-_updatever=1
+_updatever=5
 pkgver=${_majorver}.${_minorver}.${_securityver}.u${_updatever}
 pkgrel=1
 _git_tag=jdk-${_majorver}.${_minorver}.${_securityver}+${_updatever}
 arch=('x86_64')
 url='https://openjdk.java.net/'
 license=('LicenseRef-Java')
-makedepends=('java-environment=11' 'cpio' 'unzip' 'zip' 'libelf' 'libcups' 'libx11'
-    'libxrender' 'libxtst' 'libxt' 'libxext' 'libxrandr' 'alsa-lib' 'pandoc'
-    'graphviz' 'freetype2' 'libjpeg-turbo' 'giflib' 'libpng' 'lcms2'
-    'libnet' 'bash' 'harfbuzz' 'gcc-libs' 'glibc' 'gcc14')
+makedepends=(
+    'java-environment=11'
+    alsa-lib
+    bash
+    cpio
+    freetype2
+    giflib
+    glibc
+    graphviz
+    harfbuzz
+    lcms2
+    libcups
+    libelf
+    libjpeg-turbo
+    libnet
+    libpng
+    libx11
+    libxext
+    libxrandr
+    libxrender
+    libxt
+    libxtst
+    pandoc
+    unzip
+    zip
+)
 optdepends=(
     'gvfs: open links e.g. hyperlinks'
 )
 options=(!lto)
-source=(https://github.com/openjdk/jdk${_majorver}u/archive/${_git_tag}.tar.gz
+source=(
+    https://github.com/openjdk/jdk${_majorver}u/archive/${_git_tag}.tar.gz
+    0001-java11-Build-failure-with-glibc-2.42-due-to-uabs-na.patch::https://github.com/openjdk/jdk11u-dev/commit/fa28fbdc260351ff9ae735e473b3d0d9bdc659bf.patch?full_index=1
     freedesktop-java.desktop
     freedesktop-jconsole.desktop
-    freedesktop-jshell.desktop)
-sha256sums=('141cd17916cb23fe5014db6ce8871e014f6102ce5a6d43b89809ce6bc8c55989'
+    freedesktop-jshell.desktop
+)
+sha256sums=('4f94f40a2691066573608732274bb134a5fd143a5e13313e589c52a9a4c40b50'
+            'ea0d37b6901d3aae64a551e19dd4f7de5d75b8d9fabc1c219bf0654f8bd70045'
             '575587ad58dfa9908f046d307b9afc7b0b2eb20a1eb454f8fdbbd539ea7b3d01'
             '2f57b7c7dd671eabe9fa10c4f1283573e99d7f7c36eccd82c95b705979a2e8cb'
             'f271618a8c2a892b554caf26857af41efdf0d8bcb95d57ce7ba535d6979e96da')
@@ -42,14 +74,32 @@ _jvmdir=/usr/lib/jvm/java-${_majorver}-openjdk
 _jdkdir=jdk${_majorver}u-${_git_tag//+/-}
 _imgdir=${_jdkdir}/build/linux-${_JARCH}-normal-server-release/images
 
-_nonheadless=(lib/libawt_xawt.so
+_nonheadless=(
+    lib/libawt_xawt.so
     lib/libjawt.so
     lib/libjsound.so
-    lib/libsplashscreen.so)
+    lib/libsplashscreen.so
+)
 
-_commondeps=('java-runtime-common>=3' 'ca-certificates-utils' 'nss' 'libjpeg-turbo' 'libjpeg.so'
-    'lcms2' 'liblcms2.so' 'libnet' 'freetype2' 'libfreetype.so' 'harfbuzz' 'libharfbuzz.so'
-    'glibc' 'gcc-libs')
+_commondeps=(
+    'java-runtime-common>=3'
+    ca-certificates-utils
+    freetype2
+    glibc
+    harfbuzz
+    lcms2
+    libfreetype.so
+    libharfbuzz.so
+    libjpeg.so
+    libjpeg-turbo
+    liblcms2.so
+    libnet
+    nss
+)
+
+prepare() {
+    patch -Np1 -i ../0001-java11-Build-failure-with-glibc-2.42-due-to-uabs-na.patch -d ${_jdkdir}
+}
 
 build() {
     cd ${_jdkdir}
@@ -63,17 +113,19 @@ build() {
         NUM_PROC_OPT="--with-num-cores=${MAKEFLAG_J}"
     fi
 
-    export CC=gcc-14
-    export CXX=g++-14
     # Avoid optimization of HotSpot to be lowered from O3 to O2
     local _CFLAGS="${CFLAGS//-O2/-O3} ${CPPFLAGS} -fcommon"
     local _CXXFLAGS="${CXXFLAGS//-O2/-O3} ${CPPFLAGS} -fcommon"
     local _LDFLAGS=${LDFLAGS}
+
     if [[ ${CARCH} = i686 ]]; then
         echo "Removing '-fno-plt' from CFLAGS and CXXFLAGS to prevent build fail with this architecture"
         _CFLAGS=${CFLAGS/-fno-plt/}
         _CXXFLAGS=${CXXFLAGS/-fno-plt/}
     fi
+
+    # C23 removed support for K&R function definitions/declarations.
+    _CFLAGS+=' -std=gnu17'
 
     # CFLAGS, CXXFLAGS and LDFLAGS are ignored as shown by a warning
     # in the output of ./configure unless used like such:
@@ -122,10 +174,20 @@ check() {
 package_jre11-openjdk-headless() {
     pkgdesc="OpenJDK Java ${_majorver} headless runtime environment"
     depends=("${_commondeps[@]}")
-    optdepends=('java-rhino: for some JavaScript support')
-    provides=("java-runtime-headless=${_majorver}" "java-runtime-headless-openjdk=${_majorver}" "jre${_majorver}-openjdk-headless=${pkgver}-${pkgrel}")
-    conflicts=("jdk11-openjdk" "jre11-openjdk")
-    backup=(etc/${pkgbase}/logging.properties
+    optdepends=(
+        'java-rhino: for some JavaScript support'
+    )
+    provides=(
+        "java-runtime-headless=${_majorver}"
+        "java-runtime-headless-openjdk=${_majorver}"
+        "jre${_majorver}-openjdk-headless=${pkgver}-${pkgrel}"
+    )
+    conflicts=(
+        jdk11-openjdk
+        jre11-openjdk
+    )
+    backup=(
+        etc/${pkgbase}/logging.properties
         etc/${pkgbase}/management/jmxremote.access
         etc/${pkgbase}/management/jmxremote.password.template
         etc/${pkgbase}/management/management.properties
@@ -138,7 +200,8 @@ package_jre11-openjdk-headless() {
         etc/${pkgbase}/security/policy/limited/exempt_local.policy
         etc/${pkgbase}/security/policy/unlimited/default_US_export.policy
         etc/${pkgbase}/security/policy/unlimited/default_local.policy
-        etc/${pkgbase}/sound.properties)
+        etc/${pkgbase}/sound.properties
+    )
     install=install_jre-openjdk-headless.sh
 
     cd ${_imgdir}/jre
@@ -179,12 +242,24 @@ package_jre11-openjdk-headless() {
 package_jre11-openjdk() {
     pkgdesc="OpenJDK Java ${_majorver} full runtime environment"
     depends=("${_commondeps[@]}" 'giflib' 'libgif.so' 'libpng')
-    optdepends=('alsa-lib: for basic sound support'
-        'gtk3: for the Gtk+ 3 look and feel - desktop usage')
-    provides=("java-runtime=${_majorver}" "java-runtime-openjdk=${_majorver}" "jre${_majorver}-openjdk=${pkgver}-${pkgrel}"
-        "java-runtime-headless=${_majorver}" "java-runtime-headless-openjdk=${_majorver}" "jre${_majorver}-openjdk-headless=${pkgver}-${pkgrel}")
-    conflicts=("jdk11-openjdk" "jre11-openjdk-headless")
-    backup=(etc/${pkgbase}/logging.properties
+    optdepends=(
+        'alsa-lib: for basic sound support'
+        'gtk3: for the Gtk+ 3 look and feel - desktop usage'
+    )
+    provides=(
+        "java-runtime=${_majorver}"
+        "java-runtime-openjdk=${_majorver}"
+        "jre${_majorver}-openjdk=${pkgver}-${pkgrel}"
+        "java-runtime-headless=${_majorver}"
+        "java-runtime-headless-openjdk=${_majorver}"
+        "jre${_majorver}-openjdk-headless=${pkgver}-${pkgrel}"
+    )
+    conflicts=(
+        "jdk11-openjdk"
+        "jre11-openjdk-headless"
+    )
+    backup=(
+        etc/${pkgbase}/logging.properties
         etc/${pkgbase}/management/jmxremote.access
         etc/${pkgbase}/management/jmxremote.password.template
         etc/${pkgbase}/management/management.properties
@@ -197,7 +272,8 @@ package_jre11-openjdk() {
         etc/${pkgbase}/security/policy/limited/exempt_local.policy
         etc/${pkgbase}/security/policy/unlimited/default_US_export.policy
         etc/${pkgbase}/security/policy/unlimited/default_local.policy
-        etc/${pkgbase}/sound.properties)
+        etc/${pkgbase}/sound.properties
+    )
     install=install_jre-openjdk.sh
 
     cd ${_imgdir}/jre
@@ -244,19 +320,47 @@ package_jre11-openjdk() {
 
 package_jdk11-openjdk() {
     pkgdesc="OpenJDK Java ${_majorver} development kit"
-    depends=("${_commondeps[@]}" 'java-environment-common=3'
-        'hicolor-icon-theme' 'libelf' 'libgif.so' 'libpng'
-        'ca-certificates-utils' 'nss' 'libjpeg-turbo' 'libjpeg.so'
-        'lcms2' 'liblcms2.so' 'libnet' 'freetype2' 'libfreetype.so' 'harfbuzz'
-        'libharfbuzz.so')
-    optdepends=('java-rhino: for some JavaScript support'
+    depends=(
+        "${_commondeps[@]}"
+        'java-environment-common=3'
+        ca-certificates-utils
+        freetype2
+        harfbuzz
+        hicolor-icon-theme
+        lcms2
+        libelf
+        libfreetype.so
+        libgif.so
+        libharfbuzz.so
+        libjpeg.so
+        libjpeg-turbo
+        liblcms2.so
+        libnet
+        libpng
+        nss
+    )
+    optdepends=(
+        'java-rhino: for some JavaScript support'
         'alsa-lib: for basic sound support'
-        'gtk3: for the Gtk+ 3 look and feel - desktop usage')
-    provides=("java-environment=${_majorver}" "java-environment-openjdk=${_majorver}" "jdk${_majorver}-openjdk=${pkgver}-${pkgrel}"
-        "java-runtime=${_majorver}" "java-runtime-openjdk=${_majorver}" "jre${_majorver}-openjdk=${pkgver}-${pkgrel}"
-        "java-runtime-headless=${_majorver}" "java-runtime-headless-openjdk=${_majorver}" "jre${_majorver}-openjdk-headless=${pkgver}-${pkgrel}")
-    conflicts=("jre11-openjdk" "jre11-openjdk-headless")
-    backup=(etc/${pkgbase}/logging.properties
+        'gtk3: for the Gtk+ 3 look and feel - desktop usage'
+    )
+    provides=(
+        "java-environment=${_majorver}"
+        "java-environment-openjdk=${_majorver}"
+        "jdk${_majorver}-openjdk=${pkgver}-${pkgrel}"
+        "java-runtime=${_majorver}"
+        "java-runtime-openjdk=${_majorver}"
+        "jre${_majorver}-openjdk=${pkgver}-${pkgrel}"
+        "java-runtime-headless=${_majorver}"
+        "java-runtime-headless-openjdk=${_majorver}"
+        "jre${_majorver}-openjdk-headless=${pkgver}-${pkgrel}"
+    )
+    conflicts=(
+        jre11-openjdk
+        jre11-openjdk-headless
+    )
+    backup=(
+        etc/${pkgbase}/logging.properties
         etc/${pkgbase}/management/jmxremote.access
         etc/${pkgbase}/management/jmxremote.password.template
         etc/${pkgbase}/management/management.properties
@@ -269,7 +373,8 @@ package_jdk11-openjdk() {
         etc/${pkgbase}/security/policy/limited/exempt_local.policy
         etc/${pkgbase}/security/policy/unlimited/default_US_export.policy
         etc/${pkgbase}/security/policy/unlimited/default_local.policy
-        etc/${pkgbase}/sound.properties)
+        etc/${pkgbase}/sound.properties
+    )
     install=install_jdk-openjdk.sh
 
     cd ${_imgdir}/jdk
