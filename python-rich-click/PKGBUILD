@@ -5,7 +5,7 @@
 
 pkgname=python-rich-click
 _pkgname=${pkgname#python-}
-pkgver=1.9.0
+pkgver=1.9.1
 pkgrel=1
 pkgdesc="Python module to format click help output nicely with Rich."
 arch=('any')
@@ -30,7 +30,7 @@ checkdepends=(
     python-typer
 )
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('3ac9d3911d704beddc570ccd246d516b07bda8d79dc39f946850b0e8f5eea070')
+sha256sums=('df46a58d2975ef281ba2533832aece98cafc849a48b052e9434f6a5d9e4ee5be')
 
 build() {
     cd "${_pkgname}-${pkgver}"
