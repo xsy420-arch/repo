@@ -254,9 +254,9 @@
       "url": "https://github.com/yorukot/superfile/releases/tag/v1.3.3"
     },
     "td-tui": {
-      "version": "0.4.11",
-      "gitref": "refs/tags/v0.4.11",
-      "url": "https://github.com/voioo/td/releases/tag/v0.4.11"
+      "version": "0.4.12",
+      "gitref": "refs/tags/v0.4.12",
+      "url": "https://github.com/voioo/td/releases/tag/v0.4.12"
     },
     "television": {
       "version": "0.13.3",
