@@ -2,7 +2,7 @@
 # Contributor: Achmad Fathoni<fathoni.id(at)gmail.com>
 pkgname=python-pandas-stubs
 _pkgname=pandas-stubs
-pkgver=2.3.2.250827
+pkgver=2.3.2.250926
 pkgrel=1
 pkgdesc="Type annotations for Pandas"
 arch=('any')
@@ -10,7 +10,7 @@ url="https://github.com/pandas-dev/pandas-stubs"
 license=('MIT')
 makedepends=(python-build python-installer python-wheel python-poetry)
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('a1ac9b2aaff09310b868b5e479b7f973962fd7ae40e74668db65135ac2b5a38c')
+sha256sums=('24b02396dd7fe10aa671cfa8b19a0747f5f4d31786a4d6019100a9ace0298370')
 
 build() {
     cd $srcdir/$_pkgname-$pkgver
