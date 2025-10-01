@@ -81,10 +81,10 @@
       "url": "https://hackage.haskell.org/package/wordexp-0.2.2"
     },
     "java11-openjdk": {
-      "version": "jdk-11.0.29+5",
-      "gitref": "refs/tags/jdk-11.0.29+5",
-      "revision": "24fb8268b854cbc14fc59b0242b516ab1b3f06fc",
-      "url": "https://github.com/openjdk/jdk11u/releases/tag/jdk-11.0.29+5"
+      "version": "jdk-11.0.29+6",
+      "gitref": "refs/tags/jdk-11.0.29+6",
+      "revision": "13f6c931d435efef4f48a6abc95cf9de26822ea5",
+      "url": "https://github.com/openjdk/jdk11u/releases/tag/jdk-11.0.29+6"
     },
     "java21-openjdk": {
       "version": "jdk-21.0.9+1",
