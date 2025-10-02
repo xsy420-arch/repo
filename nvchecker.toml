@@ -97,7 +97,7 @@ hackage = "wordexp"
 source = "github"
 github = "openjdk/jdk11u"
 use_latest_tag = true
-query = '+'
+query = "+"
 
 [java21-openjdk]
 source = "github"
@@ -209,6 +209,11 @@ source = "github"
 github = "pandas-dev/pandas-stubs"
 use_max_tag = true
 prefix = "v"
+
+[python-pathlib-abc]
+source = "github"
+github = "barneygale/pathlib-abc"
+use_max_tag = true
 
 [python-proglog]
 source = "github"

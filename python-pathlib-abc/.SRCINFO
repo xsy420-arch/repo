@@ -1,0 +1,17 @@
+pkgbase = python-pathlib-abc
+	pkgdesc = Python base classes for rich path objects
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/barneygale/pathlib-abc
+	arch = x86_64
+	license = PSF-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	depends = python
+	source = https://github.com/barneygale/pathlib-abc/archive/refs/tags/0.5.1.zip
+	b2sums = fbf1be52b49376350be3a2e635c05244a4b6d6010d580babbe2aa44c0afc3133a954519fad3cc512ef899a11731b63a7b0f560fa7f94abd666240a83f4993b8b
+
+pkgname = python-pathlib-abc

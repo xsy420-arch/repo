@@ -181,6 +181,12 @@
       "revision": "fc5ab16adfb2b11060f0aa9ee2113ade4b15da19",
       "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.3.2.250926"
     },
+    "python-pathlib-abc": {
+      "version": "0.5.1",
+      "gitref": "refs/tags/0.5.1",
+      "revision": "3ab34ab4c9ee6cdee18b050cec85036a1688ff3c",
+      "url": "https://github.com/barneygale/pathlib-abc/releases/tag/0.5.1"
+    },
     "python-proglog": {
       "version": "0.1.12",
       "gitref": "refs/tags/v0.1.12",
