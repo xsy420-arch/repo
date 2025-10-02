@@ -1,7 +1,7 @@
 # Maintainer:  Vitalii Kuzhdin <vitaliikuzhdin@gmail.com>
 
 pkgname="euporie"
-pkgver=2.8.13
+pkgver=2.8.14
 pkgrel=1
 pkgdesc="Jupyter notebooks in the terminal"
 arch=('any')
@@ -9,7 +9,7 @@ url="https://${pkgname}.readthedocs.io"
 _url="https://github.com/joouha/${pkgname}"
 license=('MIT')
 makedepends=('python-build' 'python-installer' 'python-wheel' 'python-hatchling')
-checkdepends=('python-pytest' 'python-pytest-asyncio')
+checkdepends=('python-pytest' 'python-pytest-asyncio' 'python-pathlib-abc')
 depends=(
     # from pyproject.toml
     'python>=3.8' 'python-prompt_toolkit' 'python-pygments' 'jupyter-nbformat'
@@ -21,13 +21,13 @@ depends=(
     'python-fsspec' 'python-jupytext>=1.14.0'
     # from namcap
     'python-jupyter-core' 'python-ipykernel' 'python-rich' 'python-mtable'
-    'python-sympy' 'python-numpy' 'python-img2unicode' 'python-html2text'
+    'python-sympy' 'python-numpy' 'python-html2text'
     'python-magic' 'python-matplotlib' 'python-cairosvg' 'python-aiohttp'
     'python-ziamath' 'python-chafapy' 'python-teimpy' 'python-pylatexenc')
 optdepends=('python-asyncssh: for Euporie hub support')
 _pkgsrc="${pkgname}-${pkgver}"
 source=("${_pkgsrc}.tar.gz::${_url}/archive/v${pkgver}.tar.gz")
-sha256sums=('5501f164cb0824e9ba2e871cd79aba8c67c764127e035ba09cad3b6174a1e734')
+sha256sums=('362bc2f7f6e77ad0f68e3dcbe541ac4bba9d0523244fad066b77ec9a1a3d811e')
 
 build() {
     cd "${srcdir}/${_pkgsrc}"
