@@ -198,11 +198,6 @@
       "revision": "f25a001de9ff1ee3034498b0941d6083c4b93272",
       "url": "https://github.com/tmbo/questionary/releases/tag/2.1.1"
     },
-    "python-rich-click": {
-      "version": "1.9.1",
-      "gitref": "refs/tags/v1.9.1",
-      "url": "https://github.com/ewels/rich-click/releases/tag/v1.9.1"
-    },
     "python-scikit-image": {
       "version": "0.25.2",
       "gitref": "refs/tags/v0.25.2",
