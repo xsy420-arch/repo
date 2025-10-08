@@ -257,12 +257,6 @@ prefix = "v"
 source = "pypi"
 pypi = "textual-textarea"
 
-[python-tifffile]
-source = "github"
-github = "cgohlke/tifffile"
-use_latest_release = true
-prefix = "v"
-
 [python-timg]
 source = "pypi"
 pypi = "timg"
