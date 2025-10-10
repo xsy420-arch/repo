@@ -277,12 +277,6 @@ prefix = "v"
 source = "gems"
 gems = "fusuma"
 
-[superfile-bin]
-source = "github"
-github = "yorukot/superfile"
-use_latest_release = true
-prefix = "v"
-
 [td-tui]
 source = "github"
 github = "voioo/td"
