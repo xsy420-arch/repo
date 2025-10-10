@@ -36,9 +36,9 @@
       "url": "https://aur.archlinux.org/packages/dmg2img"
     },
     "duckdb": {
-      "version": "1.4.0",
-      "gitref": "refs/tags/v1.4.0",
-      "url": "https://github.com/duckdb/duckdb/releases/tag/v1.4.0"
+      "version": "1.4.1",
+      "gitref": "refs/tags/v1.4.1",
+      "url": "https://github.com/duckdb/duckdb/releases/tag/v1.4.1"
     },
     "electron33-bin": {
       "version": "33.4.11-1",
