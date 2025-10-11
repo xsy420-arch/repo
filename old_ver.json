@@ -182,10 +182,10 @@
       "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.3.2.250926"
     },
     "python-pathlib-abc": {
-      "version": "0.5.1",
-      "gitref": "refs/tags/0.5.1",
-      "revision": "3ab34ab4c9ee6cdee18b050cec85036a1688ff3c",
-      "url": "https://github.com/barneygale/pathlib-abc/releases/tag/0.5.1"
+      "version": "0.5.2",
+      "gitref": "refs/tags/0.5.2",
+      "revision": "44506435e7924f24bb8b0d84d088b3a133c3396a",
+      "url": "https://github.com/barneygale/pathlib-abc/releases/tag/0.5.2"
     },
     "python-proglog": {
       "version": "0.1.12",
