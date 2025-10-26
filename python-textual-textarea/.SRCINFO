@@ -1,6 +1,6 @@
 pkgbase = python-textual-textarea
 	pkgdesc = A text area (multi-line input) with syntax highlighting for Textual
-	pkgver = 0.17.1
+	pkgver = 0.17.2
 	pkgrel = 1
 	url = https://pypi.org/project/textual-textarea/
 	arch = any
@@ -14,7 +14,7 @@ pkgbase = python-textual-textarea
 	depends = python-textual
 	depends = python-pyperclip
 	options = !strip
-	source = https://files.pythonhosted.org/packages/source/t/textual-textarea/textual_textarea-0.17.1.tar.gz
-	b2sums = 9c6cd19bc336547247700405c7ba86f52bfee3684774b72d8aacd07f3b1f1b95cb6f221d5bfaf36d82345908abf193bef547251436c2fc8bf32da59035c61524
+	source = https://files.pythonhosted.org/packages/source/t/textual-textarea/textual_textarea-0.17.2.tar.gz
+	b2sums = 9f1b8e1cf7d055fc2c3cf1f9efa5d24c4ea9bc9802530f4e9652844a16ed32f4200b054455ca00c74269a17af16a1bf4713be386b87d535ed563be35ab2991a4
 
 pkgname = python-textual-textarea
