@@ -2,7 +2,7 @@
 
 pkgname="python-textual-fastdatatable"
 _name="${pkgname#python-}"
-pkgver=0.13.0
+pkgver=0.14.0
 pkgrel=1
 pkgdesc="A performance-focused reimplementation of Textual's DataTable widget, with a pluggable data storage backend"
 arch=("any")
@@ -15,7 +15,7 @@ depends=("python"
     "python-textual")
 makedepends=("python-build" "python-hatchling" "python-installer" "python-poetry" "python-setuptools" "python-wheel")
 source=("https://files.pythonhosted.org/packages/source/${_name::1}/${_name}/${_name/-/_}-${pkgver}.tar.gz")
-b2sums=('c5f90a5c4787a06f3654f918a8eec87dd13f161f96df028c2f59288103cec257094e116bc6bcf16125c934b3c2b016f6f224f41959084fc8402bd19ec4be1d25')
+b2sums=('e53423fbc7bffb76b2d2845e30bf0c55f4684ee1d92bd96a9b3a2f1e3e0f553c42804cbe8e35fa030ede577719758e4e6a0b84cf0cc43b0a8c2a7c19194a2a5e')
 
 build() {
     cd "textual_fastdatatable-$pkgver"

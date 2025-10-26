@@ -218,9 +218,9 @@
       "url": "https://github.com/ar90n/teimpy/releases/tag/0.1.1"
     },
     "python-textual-fastdatatable": {
-      "version": "0.13.0",
-      "gitref": "refs/tags/v0.13.0",
-      "url": "https://github.com/tconbeer/textual-fastdatatable/releases/tag/v0.13.0"
+      "version": "0.14.0",
+      "gitref": "refs/tags/v0.14.0",
+      "url": "https://github.com/tconbeer/textual-fastdatatable/releases/tag/v0.14.0"
     },
     "python-textual-textarea": {
       "version": "0.17.1",
