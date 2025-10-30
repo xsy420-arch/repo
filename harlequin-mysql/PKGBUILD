@@ -1,7 +1,7 @@
 # Maintainer: AlphaJack <alphajack at tuta dot io>
 
 pkgname=harlequin-mysql
-pkgver=1.2.0
+pkgver=1.3.0
 pkgrel=1
 pkgdesc="The SQL IDE for Your Terminal"
 url="https://github.com/tconbeer/harlequin-mysql"
@@ -9,12 +9,13 @@ license=("MIT")
 arch=("any")
 depends=("harlequin" "python-mysql-connector")
 makedepends=("python-build"
+    "python-hatchling"
     "python-installer"
     "python-poetry"
     "python-wheel")
 options=("!strip")
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-b2sums=('c67e9ded1082419a848070bdb25ed56bb64f069e6090dd3e9de3e4867f2f3e7b6072bfe9737351d3132c8c4984dc740ba1a44a4a32734ff3b7606f4a4d0a4fba')
+b2sums=('e70f59dd6048cbb238de9766000eb0bbcfce0228097fed13d9b4de5e0faae0af2d183a8ca2f0d26e11faa9c0ab5f01a31b74a76f1bb64f4200e98f62ee72d082')
 
 build() {
     cd "$pkgname-$pkgver"
