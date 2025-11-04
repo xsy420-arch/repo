@@ -170,12 +170,6 @@ github = "jb-leger/flatlatex"
 use_max_tag = true
 prefix = "v"
 
-[python-imageio]
-source = "github"
-github = "imageio/imageio"
-use_latest_release = true
-prefix = "v"
-
 [python-imageio-ffmpeg]
 source = "github"
 github = "imageio/imageio-ffmpeg"

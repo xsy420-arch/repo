@@ -145,11 +145,6 @@
       "revision": "8e396906dd5d0d40ac466d60cd948046090d6c59",
       "url": "https://github.com/jb-leger/flatlatex/releases/tag/v0.15"
     },
-    "python-imageio": {
-      "version": "2.37.1",
-      "gitref": "refs/tags/v2.37.1",
-      "url": "https://github.com/imageio/imageio/releases/tag/v2.37.1"
-    },
     "python-imageio-ffmpeg": {
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
