@@ -93,25 +93,6 @@ hackage = "semigroups"
 source = "hackage"
 hackage = "wordexp"
 
-[java11-openjdk]
-source = "github"
-github = "openjdk/jdk11u"
-use_latest_tag = true
-query = "+"
-
-[java21-openjdk]
-source = "github"
-github = "openjdk/jdk21u"
-prefix = "v"
-use_latest_tag = true
-exclude_regex = ".*-b00|.*-ga"
-
-[java8-openjdk]
-source = "github"
-github = "openjdk/jdk8u"
-use_max_tag = true
-exclude_regex = ".*-b00|.*-ga"
-
 [libcyaml]
 source = "github"
 github = "tlsa/libcyaml"
