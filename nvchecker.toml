@@ -202,12 +202,6 @@ github = "tmbo/questionary"
 use_max_tag = true
 prefix = "v"
 
-[python-scikit-image]
-source = "github"
-github = "scikit-image/scikit-image"
-use_latest_release = true
-prefix = "v"
-
 [python-shandy-sqlfmt]
 source = "pypi"
 pypi = "shandy-sqlfmt"

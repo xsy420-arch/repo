@@ -80,24 +80,6 @@
       "version": "0.2.2",
       "url": "https://hackage.haskell.org/package/wordexp-0.2.2"
     },
-    "java11-openjdk": {
-      "version": "jdk-11.0.29+7",
-      "gitref": "refs/tags/jdk-11.0.29+7",
-      "revision": "2be5ca821bec03e2622ccec1cc1d08a54c9d59fa",
-      "url": "https://github.com/openjdk/jdk11u/releases/tag/jdk-11.0.29+7"
-    },
-    "java21-openjdk": {
-      "version": "jdk-21.0.9+1",
-      "gitref": "refs/tags/jdk-21.0.9+1",
-      "revision": "a5ce9d2cd96668f89c1377225d4b509bebe4aab0",
-      "url": "https://github.com/openjdk/jdk21u/releases/tag/jdk-21.0.9+1"
-    },
-    "java8-openjdk": {
-      "version": "jdk8u472-b08",
-      "gitref": "refs/tags/jdk8u472-b08",
-      "revision": "99d7d2b9ae0b2ff203e7734729db91f41a093638",
-      "url": "https://github.com/openjdk/jdk8u/releases/tag/jdk8u472-b08"
-    },
     "libcyaml": {
       "version": "1.4.2",
       "gitref": "refs/tags/v1.4.2",
@@ -192,11 +174,6 @@
       "gitref": "refs/tags/2.1.1",
       "revision": "f25a001de9ff1ee3034498b0941d6083c4b93272",
       "url": "https://github.com/tmbo/questionary/releases/tag/2.1.1"
-    },
-    "python-scikit-image": {
-      "version": "0.25.2",
-      "gitref": "refs/tags/v0.25.2",
-      "url": "https://github.com/scikit-image/scikit-image/releases/tag/v0.25.2"
     },
     "python-shandy-sqlfmt": {
       "version": "0.28.2",
