@@ -1,9 +1,11 @@
-# Maintainer: AlphaJack <alphajack at tuta dot io>
+# Maintainer: xsy420 <xsy0420@gmail.com>
+# Contributor: AlphaJack <alphajack at tuta dot io>
 # Contributor: George Rawlinson <grawlinson@archlinux.org>
 
-pkgname="duckdb"
+pkgbase="duckdb"
+pkgname=("duckdb" "python-duckdb")
 pkgver=1.4.2
-pkgrel=1
+pkgrel=2
 pkgdesc="An in-process SQL OLAP database management system"
 arch=("x86_64")
 url="https://duckdb.org"
@@ -15,30 +17,67 @@ depends=(
 makedepends=(
     "git"
     "cmake"
+    "uv"
+    "pybind11"
+    "python-installer"
+    "python-setuptools-scm"
+    "python-scikit-build-core"
 )
 conflicts=("duckdb-bin" "duckdb-git")
-source=("$pkgname-$pkgver.tar.gz::https://github.com/duckdb/duckdb/archive/refs/tags/v$pkgver.tar.gz")
-b2sums=('cb6ccff7c03d865db66b38fb6a1327b9db4a75b247b2321a58f30394f865e220584007ef5af007433021093d33baf4dd4d03908229c99bd9f3c895891c82c457')
+source=(
+    "git+https://github.com/duckdb/duckdb.git#tag=v$pkgver"
+    "python-duckdb::git+https://github.com/duckdb/duckdb-python.git#tag=v$pkgver"
+)
+b2sums=('c06ba4ef1ef145a8bdbe72bfe567bb1424e08592b688c56b3ae9d3f713a46d4ac1c03d76420a591691ad14310cfb1646c06b25b09b470efeca6304dd7dc1b708'
+        '190847ebea92d828f28f45927872ee005f3962574bb563a38986278d37b8bec07023dac26fa76d59ef686fd7e8d3efc23e47d3028857ed15b397e9738f38fc0c')
 
 prepare() {
     cmake \
-        -S "$pkgname-$pkgver" \
-        -B build \
+        -S "$pkgbase" \
+        -B "$pkgbase"-build \
         -D CMAKE_BUILD_TYPE=Release \
         -D CMAKE_INSTALL_PREFIX=/usr \
         -D OVERRIDE_GIT_DESCRIBE="v${pkgver}"
+    cd "$srcdir/python-${pkgbase}"
+    git submodule init
+    git config submodule.external/duckdb.url "$srcdir/$pkgbase"
+    git -c protocol.file.allow=always submodule update
 }
 
 build() {
-    cmake --build build
+    cmake --build "$pkgbase"-build
+    SKBUILD_BUILD_DIR="${srcdir}/python-$pkgbase-build" uv build --wheel --directory="${srcdir}/python-${pkgbase}/" --no-build-isolation --cache-dir "${srcdir}/uv-cache/" --no-create-gitignore
 }
 
-package() {
-    DESTDIR="$pkgdir" cmake --install build
+package_duckdb() {
+    DESTDIR="$pkgdir" cmake --install "$pkgname"-build
 
     # sqlite wrapper
-    install -vDm755 -t "$pkgdir/usr/lib" build/tools/sqlite3_api_wrapper/libsqlite3_api_wrapper.so
+    install -vDm755 -t "$pkgdir/usr/lib" "$pkgname"-build/tools/sqlite3_api_wrapper/libsqlite3_api_wrapper.so
 
     # license
-    install -vDm644 -t "$pkgdir/usr/share/licenses/$pkgname" "$pkgname-$pkgver/LICENSE"
+    install -vDm644 -t "$pkgdir/usr/share/licenses/$pkgname" "$pkgname/LICENSE"
+}
+
+package_python-duckdb() {
+    pkgdesc+=" (Python API)"
+    depends=(
+        "python"
+        "gcc-libs"
+    )
+    optdepends=(
+        "ipython: used in duckdb.query_graph"
+        "python-fsspec: used in duckdb.filesystem"
+        "python-numpy: used in duckdb.experimental.spark and in duckdb.fetchnumpy()"
+        "python-pandas: used for pandas dataframes all over the place"
+        "python-pyarrow: used for pyarrow support"
+        "python-arrow-adbc: for the adbc driver"
+    )
+    conflicts=("python-duckdb-git")
+
+    # library
+    python -m installer --destdir="${pkgdir}" "${srcdir}/${pkgname}/dist/"*.whl
+
+    # license
+    install -vDm644 -t "$pkgdir/usr/share/licenses/$pkgname" "$pkgname/LICENSE"
 }
