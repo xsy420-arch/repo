@@ -203,9 +203,9 @@
       "url": "https://pypi.org/project/timg/1.1.6/"
     },
     "python-universal_pathlib": {
-      "version": "0.3.6",
-      "gitref": "refs/tags/v0.3.6",
-      "url": "https://github.com/fsspec/universal_pathlib/releases/tag/v0.3.6"
+      "version": "0.3.7",
+      "gitref": "refs/tags/v0.3.7",
+      "url": "https://github.com/fsspec/universal_pathlib/releases/tag/v0.3.7"
     },
     "reg": {
       "version": "0.16.1",
