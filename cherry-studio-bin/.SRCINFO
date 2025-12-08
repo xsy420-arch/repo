@@ -1,6 +1,6 @@
 pkgbase = cherry-studio-bin
 	pkgdesc = 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers
-	pkgver = 1.7.1
+	pkgver = 1.7.2
 	pkgrel = 1
 	url = https://github.com/cherryHQ/cherry-studio
 	arch = x86_64
@@ -8,10 +8,10 @@ pkgbase = cherry-studio-bin
 	conflicts = cherry-studio
 	options = !strip
 	options = !debug
-	source = cherry-studio-1.7.1.AppImage::https://github.com/cherryHQ/cherry-studio/releases/download/v1.7.1/Cherry-Studio-1.7.1-x86_64.AppImage
+	source = cherry-studio-1.7.2.AppImage::https://github.com/cherryHQ/cherry-studio/releases/download/v1.7.2/Cherry-Studio-1.7.2-x86_64.AppImage
 	source = cherry-studio.desktop
 	source = cherry-studio.png
-	sha256sums = c30a76ef0b136cb961e4aae314621b419aa426bc6bd394c50c05648eddd60e2f
+	sha256sums = 49e2ef7df7e1520fabe6775a7bd45153af3eed0d6db8a3ffbba785b1dc49e515
 	sha256sums = 05ba657d8bd89353170c3e70a2729b284a8f088d676def9517543ef3c1e877da
 	sha256sums = 8706b76d225c761820b18e7d79c3c8d0dd9f712b3d6a6737d90fb96e7c8fc2a4
 
