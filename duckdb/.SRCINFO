@@ -1,7 +1,7 @@
 pkgbase = duckdb
 	pkgdesc = An in-process SQL OLAP database management system
-	pkgver = 1.4.2
-	pkgrel = 2
+	pkgver = 1.4.3
+	pkgrel = 1
 	url = https://duckdb.org
 	arch = x86_64
 	license = MIT
@@ -16,10 +16,10 @@ pkgbase = duckdb
 	depends = openssl
 	conflicts = duckdb-bin
 	conflicts = duckdb-git
-	source = git+https://github.com/duckdb/duckdb.git#tag=v1.4.2
-	source = python-duckdb::git+https://github.com/duckdb/duckdb-python.git#tag=v1.4.2
-	b2sums = c06ba4ef1ef145a8bdbe72bfe567bb1424e08592b688c56b3ae9d3f713a46d4ac1c03d76420a591691ad14310cfb1646c06b25b09b470efeca6304dd7dc1b708
-	b2sums = 190847ebea92d828f28f45927872ee005f3962574bb563a38986278d37b8bec07023dac26fa76d59ef686fd7e8d3efc23e47d3028857ed15b397e9738f38fc0c
+	source = git+https://github.com/duckdb/duckdb.git#tag=v1.4.3
+	source = python-duckdb::git+https://github.com/duckdb/duckdb-python.git#tag=v1.4.3
+	b2sums = 5e07b30dd57240e521ff849eb03adf655a3791beba77ea3eefba010cdf95b227ac79f05895920bf7146b2f8d52a62ea7966e7af3d1dc8c6319d5c025f80158dd
+	b2sums = bb075924166283fd591c7df089e288014986804527e1ecedd712baf7384df41640905e6d8f146ec443c4382cd32bdf13503326005835b1469b8e66f23fe5f168
 
 pkgname = duckdb
 
