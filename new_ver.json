@@ -50,10 +50,10 @@
       "url": "https://aur.archlinux.org/packages/electron33-bin"
     },
     "euporie": {
-      "version": "2.9.1",
-      "gitref": "refs/tags/v2.9.1",
-      "revision": "a5eb6ad95f2ad57f22e4a790237219a7c9293003",
-      "url": "https://github.com/joouha/euporie/releases/tag/v2.9.1"
+      "version": "2.10.1",
+      "gitref": "refs/tags/v2.10.1",
+      "revision": "fd5cb1dda3329ec98d9a3c0cbc88f104d0877074",
+      "url": "https://github.com/joouha/euporie/releases/tag/v2.10.1"
     },
     "fzf-make": {
       "version": "0.65.0",
