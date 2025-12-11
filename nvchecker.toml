@@ -41,6 +41,12 @@ prefix = "v"
 [dmg2img]
 source = "aur"
 
+[downgrade]
+source = "github"
+github = "archlinux-downgrade/downgrade"
+use_latest_release = true
+prefix = "v"
+
 [duckdb]
 source = "github"
 github = "duckdb/duckdb"

@@ -35,6 +35,11 @@
       "version": "1.6.7-5",
       "url": "https://aur.archlinux.org/packages/dmg2img"
     },
+    "downgrade": {
+      "version": "11.5.5",
+      "gitref": "refs/tags/v11.5.5",
+      "url": "https://github.com/archlinux-downgrade/downgrade/releases/tag/v11.5.5"
+    },
     "duckdb": {
       "version": "1.4.3",
       "gitref": "refs/tags/v1.4.3",
