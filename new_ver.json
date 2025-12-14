@@ -239,9 +239,9 @@
       "url": "https://crates.io/crates/xwin/0.6.7"
     },
     "yay": {
-      "version": "12.5.6",
-      "gitref": "refs/tags/v12.5.6",
-      "url": "https://github.com/Jguer/yay/releases/tag/v12.5.6"
+      "version": "12.5.7",
+      "gitref": "refs/tags/v12.5.7",
+      "url": "https://github.com/Jguer/yay/releases/tag/v12.5.7"
     }
   }
 }
