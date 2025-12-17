@@ -1,6 +1,6 @@
 pkgbase = harlequin
 	pkgdesc = The SQL IDE for Your Terminal
-	pkgver = 2.4.1
+	pkgver = 2.5.0
 	pkgrel = 1
 	url = https://harlequin.sh/
 	arch = any
@@ -28,7 +28,7 @@ pkgbase = harlequin
 	depends = python-ruff
 	depends = mypy
 	options = !strip
-	source = https://files.pythonhosted.org/packages/source/h/harlequin/harlequin-2.4.1.tar.gz
-	b2sums = 78e9227e1b7dcb5155618251a5cee40cca0fb926710a57df59ca35ff115739333228a745a19f29b63f3eca6e2bd2ee68cc00893c94654692f552dd68ebcdb1cb
+	source = https://files.pythonhosted.org/packages/source/h/harlequin/harlequin-2.5.0.tar.gz
+	b2sums = c18bbb3a4bfcd14b5fef12696212660c0f55797c6facb32efe81b4e8f815406baba8ae7144e75b95ad39be43df4956d1682bd72d511ceca8d6699439572c57bc
 
 pkgname = harlequin
