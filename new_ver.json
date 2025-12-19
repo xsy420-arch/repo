@@ -158,10 +158,10 @@
       "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     },
     "python-pandas-stubs": {
-      "version": "2.3.3.251201",
-      "gitref": "refs/tags/v2.3.3.251201",
-      "revision": "87f07afc534d46eab66f814d26a4cee1e8dd22d3",
-      "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.3.3.251201"
+      "version": "2.3.3.251219",
+      "gitref": "refs/tags/v2.3.3.251219",
+      "revision": "694b1a67ec95a1fabbc2c0243406197019515081",
+      "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v2.3.3.251219"
     },
     "python-pathlib-abc": {
       "version": "0.5.2",
