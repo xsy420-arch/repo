@@ -45,10 +45,6 @@
       "gitref": "refs/tags/v1.4.3",
       "url": "https://github.com/duckdb/duckdb/releases/tag/v1.4.3"
     },
-    "electron33-bin": {
-      "version": "33.4.11-1",
-      "url": "https://aur.archlinux.org/packages/electron33-bin"
-    },
     "euporie": {
       "version": "2.10.3",
       "gitref": "refs/tags/v2.10.3",
