@@ -1,0 +1,32 @@
+# shellcheck disable=SC2034,SC2154,SC2164
+# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Contributor: Mikhail Swift <mikhail.swift@gmail.com>
+
+pkgname=lazydocker
+pkgver=0.24.3
+pkgrel=1
+pkgdesc='A simple terminal UI for docker and docker-compose, written in Go with the gocui library.'
+arch=('x86_64')
+url='https://github.com/jesseduffield/lazydocker'
+license=('MIT')
+makedepends=('go' 'git')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/jesseduffield/lazydocker/archive/v${pkgver}.tar.gz")
+b2sums=('f9e0142a0a686d5633e7ab11db76c8ae2e93683e5545a94b7ab459ff70c36bfa93092adfa5d40535daf82a6bfe7fe9074a4af9ca28d9e1df0fb91778da97e6f9')
+
+build() {
+    cd "${pkgname}-${pkgver}"
+
+    export CGO_CPPFLAGS="${CPPFLAGS}"
+    export CGO_CFLAGS="${CFLAGS}"
+    export CGO_CXXFLAGS="${CXXFLAGS}"
+    export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
+    go build -o ${pkgname} \
+        -ldflags "-extldflags \"${LDFLAGS}\" -s -w -X main.version=${pkgver}" main.go
+}
+
+package() {
+    cd "${pkgname}-${pkgver}"
+
+    install -Dm755 "${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

@@ -96,6 +96,12 @@ hackage = "semigroups"
 source = "hackage"
 hackage = "wordexp"
 
+[lazydocker]
+source = "github"
+github = "jesseduffield/lazydocker"
+use_latest_release = true
+prefix = "v"
+
 [libcyaml]
 source = "github"
 github = "tlsa/libcyaml"

@@ -81,6 +81,11 @@
       "version": "0.2.2",
       "url": "https://hackage.haskell.org/package/wordexp-0.2.2"
     },
+    "lazydocker": {
+      "version": "0.24.3",
+      "gitref": "refs/tags/v0.24.3",
+      "url": "https://github.com/jesseduffield/lazydocker/releases/tag/v0.24.3"
+    },
     "libcyaml": {
       "version": "1.4.2",
       "gitref": "refs/tags/v1.4.2",
