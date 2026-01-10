@@ -1,7 +1,7 @@
 pkgbase = python-textual-textarea
 	pkgdesc = A text area (multi-line input) with syntax highlighting for Textual
 	pkgver = 0.17.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://pypi.org/project/textual-textarea/
 	arch = any
 	license = MIT
