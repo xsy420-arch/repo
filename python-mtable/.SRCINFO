@@ -1,7 +1,7 @@
 pkgbase = python-mtable
 	pkgdesc = Format data to reStructuredText and Markup Table
 	pkgver = 0.2.22
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/liuyug/mtable
 	arch = any
 	license = custom:BSD-?-Clause
