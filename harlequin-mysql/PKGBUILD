@@ -2,7 +2,7 @@
 
 pkgname=harlequin-mysql
 pkgver=1.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc="The SQL IDE for Your Terminal"
 url="https://github.com/tconbeer/harlequin-mysql"
 license=("MIT")
