@@ -74,8 +74,8 @@
       "url": "https://github.com/tconbeer/harlequin-mysql/releases/tag/v1.3.0"
     },
     "haskell-semigroups": {
-      "version": "0.20",
-      "url": "https://hackage.haskell.org/package/semigroups-0.20"
+      "version": "0.20.1",
+      "url": "https://hackage.haskell.org/package/semigroups-0.20.1"
     },
     "haskell-wordexp": {
       "version": "0.2.2",

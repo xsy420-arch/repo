@@ -2,7 +2,7 @@
 
 _hkgname=semigroups
 pkgname=haskell-semigroups
-pkgver=0.20
+pkgver=0.20.1
 pkgrel=1
 pkgdesc="Anything that associates"
 url="http://github.com/ekmett/semigroups/"
@@ -11,7 +11,7 @@ arch=('x86_64')
 depends=('ghc-libs')
 makedepends=('ghc')
 source=("https://hackage.haskell.org/packages/archive/$_hkgname/$pkgver/$_hkgname-$pkgver.tar.gz")
-sha256sums=('902d2e33c96b40a89de5957f2a9e097197afcc35e257e45b32ebe770993673e1')
+sha256sums=('bf4c71224397c3777e6a79145f5c9c31d5a13f27548345e55138461d87348ffe')
 
 build() {
     cd $_hkgname-$pkgver
