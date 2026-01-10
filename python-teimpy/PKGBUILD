@@ -3,7 +3,7 @@
 _name="teimpy"
 pkgname="python-${_name}"
 pkgver=0.1.1
-pkgrel=2
+pkgrel=3
 pkgdesc="Python library for displaying image on terminal"
 arch=('any')
 url="https://github.com/ar90n/${_name}"

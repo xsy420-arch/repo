@@ -1,7 +1,7 @@
 pkgbase = python-teimpy
 	pkgdesc = Python library for displaying image on terminal
 	pkgver = 0.1.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/ar90n/teimpy
 	arch = any
 	license = MIT
