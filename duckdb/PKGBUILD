@@ -5,7 +5,7 @@
 pkgbase="duckdb"
 pkgname=("duckdb" "python-duckdb")
 pkgver=1.4.3
-pkgrel=1
+pkgrel=2
 pkgdesc="An in-process SQL OLAP database management system"
 arch=("x86_64")
 url="https://duckdb.org"
