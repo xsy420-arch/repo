@@ -1,7 +1,7 @@
 pkgbase = python-flatlatex
 	pkgdesc = A LaTeX math converter to unicode text
 	pkgver = 0.15
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/jb-leger/flatlatex
 	arch = any
 	license = BSD-2-Clause
@@ -13,6 +13,8 @@ pkgbase = python-flatlatex
 	depends = python
 	depends = python-regex
 	source = flatlatex-0.15.tar.gz::https://github.com/jb-leger/flatlatex/archive/v0.15.tar.gz
+	source = python14-support.patch::https://patch-diff.githubusercontent.com/raw/jb-leger/flatlatex/pull/5.patch
 	sha256sums = d4762cdb85f2f0d7817b892e805b482ab8ac6ce2ab83c39d1311c4d9d5d4fc5b
+	sha256sums = 69bf59add326c180a139a955a3f778c7a2b88e5a2f7d2cedbc2460a06b1e9dcb
 
 pkgname = python-flatlatex

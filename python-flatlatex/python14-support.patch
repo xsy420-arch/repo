@@ -1,0 +1,27 @@
+From 992dc851a8c95a8e31691cab73b785d0b8bdbc85 Mon Sep 17 00:00:00 2001
+From: Stefano Rivera <stefano@rivera.za.net>
+Date: Sun, 4 Jan 2026 17:48:33 -0400
+Subject: [PATCH] Python 3.14 support
+
+The AST Constant `.s` attribute was replaced by `.value`
+
+See: https://github.com/python/cpython/issues/119562
+
+From: https://bugs.debian.org/1123135
+---
+ flatlatex/tests/test_data_consistancy.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/flatlatex/tests/test_data_consistancy.py b/flatlatex/tests/test_data_consistancy.py
+index 4fe28ad..49add08 100644
+--- a/flatlatex/tests/test_data_consistancy.py
++++ b/flatlatex/tests/test_data_consistancy.py
+@@ -113,7 +113,7 @@ def test_replicated_in_the_same_dict():
+     def toobj(x):
+         if type(x) is ast.Tuple:
+             return tuple(toobj(v) for v in x.elts)
+-        return x.s
++        return x.value
+ 
+     for seg in data_ast.body:
+         if type(seg) is ast.Assign:
