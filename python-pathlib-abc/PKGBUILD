@@ -3,7 +3,7 @@
 _pkgname=pathlib-abc
 pkgname=python-${_pkgname}
 pkgver=0.5.2
-pkgrel=1
+pkgrel=2
 pkgdesc="Python base classes for rich path objects"
 arch=(x86_64)
 url="https://github.com/barneygale/pathlib-abc"
