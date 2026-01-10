@@ -3,7 +3,7 @@
 _name="chafapy"
 pkgname="python-${_name}"
 pkgver=1.2.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Python bindings for Chafa. Visualize images with text in Python."
 arch=('any')
 url="https://github.com/guardkenzie/chafa.py"
