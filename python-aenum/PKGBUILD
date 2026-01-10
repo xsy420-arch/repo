@@ -2,7 +2,7 @@
 pkgname='python-aenum'
 _module='aenum'
 pkgver='3.1.16'
-pkgrel=1
+pkgrel=2
 pkgdesc="Advanced Enumerations (compatible with Python's stdlib Enum)"
 url="https://github.com/ethanfurman/aenum"
 depends=(python)

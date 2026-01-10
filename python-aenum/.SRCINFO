@@ -1,7 +1,7 @@
 pkgbase = python-aenum
 	pkgdesc = Advanced Enumerations (compatible with Python's stdlib Enum)
 	pkgver = 3.1.16
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ethanfurman/aenum
 	arch = any
 	license = BSD-3-Clause
