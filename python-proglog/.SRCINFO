@@ -1,10 +1,12 @@
 pkgbase = python-proglog
 	pkgdesc = Log and progress bar manager for console, notebooks, web...
 	pkgver = 0.1.12
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/Edinburgh-Genome-Foundry/Proglog
 	arch = any
 	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
 	makedepends = python-setuptools
 	depends = python
 	depends = python-tqdm

@@ -3,28 +3,23 @@ pkgbase='python-proglog'
 pkgname=('python-proglog')
 _module='proglog'
 pkgver='0.1.12'
-pkgrel=2
+pkgrel=3
 pkgdesc="Log and progress bar manager for console, notebooks, web..."
 url="https://github.com/Edinburgh-Genome-Foundry/Proglog"
 depends=('python' 'python-tqdm')
-makedepends=('python-setuptools')
+makedepends=('python-build' 'python-installer' 'python-setuptools')
 license=('MIT')
 arch=('any')
 source=("https://files.pythonhosted.org/packages/source/${_module::1}/$_module/$_module-$pkgver.tar.gz")
 sha256sums=('361ee074721c277b89b75c061336cb8c5f287c92b043efa562ccf7866cda931c')
 
-prepare() {
-    cd "${srcdir}/${_module}-${pkgver}"
-    sed -i "/license/c license = { file = \"LICENSE\" }" pyproject.toml
-}
-
 build() {
     cd "${srcdir}/${_module}-${pkgver}"
-    python setup.py build
+    python -m build --wheel --no-isolation
 }
 
 package() {
     depends+=()
     cd "${srcdir}/${_module}-${pkgver}"
-    python setup.py install --root="${pkgdir}" --optimize=1 --skip-build
+    python -m installer --destdir="$pkgdir" dist/*.whl
 }
