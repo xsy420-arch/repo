@@ -1,7 +1,7 @@
 pkgbase = python-pandas-stubs
 	pkgdesc = Type annotations for Pandas
 	pkgver = 2.3.3.251219
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/pandas-dev/pandas-stubs
 	arch = any
 	license = MIT
