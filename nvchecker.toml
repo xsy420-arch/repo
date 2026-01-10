@@ -153,6 +153,12 @@ github = "guardkenzie/chafa.py"
 use_latest_release = true
 prefix = "v"
 
+[python-code-minimap]
+source = "github"
+github = "joouha/python-code-minimap"
+use_max_tag = true
+prefix = "v"
+
 [python-flatlatex]
 source = "github"
 github = "jb-leger/flatlatex"
