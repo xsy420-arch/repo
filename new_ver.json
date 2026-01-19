@@ -225,8 +225,8 @@
       "url": "https://github.com/genuinetools/reg/releases/tag/v0.16.1"
     },
     "ruby-fusuma": {
-      "version": "3.11.1",
-      "url": "https://rubygems.org/gems/fusuma/versions/3.11.1"
+      "version": "3.11.2",
+      "url": "https://rubygems.org/gems/fusuma/versions/3.11.2"
     },
     "td-tui": {
       "version": "0.4.12",
