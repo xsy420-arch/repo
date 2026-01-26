@@ -1,6 +1,6 @@
 pkgbase = ruby-fusuma
 	pkgdesc = Fusuma is multitouch gesture recognizer.
-	pkgver = 3.11.2
+	pkgver = 3.12.0
 	pkgrel = 1
 	url = https://github.com/iberianpig/fusuma
 	arch = any
@@ -14,9 +14,9 @@ pkgbase = ruby-fusuma
 	optdepends = ruby-fusuma-plugin-appmatcher: Fusuma plugin configure app-specific gestures
 	optdepends = ruby-fusuma-plugin-thumbsense: Remapper from key to click only while tapping the touchpad
 	optdepends = ruby-fusuma-plugin-remap: Fusuma plugin for remapping keyboard events into virtual input devices
-	noextract = fusuma-3.11.2.gem
+	noextract = fusuma-3.12.0.gem
 	options = !emptydirs
-	source = https://rubygems.org/downloads/fusuma-3.11.2.gem
-	sha1sums = 6d3600fe59ea9624af89b46c677f3595a5248fb3
+	source = https://rubygems.org/downloads/fusuma-3.12.0.gem
+	sha1sums = 84cb865c7a033fc065a98859821736e07a714ee3
 
 pkgname = ruby-fusuma
