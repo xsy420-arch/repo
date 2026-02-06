@@ -237,8 +237,8 @@
       "version": "1.12.4"
     },
     "xwin": {
-      "version": "0.7.0",
-      "url": "https://crates.io/crates/xwin/0.7.0"
+      "version": "0.8.0",
+      "url": "https://crates.io/crates/xwin/0.8.0"
     },
     "yay": {
       "version": "12.5.7",
