@@ -41,10 +41,10 @@
       "url": "https://github.com/archlinux-downgrade/downgrade/releases/tag/v11.8.0"
     },
     "euporie": {
-      "version": "2.10.3",
-      "gitref": "refs/tags/v2.10.3",
-      "revision": "0d3de123a4f0ade804b03bf3cb488e06d8425a60",
-      "url": "https://github.com/joouha/euporie/releases/tag/v2.10.3"
+      "version": "2.10.4",
+      "gitref": "refs/tags/v2.10.4",
+      "revision": "261b84fa79abc02b8d6a82ef9b2d82ef8f1da8b1",
+      "url": "https://github.com/joouha/euporie/releases/tag/v2.10.4"
     },
     "fzf-make": {
       "version": "0.67.0",
