@@ -1,12 +1,12 @@
 pkgbase = auth
 	pkgdesc = Authenticator TUI. Generate totps on the fly.
 	pkgver = 0.3.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/xsy420/auth
 	arch = x86_64
 	license = GPL-2.0-only
 	makedepends = cargo
-	depends = gcc-libs
+	depends = libgcc
 	depends = glibc
 	source = auth-0.3.5.tar.gz::https://github.com/xsy420/auth/archive/v0.3.5.tar.gz
 	sha256sums = 27a99a9d74003f9d1977aee5d2ad1e604564d66fe5179658f85d3f11dadb09d7
