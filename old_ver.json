@@ -36,9 +36,9 @@
       "url": "https://aur.archlinux.org/packages/dmg2img"
     },
     "downgrade": {
-      "version": "11.8.1",
-      "gitref": "refs/tags/v11.8.1",
-      "url": "https://github.com/archlinux-downgrade/downgrade/releases/tag/v11.8.1"
+      "version": "11.8.2",
+      "gitref": "refs/tags/v11.8.2",
+      "url": "https://github.com/archlinux-downgrade/downgrade/releases/tag/v11.8.2"
     },
     "euporie": {
       "version": "2.10.4",
