@@ -116,8 +116,8 @@ regex = "QQ_(.*)_amd64_01.deb"
 [mysql]
 source = "regex"
 url = "https://dev.mysql.com/downloads/mysql/"
-regex = "MySQL Community Server ([0-9\\.]+) Innovation"
-user_agent = "curl/8.12.1"
+regex = "MySQL Community Server ([0-9\\.]+) "
+user_agent = "curl/8.19.0"
 
 [navicat17-premium-cs]
 source = "regex"
