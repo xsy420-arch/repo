@@ -224,9 +224,9 @@
       "url": "https://rubygems.org/gems/fusuma/versions/3.12.0"
     },
     "td-tui": {
-      "version": "0.4.12",
-      "gitref": "refs/tags/v0.4.12",
-      "url": "https://github.com/voioo/td/releases/tag/v0.4.12"
+      "version": "0.4.13",
+      "gitref": "refs/tags/v0.4.13",
+      "url": "https://github.com/voioo/td/releases/tag/v0.4.13"
     },
     "television": {
       "version": "0.15.5",
