@@ -6,7 +6,7 @@ _base_pkgver=3.2.28_260429
 _update_pkgver=${_base_pkgver}
 pkgname=linuxqq-nt-bwrap
 pkgver="${_update_pkgver//-/_}"
-pkgrel=1
+pkgrel=2
 pkgdesc="New Linux QQ based on Electron, with bubblewrap sandbox and some tweaks"
 arch=('x86_64')
 url='https://im.qq.com/linuxqq/index.shtml'
@@ -64,7 +64,7 @@ package() {
     ln -s "/opt/QQ/LICENSES.chromium.html" "${pkgdir}/usr/share/licenses/${_pkgname}/LICENSES.chromium.html"
 
     # 删除原生库
-    rm -f "${pkgdir}"/opt/QQ/resources/app/{libssh2.so.1,libunwind*,sharp-lib/libvips-cpp.so.42}
+    rm -f "${pkgdir}"/opt/QQ/resources/app/{libssh2.so.1,libunwind*}
 
     # 对 desktop 文件做处理，使其使用正确的图标，启动 start.sh
     cp "${srcdir}/start"*".sh" "${pkgdir}/opt/QQ/"
