@@ -260,12 +260,6 @@ github = "voioo/td"
 use_latest_release = true
 prefix = "v"
 
-[television]
-source = "github"
-github = "alexpasmantier/television"
-use_latest_release = true
-prefix = "v"
-
 [typora]
 source = "regex"
 url = "https://www.typora.io/releases/stable.html"
