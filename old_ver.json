@@ -26,6 +26,12 @@
       "gitref": "refs/tags/v1.17.6-2",
       "url": "https://github.com/msojocs/bilibili-linux/releases/tag/v1.17.6-2"
     },
+    "blockbench": {
+      "version": "5.1.4",
+      "gitref": "refs/tags/v5.1.4",
+      "revision": "8fe8d9d9568de8233d77cd592744acad495d46b0",
+      "url": "https://github.com/JannisX11/blockbench/releases/tag/v5.1.4"
+    },
     "cherry-studio-bin": {
       "version": "1.9.6",
       "gitref": "refs/tags/v1.9.6",
