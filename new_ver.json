@@ -53,9 +53,9 @@
       "url": "https://github.com/joouha/euporie/releases/tag/v2.10.4"
     },
     "fzf-make": {
-      "version": "0.68.0",
-      "gitref": "refs/tags/v0.68.0",
-      "url": "https://github.com/kyu08/fzf-make/releases/tag/v0.68.0"
+      "version": "0.69.0",
+      "gitref": "refs/tags/v0.69.0",
+      "url": "https://github.com/kyu08/fzf-make/releases/tag/v0.69.0"
     },
     "google-chrome": {
       "version": "148.0.7778.167"
