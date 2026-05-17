@@ -151,9 +151,9 @@
       "url": "https://github.com/matrach/img2unicode/commit/9e59b34480398d9b585572477ea840508a12ac27"
     },
     "python-jupytext": {
-      "version": "1.19.2",
-      "gitref": "refs/tags/v1.19.2",
-      "url": "https://github.com/mwouts/jupytext/releases/tag/v1.19.2"
+      "version": "1.19.3",
+      "gitref": "refs/tags/v1.19.3",
+      "url": "https://github.com/mwouts/jupytext/releases/tag/v1.19.3"
     },
     "python-moviepy": {
       "version": "2.2.1",
