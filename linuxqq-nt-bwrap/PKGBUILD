@@ -2,11 +2,13 @@
 # Maintainer: sukanka
 
 _pkgname=linuxqq
-_base_pkgver=3.2.28_260429
+_base_pkgver=3.2.29_260528
 _update_pkgver=${_base_pkgver}
+_inner_pkgver=9.9.31
+_inner_commit=00e6a3e7
 pkgname=linuxqq-nt-bwrap
 pkgver="${_update_pkgver//-/_}"
-pkgrel=2
+pkgrel=1
 pkgdesc="New Linux QQ based on Electron, with bubblewrap sandbox and some tweaks"
 arch=('x86_64')
 url='https://im.qq.com/linuxqq/index.shtml'
@@ -26,7 +28,11 @@ provides=('qq' 'linuxqq')
 conflicts=('linuxqq')
 options=('!emptydirs')
 install="${pkgname}.install"
-source_x86_64=("https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_${_base_pkgver}_amd64_01.deb")
+if [ -n "$_inner_pkgver" ] && [ -n "$_inner_commit" ]; then
+    source_x86_64=("https://qqdl.gtimg.cn/qqfile/QQNT/${_inner_pkgver}/release/${_inner_commit}/QQ_${_base_pkgver}_amd64_01.deb")
+else
+    source_x86_64=("https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_${_base_pkgver}_amd64_01.deb")
+fi
 source=('start.sh' 'start_normal.sh' 'start_mac_fix.sh' 'start_inner.sh' 'config.json' 'resolv.conf' 'xdg-open.sh')
 sha256sums=('a82d64970b59017ce4f55d523fbea78edd01fb8e69756db5f7038badfd4fb6e8'
             'dc432c885a7f35c7df95f319a32b51baccb9ba8032ed6615a76dfe26fded2b40'
@@ -35,7 +41,7 @@ sha256sums=('a82d64970b59017ce4f55d523fbea78edd01fb8e69756db5f7038badfd4fb6e8'
             '53cb66acd6a01d33ecf702225ea54466e6a8c9a3c5010f6c4f44c3313f630cff'
             'cc002ee0eb2e8702c97d16f4ce628841cd5fe10195875a075432e92248741424'
             '447dcda65d0b04edc5d639847723aa5a327d276793857cdf9296f231fada77c8')
-sha256sums_x86_64=('68e79d74acdc0c5a70efa8ea1d8b6410b51a21906843774d382f32e0e3a1f0d7')
+sha256sums_x86_64=('1e3828079673c94994bc0f4780d5d8528647639920659862d49d1c2f2a198e25')
 
 prepare() {
     local base_ver=${_base_pkgver}
@@ -74,4 +80,10 @@ package() {
     # 这样就可以直接输入 qq 命令启动了
     mkdir -p "${pkgdir}/usr/bin"
     ln -s "/opt/QQ/start.sh" "${pkgdir}/usr/bin/qq"
+
+    # Remove macOS files
+    rm -fv "${pkgdir}/opt/QQ/resources/app/AudioFoundation."*
+
+    # Remove windows files
+    rm -fv "${pkgdir}/opt/QQ/resources/app/"i{n,o}*
 }
