@@ -33,9 +33,9 @@
       "url": "https://github.com/JannisX11/blockbench/releases/tag/v5.1.4"
     },
     "cherry-studio-bin": {
-      "version": "1.9.7",
-      "gitref": "refs/tags/v1.9.7",
-      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.9.7"
+      "version": "1.9.8",
+      "gitref": "refs/tags/v1.9.8",
+      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.9.8"
     },
     "dmg2img": {
       "version": "1.6.7-5",
