@@ -1,7 +1,7 @@
 # Maintainer: Guillaume Horel <guillaume.horel@gmail.com>
 pkgname='python-aenum'
 _module='aenum'
-pkgver='3.1.16'
+pkgver='3.1.17'
 pkgrel=2
 pkgdesc="Advanced Enumerations (compatible with Python's stdlib Enum)"
 url="https://github.com/ethanfurman/aenum"
@@ -14,7 +14,7 @@ source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz"
     fix-tests-for-python12.patch::https://patch-diff.githubusercontent.com/raw/ethanfurman/aenum/pull/36.patch
     https://raw.githubusercontent.com/ethanfurman/aenum/master/aenum/test_v37.py)
 
-sha256sums=('4c7a5fb76a04ad8dc0c82b13c4cd858b755c69d16c2060a248bf3380a4d1067e'
+sha256sums=('b56ff0014d6cb0ba182911e75dc406f120b31f705f74cb04b6626db1a41559ad'
             'd5522b85199d271f47f5b1e48ae97bac1b9a309b833acd5d6f467d94484b89c0'
             'e852ca671727e491dfa95af27fa2385a36056a306419efe3420cd34c03c9214e')
 
