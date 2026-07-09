@@ -192,7 +192,7 @@
     "python-textual-fastdatatable": {
       "version": "0.14.0",
       "gitref": "refs/tags/v0.14.0",
-      "url": "https://github.com/tconbeer/textual-fastdatatable/releases/tag/v0.14.0"
+      "revision": "95e9235f5a1b5903c704fb50f9827d033e673b8b"
     },
     "python-textual-textarea": {
       "version": "0.17.2",

@@ -203,9 +203,8 @@ git = "https://github.com/ar90n/teimpy"
 prefix = "v"
 
 [python-textual-fastdatatable]
-source = "github"
-github = "tconbeer/textual-fastdatatable"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tconbeer/textual-fastdatatable"
 prefix = "v"
 
 [python-textual-textarea]
