@@ -150,7 +150,7 @@
     "python-moviepy": {
       "version": "2.2.1",
       "gitref": "refs/tags/v2.2.1",
-      "url": "https://github.com/Zulko/moviepy/releases/tag/v2.2.1"
+      "revision": "f515b100e1fd069da6f29d5b01b1d42b52d8068d"
     },
     "python-mtable": {
       "version": "20241206.052617",
