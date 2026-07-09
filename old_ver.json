@@ -126,8 +126,7 @@
     "python-code-minimap": {
       "version": "0.1.1",
       "gitref": "refs/tags/v0.1.1",
-      "revision": "eec0fc7ca417bed6a28d0af09edf03df2879cf4e",
-      "url": "https://github.com/joouha/python-code-minimap/releases/tag/v0.1.1"
+      "revision": "eec0fc7ca417bed6a28d0af09edf03df2879cf4e"
     },
     "python-flatlatex": {
       "version": "0.15",

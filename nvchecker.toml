@@ -136,9 +136,8 @@ git = "https://github.com/guardkenzie/chafa.py"
 prefix = "v"
 
 [python-code-minimap]
-source = "github"
-github = "joouha/python-code-minimap"
-use_max_tag = true
+source = "git"
+git = "https://github.com/joouha/python-code-minimap"
 prefix = "v"
 
 [python-flatlatex]
