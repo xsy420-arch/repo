@@ -198,9 +198,8 @@ source = "pypi"
 pypi = "sixelcrop"
 
 [python-teimpy]
-source = "github"
-github = "ar90n/teimpy"
-use_max_tag = true
+source = "git"
+git = "https://github.com/ar90n/teimpy"
 prefix = "v"
 
 [python-textual-fastdatatable]
