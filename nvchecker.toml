@@ -96,9 +96,8 @@ git = "https://github.com/tlsa/libcyaml"
 prefix = "v"
 
 [libxls]
-source = "github"
-github = "libxls/libxls"
-use_latest_release = true
+source = "git"
+git = "https://github.com/libxls/libxls"
 prefix = "v"
 
 [linuxqq-nt-bwrap]

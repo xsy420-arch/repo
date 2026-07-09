@@ -92,7 +92,7 @@
     "libxls": {
       "version": "1.6.3",
       "gitref": "refs/tags/v1.6.3",
-      "url": "https://github.com/libxls/libxls/releases/tag/v1.6.3"
+      "revision": "c199d132494833da696b58aa4acf3fc5a36d930b"
     },
     "linuxqq-nt-bwrap": {
       "version": "3.2.29_260528"
