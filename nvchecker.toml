@@ -6,63 +6,54 @@ tries = 5
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 
 [asdf-vm]
-source = "github"
-github = "asdf-vm/asdf"
-use_latest_release = true
+source = "git"
+git = "https://github.com/asdf-vm/asdf"
 prefix = "v"
 
 [auth]
-source = "github"
-github = "xsy420/auth"
-use_latest_tag = true
+source = "git"
+git = "https://github.com/xsy420/auth"
 prefix = "v"
 
 [battery-monitor]
-source = "github"
-github = "xsy420/battery-monitor"
-use_latest_release = true
+source = "git"
+git = "https://github.com/xsy420/battery-monitor"
 prefix = "v"
 
 [bilibili]
-source = "github"
-github = "msojocs/bilibili-linux"
-use_latest_release = true
+source = "git"
+git = "https://github.com/msojocs/bilibili-linux"
 prefix = "v"
 
 [blockbench]
-source = "github"
-github = "JannisX11/blockbench"
-use_latest_tag = true
+source = "git"
+git = "https://github.com/JannisX11/blockbench"
 prefix = "v"
 
 [baidunetdisk-bin]
 source = "aur"
 
 [cherry-studio-bin]
-source = "github"
-github = "cherryHQ/cherry-studio"
-use_latest_release = true
+source = "git"
+git = "https://github.com/cherryHQ/cherry-studio"
 prefix = "v"
 
 [dmg2img]
 source = "aur"
 
 [downgrade]
-source = "github"
-github = "archlinux-downgrade/downgrade"
-use_latest_release = true
+source = "git"
+git = "https://github.com/archlinux-downgrade/downgrade"
 prefix = "v"
 
 [euporie]
-source = "github"
-github = "joouha/euporie"
-use_max_tag = true
+source = "git"
+git = "https://github.com/joouha/euporie"
 prefix = "v"
 
 [fzf-make]
-source = "github"
-github = "kyu08/fzf-make"
-use_latest_release = true
+source = "git"
+git = "https://github.com/kyu08/fzf-make"
 prefix = "v"
 
 [google-chrome]
@@ -77,15 +68,13 @@ strip_release = true
 source = "hackage"
 
 [harlequin]
-source = "github"
-github = "tconbeer/harlequin"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tconbeer/harlequin"
 prefix = "v"
 
 [harlequin-mysql]
-source = "github"
-github = "tconbeer/harlequin-mysql"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tconbeer/harlequin-mysql"
 prefix = "v"
 
 [haskell-semigroups]
@@ -97,21 +86,18 @@ source = "hackage"
 hackage = "wordexp"
 
 [lazydocker]
-source = "github"
-github = "jesseduffield/lazydocker"
-use_latest_release = true
+source = "git"
+git = "https://github.com/jesseduffield/lazydocker"
 prefix = "v"
 
 [libcyaml]
-source = "github"
-github = "tlsa/libcyaml"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tlsa/libcyaml"
 prefix = "v"
 
 [libxls]
-source = "github"
-github = "libxls/libxls"
-use_latest_release = true
+source = "git"
+git = "https://github.com/libxls/libxls"
 prefix = "v"
 
 [linuxqq-nt-bwrap]
@@ -131,89 +117,76 @@ url = "https://www.navicat.com/products/navicat-premium-release-note#L"
 regex = "Navicat Premium \\(Linux\\) version (.*)</b>"
 
 [pacfiles]
-source = "github"
-github = "lilydjwg/pacfiles"
-use_latest_tag = true
+source = "git"
+git = "https://github.com/lilydjwg/pacfiles"
 prefix = "v"
 
 [python-aenum]
-source = "github"
-github = "ethanfurman/aenum"
-use_latest_tag = true
+source = "git"
+git = "https://github.com/ethanfurman/aenum"
 prefix = "v"
 
 ['python-backports.cached_property']
-source = "github"
-github = "penguinolog/backports.cached_property"
-use_latest_release = true
+source = "git"
+git = "https://github.com/penguinolog/backports.cached_property"
 
 [python-chafapy]
-source = "github"
-github = "guardkenzie/chafa.py"
-use_latest_release = true
+source = "git"
+git = "https://github.com/guardkenzie/chafa.py"
 prefix = "v"
 
 [python-code-minimap]
-source = "github"
-github = "joouha/python-code-minimap"
-use_max_tag = true
+source = "git"
+git = "https://github.com/joouha/python-code-minimap"
 prefix = "v"
 
 [python-flatlatex]
-source = "github"
-github = "jb-leger/flatlatex"
-use_max_tag = true
+source = "git"
+git = "https://github.com/jb-leger/flatlatex"
 prefix = "v"
 
 [python-imageio-ffmpeg]
-source = "github"
-github = "imageio/imageio-ffmpeg"
-use_latest_release = true
+source = "git"
+git = "https://github.com/imageio/imageio-ffmpeg"
 prefix = "v"
 
 [python-img2unicode]
-source = "github"
-github = "matrach/img2unicode"
+source = "git"
+git = "https://github.com/matrach/img2unicode"
 use_commit = true
 
 [python-jupytext]
-source = "github"
-github = "mwouts/jupytext"
-use_latest_release = true
+source = "git"
+git = "https://github.com/mwouts/jupytext"
 prefix = "v"
 
 [python-moviepy]
-source = "github"
-github = "Zulko/moviepy"
-use_latest_release = true
+source = "git"
+git = "https://github.com/Zulko/moviepy"
 prefix = "v"
 
 [python-mtable]
-source = "github"
-github = "liuyug/mtable"
+source = "git"
+git = "https://github.com/liuyug/mtable"
 use_commit = true
 
 [python-pandas-stubs]
-source = "github"
-github = "pandas-dev/pandas-stubs"
-use_max_tag = true
+source = "git"
+git = "https://github.com/pandas-dev/pandas-stubs"
 prefix = "v"
 
 [python-pathlib-abc]
-source = "github"
-github = "barneygale/pathlib-abc"
-use_max_tag = true
+source = "git"
+git = "https://github.com/barneygale/pathlib-abc"
 
 [python-proglog]
-source = "github"
-github = "Edinburgh-Genome-Foundry/Proglog"
-use_latest_release = true
+source = "git"
+git = "https://github.com/Edinburgh-Genome-Foundry/Proglog"
 prefix = "v"
 
 [python-questionary]
-source = "github"
-github = "tmbo/questionary"
-use_max_tag = true
+source = "git"
+git = "https://github.com/tmbo/questionary"
 prefix = "v"
 
 [python-shandy-sqlfmt]
@@ -225,15 +198,13 @@ source = "pypi"
 pypi = "sixelcrop"
 
 [python-teimpy]
-source = "github"
-github = "ar90n/teimpy"
-use_max_tag = true
+source = "git"
+git = "https://github.com/ar90n/teimpy"
 prefix = "v"
 
 [python-textual-fastdatatable]
-source = "github"
-github = "tconbeer/textual-fastdatatable"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tconbeer/textual-fastdatatable"
 prefix = "v"
 
 [python-textual-textarea]
@@ -245,15 +216,13 @@ source = "pypi"
 pypi = "timg"
 
 [python-universal_pathlib]
-source = "github"
-github = "fsspec/universal_pathlib"
-use_latest_release = true
+source = "git"
+git = "https://github.com/fsspec/universal_pathlib"
 prefix = "v"
 
 [reg]
-source = "github"
-github = "genuinetools/reg"
-use_latest_release = true
+source = "git"
+git = "https://github.com/genuinetools/reg"
 prefix = "v"
 
 [ruby-fusuma]
@@ -261,9 +230,8 @@ source = "gems"
 gems = "fusuma"
 
 [td-tui]
-source = "github"
-github = "voioo/td"
-use_latest_release = true
+source = "git"
+git = "https://github.com/voioo/td"
 prefix = "v"
 
 [typora]
@@ -275,7 +243,6 @@ regex = "typora_([0-9\\.]+)_amd64.deb"
 source = "cratesio"
 
 [yay]
-source = "github"
-github = "Jguer/yay"
-use_latest_release = true
+source = "git"
+git = "https://github.com/Jguer/yay"
 prefix = "v"

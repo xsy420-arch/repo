@@ -4,13 +4,12 @@
     "asdf-vm": {
       "version": "0.20.0",
       "gitref": "refs/tags/v0.20.0",
-      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.20.0"
+      "revision": "150aaf051b3b88ac9ad73136d7e629bbdf332bd6"
     },
     "auth": {
       "version": "0.3.5",
       "gitref": "refs/tags/v0.3.5",
-      "revision": "cd723bcebc6eaabc5baee619eb10f560aad9b7c8",
-      "url": "https://github.com/xsy420/auth/releases/tag/v0.3.5"
+      "revision": "cd723bcebc6eaabc5baee619eb10f560aad9b7c8"
     },
     "baidunetdisk-bin": {
       "version": "4.17.8-1",
@@ -19,23 +18,22 @@
     "battery-monitor": {
       "version": "0.2",
       "gitref": "refs/tags/v0.2",
-      "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
+      "revision": "35326539120d55dbdff456c306c55b615dccd016"
     },
     "bilibili": {
       "version": "1.17.9-1",
       "gitref": "refs/tags/v1.17.9-1",
-      "url": "https://github.com/msojocs/bilibili-linux/releases/tag/v1.17.9-1"
+      "revision": "295ed8433f9780b8f9ca5ef744101742cbe35d01"
     },
     "blockbench": {
       "version": "5.1.4",
       "gitref": "refs/tags/v5.1.4",
-      "revision": "8fe8d9d9568de8233d77cd592744acad495d46b0",
-      "url": "https://github.com/JannisX11/blockbench/releases/tag/v5.1.4"
+      "revision": "8fe8d9d9568de8233d77cd592744acad495d46b0"
     },
     "cherry-studio-bin": {
       "version": "1.9.12",
       "gitref": "refs/tags/v1.9.12",
-      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.9.12"
+      "revision": "da0a11fdc43ab91e1d486f57663c61f6c747e69d"
     },
     "dmg2img": {
       "version": "1.6.7-5",
@@ -44,18 +42,17 @@
     "downgrade": {
       "version": "12.0.2",
       "gitref": "refs/tags/v12.0.2",
-      "url": "https://github.com/archlinux-downgrade/downgrade/releases/tag/v12.0.2"
+      "revision": "2d5b0e15af0ad3bd4d8396119cfcc91c226808ee"
     },
     "euporie": {
       "version": "2.10.4",
       "gitref": "refs/tags/v2.10.4",
-      "revision": "261b84fa79abc02b8d6a82ef9b2d82ef8f1da8b1",
-      "url": "https://github.com/joouha/euporie/releases/tag/v2.10.4"
+      "revision": "261b84fa79abc02b8d6a82ef9b2d82ef8f1da8b1"
     },
     "fzf-make": {
       "version": "0.69.0",
       "gitref": "refs/tags/v0.69.0",
-      "url": "https://github.com/kyu08/fzf-make/releases/tag/v0.69.0"
+      "revision": "2a107ef069c203294e76522a597fd9e9893d57da"
     },
     "google-chrome": {
       "version": "150.0.7871.114"
@@ -67,12 +64,12 @@
     "harlequin": {
       "version": "2.5.2",
       "gitref": "refs/tags/v2.5.2",
-      "url": "https://github.com/tconbeer/harlequin/releases/tag/v2.5.2"
+      "revision": "cbaccc98c669c7f7a1b2b35268a00c726f20431b"
     },
     "harlequin-mysql": {
       "version": "1.3.0",
       "gitref": "refs/tags/v1.3.0",
-      "url": "https://github.com/tconbeer/harlequin-mysql/releases/tag/v1.3.0"
+      "revision": "425d6b560e35806b8f7063c990a3f8b5d353178e"
     },
     "haskell-semigroups": {
       "version": "0.20.1",
@@ -85,17 +82,17 @@
     "lazydocker": {
       "version": "0.25.2",
       "gitref": "refs/tags/v0.25.2",
-      "url": "https://github.com/jesseduffield/lazydocker/releases/tag/v0.25.2"
+      "revision": "7e7aadc2071d58031bf2daafca1fbd4093efc23f"
     },
     "libcyaml": {
       "version": "1.4.2",
       "gitref": "refs/tags/v1.4.2",
-      "url": "https://github.com/tlsa/libcyaml/releases/tag/v1.4.2"
+      "revision": "fcbf8257fd562499e0c842bfc85362e06f658443"
     },
     "libxls": {
       "version": "1.6.3",
       "gitref": "refs/tags/v1.6.3",
-      "url": "https://github.com/libxls/libxls/releases/tag/v1.6.3"
+      "revision": "c199d132494833da696b58aa4acf3fc5a36d930b"
     },
     "linuxqq-nt-bwrap": {
       "version": "3.2.29_260528"
@@ -109,84 +106,75 @@
     "pacfiles": {
       "version": "0.3.0",
       "gitref": "refs/tags/v0.3.0",
-      "revision": "86802349e97505cb681e891efd0cf9d7fbbb1165",
-      "url": "https://github.com/lilydjwg/pacfiles/releases/tag/v0.3.0"
+      "revision": "86802349e97505cb681e891efd0cf9d7fbbb1165"
     },
     "python-aenum": {
       "version": "3.1.17",
       "gitref": "refs/tags/3.1.17",
-      "revision": "80c9ecd4d4d445ebd944f353d6ef6780a30ae2f6",
-      "url": "https://github.com/ethanfurman/aenum/releases/tag/3.1.17"
+      "revision": "80c9ecd4d4d445ebd944f353d6ef6780a30ae2f6"
     },
     "python-backports.cached_property": {
       "version": "1.0.2",
       "gitref": "refs/tags/1.0.2",
-      "url": "https://github.com/penguinolog/backports.cached_property/releases/tag/1.0.2"
+      "revision": "a070dc2daecf7a5f213a3171ab5ef8d16e5f283e"
     },
     "python-chafapy": {
       "version": "1.2.0",
       "gitref": "refs/tags/v1.2.0",
-      "url": "https://github.com/GuardKenzie/chafa.py/releases/tag/v1.2.0"
+      "revision": "f75dbb7842b747f95f4d370c719a667aabcc89cd"
     },
     "python-code-minimap": {
       "version": "0.1.1",
       "gitref": "refs/tags/v0.1.1",
-      "revision": "eec0fc7ca417bed6a28d0af09edf03df2879cf4e",
-      "url": "https://github.com/joouha/python-code-minimap/releases/tag/v0.1.1"
+      "revision": "eec0fc7ca417bed6a28d0af09edf03df2879cf4e"
     },
     "python-flatlatex": {
       "version": "0.15",
       "gitref": "refs/tags/v0.15",
-      "revision": "8e396906dd5d0d40ac466d60cd948046090d6c59",
-      "url": "https://github.com/jb-leger/flatlatex/releases/tag/v0.15"
+      "revision": "8e396906dd5d0d40ac466d60cd948046090d6c59"
     },
     "python-imageio-ffmpeg": {
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
-      "url": "https://github.com/imageio/imageio-ffmpeg/releases/tag/v0.6.0"
+      "revision": "ae47d8028c237ca5507ceef1b843ee427b442887"
     },
     "python-img2unicode": {
-      "version": "20241024.154234",
-      "revision": "9e59b34480398d9b585572477ea840508a12ac27",
-      "url": "https://github.com/matrach/img2unicode/commit/9e59b34480398d9b585572477ea840508a12ac27"
+      "version": "9e59b34480398d9b585572477ea840508a12ac27",
+      "revision": "9e59b34480398d9b585572477ea840508a12ac27"
     },
     "python-jupytext": {
       "version": "1.19.4",
       "gitref": "refs/tags/v1.19.4",
-      "url": "https://github.com/jupytext/jupytext/releases/tag/v1.19.4"
+      "revision": "95cd28188b954dfd6d2b539e554a1fed19acd301"
     },
     "python-moviepy": {
       "version": "2.2.1",
       "gitref": "refs/tags/v2.2.1",
-      "url": "https://github.com/Zulko/moviepy/releases/tag/v2.2.1"
+      "revision": "f515b100e1fd069da6f29d5b01b1d42b52d8068d"
     },
     "python-mtable": {
-      "version": "20241206.052617",
-      "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
-      "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
+      "version": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
+      "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     },
     "python-pandas-stubs": {
       "version": "3.0.3.260530",
       "gitref": "refs/tags/v3.0.3.260530",
-      "revision": "1a40eeca820c57ebbe0287fa16ec71297593a7e5",
-      "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v3.0.3.260530"
+      "revision": "1a40eeca820c57ebbe0287fa16ec71297593a7e5"
     },
     "python-pathlib-abc": {
       "version": "0.5.2",
       "gitref": "refs/tags/0.5.2",
-      "revision": "44506435e7924f24bb8b0d84d088b3a133c3396a",
-      "url": "https://github.com/barneygale/pathlib-abc/releases/tag/0.5.2"
+      "revision": "44506435e7924f24bb8b0d84d088b3a133c3396a"
     },
     "python-proglog": {
       "version": "0.1.12",
       "gitref": "refs/tags/v0.1.12",
-      "url": "https://github.com/Edinburgh-Genome-Foundry/Proglog/releases/tag/v0.1.12"
+      "revision": "eb8b1dc35b9619c16a24f639cd039c188da63c92"
     },
     "python-questionary": {
       "version": "2.1.1",
       "gitref": "refs/tags/2.1.1",
-      "revision": "f25a001de9ff1ee3034498b0941d6083c4b93272",
-      "url": "https://github.com/tmbo/questionary/releases/tag/2.1.1"
+      "revision": "f25a001de9ff1ee3034498b0941d6083c4b93272"
     },
     "python-shandy-sqlfmt": {
       "version": "0.30.0",
@@ -199,13 +187,12 @@
     "python-teimpy": {
       "version": "0.1.1",
       "gitref": "refs/tags/0.1.1",
-      "revision": "e2d77933ab0677dbe339198a830d6dbd1b07e161",
-      "url": "https://github.com/ar90n/teimpy/releases/tag/0.1.1"
+      "revision": "e2d77933ab0677dbe339198a830d6dbd1b07e161"
     },
     "python-textual-fastdatatable": {
       "version": "0.14.0",
       "gitref": "refs/tags/v0.14.0",
-      "url": "https://github.com/tconbeer/textual-fastdatatable/releases/tag/v0.14.0"
+      "revision": "95e9235f5a1b5903c704fb50f9827d033e673b8b"
     },
     "python-textual-textarea": {
       "version": "0.17.2",
@@ -218,12 +205,12 @@
     "python-universal_pathlib": {
       "version": "0.3.10",
       "gitref": "refs/tags/v0.3.10",
-      "url": "https://github.com/fsspec/universal_pathlib/releases/tag/v0.3.10"
+      "revision": "419c33c28f6ea6d480ae37cf08f0934f54194d86"
     },
     "reg": {
       "version": "0.16.1",
       "gitref": "refs/tags/v0.16.1",
-      "url": "https://github.com/genuinetools/reg/releases/tag/v0.16.1"
+      "revision": "3a2da80bc4e2a8c8b572109a5fdd39e69b56f85e"
     },
     "ruby-fusuma": {
       "version": "3.12.0",
@@ -232,7 +219,7 @@
     "td-tui": {
       "version": "0.4.13",
       "gitref": "refs/tags/v0.4.13",
-      "url": "https://github.com/voioo/td/releases/tag/v0.4.13"
+      "revision": "2264d0897a8f0abedff309805cc1309ebf20452f"
     },
     "typora": {
       "version": "1.13.6"
@@ -244,7 +231,7 @@
     "yay": {
       "version": "13.0.1",
       "gitref": "refs/tags/v13.0.1",
-      "url": "https://github.com/Jguer/yay/releases/tag/v13.0.1"
+      "revision": "6bbe52a3c5b2477203a1e4992328df25d189b85e"
     }
   }
 }
