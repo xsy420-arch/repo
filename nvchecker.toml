@@ -221,9 +221,8 @@ git = "https://github.com/fsspec/universal_pathlib"
 prefix = "v"
 
 [reg]
-source = "github"
-github = "genuinetools/reg"
-use_latest_release = true
+source = "git"
+git = "https://github.com/genuinetools/reg"
 prefix = "v"
 
 [ruby-fusuma]

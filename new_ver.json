@@ -210,7 +210,7 @@
     "reg": {
       "version": "0.16.1",
       "gitref": "refs/tags/v0.16.1",
-      "url": "https://github.com/genuinetools/reg/releases/tag/v0.16.1"
+      "revision": "3a2da80bc4e2a8c8b572109a5fdd39e69b56f85e"
     },
     "ruby-fusuma": {
       "version": "3.12.0",
