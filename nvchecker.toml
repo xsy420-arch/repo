@@ -141,9 +141,8 @@ git = "https://github.com/joouha/python-code-minimap"
 prefix = "v"
 
 [python-flatlatex]
-source = "github"
-github = "jb-leger/flatlatex"
-use_max_tag = true
+source = "git"
+git = "https://github.com/jb-leger/flatlatex"
 prefix = "v"
 
 [python-imageio-ffmpeg]
