@@ -136,7 +136,7 @@
     "python-imageio-ffmpeg": {
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
-      "url": "https://github.com/imageio/imageio-ffmpeg/releases/tag/v0.6.0"
+      "revision": "ae47d8028c237ca5507ceef1b843ee427b442887"
     },
     "python-img2unicode": {
       "version": "20241024.154234",

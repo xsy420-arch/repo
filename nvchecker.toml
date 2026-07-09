@@ -146,9 +146,8 @@ git = "https://github.com/jb-leger/flatlatex"
 prefix = "v"
 
 [python-imageio-ffmpeg]
-source = "github"
-github = "imageio/imageio-ffmpeg"
-use_latest_release = true
+source = "git"
+git = "https://github.com/imageio/imageio-ffmpeg"
 prefix = "v"
 
 [python-img2unicode]
