@@ -73,9 +73,8 @@ git = "https://github.com/tconbeer/harlequin"
 prefix = "v"
 
 [harlequin-mysql]
-source = "github"
-github = "tconbeer/harlequin-mysql"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tconbeer/harlequin-mysql"
 prefix = "v"
 
 [haskell-semigroups]
