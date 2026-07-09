@@ -87,7 +87,7 @@
     "libcyaml": {
       "version": "1.4.2",
       "gitref": "refs/tags/v1.4.2",
-      "url": "https://github.com/tlsa/libcyaml/releases/tag/v1.4.2"
+      "revision": "fcbf8257fd562499e0c842bfc85362e06f658443"
     },
     "libxls": {
       "version": "1.6.3",

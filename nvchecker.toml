@@ -91,9 +91,8 @@ git = "https://github.com/jesseduffield/lazydocker"
 prefix = "v"
 
 [libcyaml]
-source = "github"
-github = "tlsa/libcyaml"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tlsa/libcyaml"
 prefix = "v"
 
 [libxls]
