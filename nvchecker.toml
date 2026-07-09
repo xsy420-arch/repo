@@ -180,9 +180,8 @@ source = "git"
 git = "https://github.com/barneygale/pathlib-abc"
 
 [python-proglog]
-source = "github"
-github = "Edinburgh-Genome-Foundry/Proglog"
-use_latest_release = true
+source = "git"
+git = "https://github.com/Edinburgh-Genome-Foundry/Proglog"
 prefix = "v"
 
 [python-questionary]

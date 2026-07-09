@@ -169,7 +169,7 @@
     "python-proglog": {
       "version": "0.1.12",
       "gitref": "refs/tags/v0.1.12",
-      "url": "https://github.com/Edinburgh-Genome-Foundry/Proglog/releases/tag/v0.1.12"
+      "revision": "eb8b1dc35b9619c16a24f639cd039c188da63c92"
     },
     "python-questionary": {
       "version": "2.1.1",
