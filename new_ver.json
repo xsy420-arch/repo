@@ -219,7 +219,7 @@
     "td-tui": {
       "version": "0.4.13",
       "gitref": "refs/tags/v0.4.13",
-      "url": "https://github.com/voioo/td/releases/tag/v0.4.13"
+      "revision": "2264d0897a8f0abedff309805cc1309ebf20452f"
     },
     "typora": {
       "version": "1.13.6"

@@ -230,9 +230,8 @@ source = "gems"
 gems = "fusuma"
 
 [td-tui]
-source = "github"
-github = "voioo/td"
-use_latest_release = true
+source = "git"
+git = "https://github.com/voioo/td"
 prefix = "v"
 
 [typora]
