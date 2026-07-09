@@ -18,7 +18,7 @@
     "battery-monitor": {
       "version": "0.2",
       "gitref": "refs/tags/v0.2",
-      "url": "https://github.com/xsy420/battery-monitor/releases/tag/v0.2"
+      "revision": "35326539120d55dbdff456c306c55b615dccd016"
     },
     "bilibili": {
       "version": "1.17.9-1",
