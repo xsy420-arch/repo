@@ -42,9 +42,8 @@ prefix = "v"
 source = "aur"
 
 [downgrade]
-source = "github"
-github = "archlinux-downgrade/downgrade"
-use_latest_release = true
+source = "git"
+git = "https://github.com/archlinux-downgrade/downgrade"
 prefix = "v"
 
 [euporie]
