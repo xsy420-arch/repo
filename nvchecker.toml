@@ -131,9 +131,8 @@ source = "git"
 git = "https://github.com/penguinolog/backports.cached_property"
 
 [python-chafapy]
-source = "github"
-github = "guardkenzie/chafa.py"
-use_latest_release = true
+source = "git"
+git = "https://github.com/guardkenzie/chafa.py"
 prefix = "v"
 
 [python-code-minimap]

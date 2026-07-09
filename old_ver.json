@@ -121,7 +121,7 @@
     "python-chafapy": {
       "version": "1.2.0",
       "gitref": "refs/tags/v1.2.0",
-      "url": "https://github.com/GuardKenzie/chafa.py/releases/tag/v1.2.0"
+      "revision": "f75dbb7842b747f95f4d370c719a667aabcc89cd"
     },
     "python-code-minimap": {
       "version": "0.1.1",
