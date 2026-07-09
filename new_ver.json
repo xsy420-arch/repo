@@ -47,8 +47,7 @@
     "euporie": {
       "version": "2.10.4",
       "gitref": "refs/tags/v2.10.4",
-      "revision": "261b84fa79abc02b8d6a82ef9b2d82ef8f1da8b1",
-      "url": "https://github.com/joouha/euporie/releases/tag/v2.10.4"
+      "revision": "261b84fa79abc02b8d6a82ef9b2d82ef8f1da8b1"
     },
     "fzf-make": {
       "version": "0.69.0",
