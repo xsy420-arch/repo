@@ -205,7 +205,7 @@
     "python-universal_pathlib": {
       "version": "0.3.10",
       "gitref": "refs/tags/v0.3.10",
-      "url": "https://github.com/fsspec/universal_pathlib/releases/tag/v0.3.10"
+      "revision": "419c33c28f6ea6d480ae37cf08f0934f54194d86"
     },
     "reg": {
       "version": "0.16.1",

@@ -216,9 +216,8 @@ source = "pypi"
 pypi = "timg"
 
 [python-universal_pathlib]
-source = "github"
-github = "fsspec/universal_pathlib"
-use_latest_release = true
+source = "git"
+git = "https://github.com/fsspec/universal_pathlib"
 prefix = "v"
 
 [reg]
