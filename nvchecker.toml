@@ -185,9 +185,8 @@ git = "https://github.com/Edinburgh-Genome-Foundry/Proglog"
 prefix = "v"
 
 [python-questionary]
-source = "github"
-github = "tmbo/questionary"
-use_max_tag = true
+source = "git"
+git = "https://github.com/tmbo/questionary"
 prefix = "v"
 
 [python-shandy-sqlfmt]

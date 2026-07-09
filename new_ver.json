@@ -174,8 +174,7 @@
     "python-questionary": {
       "version": "2.1.1",
       "gitref": "refs/tags/2.1.1",
-      "revision": "f25a001de9ff1ee3034498b0941d6083c4b93272",
-      "url": "https://github.com/tmbo/questionary/releases/tag/2.1.1"
+      "revision": "f25a001de9ff1ee3034498b0941d6083c4b93272"
     },
     "python-shandy-sqlfmt": {
       "version": "0.30.0",
