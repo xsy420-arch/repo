@@ -82,7 +82,7 @@
     "lazydocker": {
       "version": "0.25.2",
       "gitref": "refs/tags/v0.25.2",
-      "url": "https://github.com/jesseduffield/lazydocker/releases/tag/v0.25.2"
+      "revision": "7e7aadc2071d58031bf2daafca1fbd4093efc23f"
     },
     "libcyaml": {
       "version": "1.4.2",

@@ -86,9 +86,8 @@ source = "hackage"
 hackage = "wordexp"
 
 [lazydocker]
-source = "github"
-github = "jesseduffield/lazydocker"
-use_latest_release = true
+source = "git"
+git = "https://github.com/jesseduffield/lazydocker"
 prefix = "v"
 
 [libcyaml]
