@@ -111,8 +111,7 @@
     "python-aenum": {
       "version": "3.1.17",
       "gitref": "refs/tags/3.1.17",
-      "revision": "80c9ecd4d4d445ebd944f353d6ef6780a30ae2f6",
-      "url": "https://github.com/ethanfurman/aenum/releases/tag/3.1.17"
+      "revision": "80c9ecd4d4d445ebd944f353d6ef6780a30ae2f6"
     },
     "python-backports.cached_property": {
       "version": "1.0.2",

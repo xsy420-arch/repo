@@ -122,9 +122,8 @@ git = "https://github.com/lilydjwg/pacfiles"
 prefix = "v"
 
 [python-aenum]
-source = "github"
-github = "ethanfurman/aenum"
-use_latest_tag = true
+source = "git"
+git = "https://github.com/ethanfurman/aenum"
 prefix = "v"
 
 ['python-backports.cached_property']
