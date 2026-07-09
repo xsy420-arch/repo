@@ -159,8 +159,7 @@
     "python-pandas-stubs": {
       "version": "3.0.3.260530",
       "gitref": "refs/tags/v3.0.3.260530",
-      "revision": "1a40eeca820c57ebbe0287fa16ec71297593a7e5",
-      "url": "https://github.com/pandas-dev/pandas-stubs/releases/tag/v3.0.3.260530"
+      "revision": "1a40eeca820c57ebbe0287fa16ec71297593a7e5"
     },
     "python-pathlib-abc": {
       "version": "0.5.2",

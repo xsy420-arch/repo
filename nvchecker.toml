@@ -171,9 +171,8 @@ git = "https://github.com/liuyug/mtable"
 use_commit = true
 
 [python-pandas-stubs]
-source = "github"
-github = "pandas-dev/pandas-stubs"
-use_max_tag = true
+source = "git"
+git = "https://github.com/pandas-dev/pandas-stubs"
 prefix = "v"
 
 [python-pathlib-abc]
