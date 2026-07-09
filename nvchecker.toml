@@ -117,9 +117,8 @@ url = "https://www.navicat.com/products/navicat-premium-release-note#L"
 regex = "Navicat Premium \\(Linux\\) version (.*)</b>"
 
 [pacfiles]
-source = "github"
-github = "lilydjwg/pacfiles"
-use_latest_tag = true
+source = "git"
+git = "https://github.com/lilydjwg/pacfiles"
 prefix = "v"
 
 [python-aenum]
