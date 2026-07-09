@@ -68,9 +68,8 @@ strip_release = true
 source = "hackage"
 
 [harlequin]
-source = "github"
-github = "tconbeer/harlequin"
-use_latest_release = true
+source = "git"
+git = "https://github.com/tconbeer/harlequin"
 prefix = "v"
 
 [harlequin-mysql]

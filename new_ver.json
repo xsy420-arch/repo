@@ -64,7 +64,7 @@
     "harlequin": {
       "version": "2.5.2",
       "gitref": "refs/tags/v2.5.2",
-      "url": "https://github.com/tconbeer/harlequin/releases/tag/v2.5.2"
+      "revision": "cbaccc98c669c7f7a1b2b35268a00c726f20431b"
     },
     "harlequin-mysql": {
       "version": "1.3.0",
