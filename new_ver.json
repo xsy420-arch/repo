@@ -52,7 +52,7 @@
     "fzf-make": {
       "version": "0.69.0",
       "gitref": "refs/tags/v0.69.0",
-      "url": "https://github.com/kyu08/fzf-make/releases/tag/v0.69.0"
+      "revision": "2a107ef069c203294e76522a597fd9e9893d57da"
     },
     "google-chrome": {
       "version": "150.0.7871.114"

@@ -52,9 +52,8 @@ git = "https://github.com/joouha/euporie"
 prefix = "v"
 
 [fzf-make]
-source = "github"
-github = "kyu08/fzf-make"
-use_latest_release = true
+source = "git"
+git = "https://github.com/kyu08/fzf-make"
 prefix = "v"
 
 [google-chrome]
