@@ -231,7 +231,7 @@
     "yay": {
       "version": "13.0.1",
       "gitref": "refs/tags/v13.0.1",
-      "url": "https://github.com/Jguer/yay/releases/tag/v13.0.1"
+      "revision": "6bbe52a3c5b2477203a1e4992328df25d189b85e"
     }
   }
 }
