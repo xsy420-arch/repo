@@ -153,9 +153,8 @@
       "revision": "f515b100e1fd069da6f29d5b01b1d42b52d8068d"
     },
     "python-mtable": {
-      "version": "20241206.052617",
-      "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
-      "url": "https://github.com/liuyug/mtable/commit/3aae491c5ffd93d3c9e23da53733cf15026a50cb"
+      "version": "3aae491c5ffd93d3c9e23da53733cf15026a50cb",
+      "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     },
     "python-pandas-stubs": {
       "version": "3.0.3.260530",

@@ -166,8 +166,8 @@ git = "https://github.com/Zulko/moviepy"
 prefix = "v"
 
 [python-mtable]
-source = "github"
-github = "liuyug/mtable"
+source = "git"
+git = "https://github.com/liuyug/mtable"
 use_commit = true
 
 [python-pandas-stubs]
