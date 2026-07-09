@@ -21,9 +21,8 @@ git = "https://github.com/xsy420/battery-monitor"
 prefix = "v"
 
 [bilibili]
-source = "github"
-github = "msojocs/bilibili-linux"
-use_latest_release = true
+source = "git"
+git = "https://github.com/msojocs/bilibili-linux"
 prefix = "v"
 
 [blockbench]

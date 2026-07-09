@@ -23,7 +23,7 @@
     "bilibili": {
       "version": "1.17.9-1",
       "gitref": "refs/tags/v1.17.9-1",
-      "url": "https://github.com/msojocs/bilibili-linux/releases/tag/v1.17.9-1"
+      "revision": "295ed8433f9780b8f9ca5ef744101742cbe35d01"
     },
     "blockbench": {
       "version": "5.1.4",
