@@ -26,9 +26,8 @@ git = "https://github.com/msojocs/bilibili-linux"
 prefix = "v"
 
 [blockbench]
-source = "github"
-github = "JannisX11/blockbench"
-use_latest_tag = true
+source = "git"
+git = "https://github.com/JannisX11/blockbench"
 prefix = "v"
 
 [baidunetdisk-bin]
