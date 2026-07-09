@@ -145,7 +145,7 @@
     "python-jupytext": {
       "version": "1.19.4",
       "gitref": "refs/tags/v1.19.4",
-      "url": "https://github.com/jupytext/jupytext/releases/tag/v1.19.4"
+      "revision": "95cd28188b954dfd6d2b539e554a1fed19acd301"
     },
     "python-moviepy": {
       "version": "2.2.1",

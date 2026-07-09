@@ -156,9 +156,8 @@ git = "https://github.com/matrach/img2unicode"
 use_commit = true
 
 [python-jupytext]
-source = "github"
-github = "mwouts/jupytext"
-use_latest_release = true
+source = "git"
+git = "https://github.com/mwouts/jupytext"
 prefix = "v"
 
 [python-moviepy]
