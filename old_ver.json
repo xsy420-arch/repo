@@ -33,7 +33,7 @@
     "cherry-studio-bin": {
       "version": "1.9.12",
       "gitref": "refs/tags/v1.9.12",
-      "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v1.9.12"
+      "revision": "da0a11fdc43ab91e1d486f57663c61f6c747e69d"
     },
     "dmg2img": {
       "version": "1.6.7-5",

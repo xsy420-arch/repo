@@ -34,9 +34,8 @@ prefix = "v"
 source = "aur"
 
 [cherry-studio-bin]
-source = "github"
-github = "cherryHQ/cherry-studio"
-use_latest_release = true
+source = "git"
+git = "https://github.com/cherryHQ/cherry-studio"
 prefix = "v"
 
 [dmg2img]
