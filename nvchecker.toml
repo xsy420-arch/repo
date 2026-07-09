@@ -176,9 +176,8 @@ git = "https://github.com/pandas-dev/pandas-stubs"
 prefix = "v"
 
 [python-pathlib-abc]
-source = "github"
-github = "barneygale/pathlib-abc"
-use_max_tag = true
+source = "git"
+git = "https://github.com/barneygale/pathlib-abc"
 
 [python-proglog]
 source = "github"

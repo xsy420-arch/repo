@@ -164,8 +164,7 @@
     "python-pathlib-abc": {
       "version": "0.5.2",
       "gitref": "refs/tags/0.5.2",
-      "revision": "44506435e7924f24bb8b0d84d088b3a133c3396a",
-      "url": "https://github.com/barneygale/pathlib-abc/releases/tag/0.5.2"
+      "revision": "44506435e7924f24bb8b0d84d088b3a133c3396a"
     },
     "python-proglog": {
       "version": "0.1.12",
