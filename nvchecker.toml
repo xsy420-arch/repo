@@ -151,8 +151,8 @@ git = "https://github.com/imageio/imageio-ffmpeg"
 prefix = "v"
 
 [python-img2unicode]
-source = "github"
-github = "matrach/img2unicode"
+source = "git"
+git = "https://github.com/matrach/img2unicode"
 use_commit = true
 
 [python-jupytext]

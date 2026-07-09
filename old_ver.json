@@ -139,9 +139,8 @@
       "revision": "ae47d8028c237ca5507ceef1b843ee427b442887"
     },
     "python-img2unicode": {
-      "version": "20241024.154234",
-      "revision": "9e59b34480398d9b585572477ea840508a12ac27",
-      "url": "https://github.com/matrach/img2unicode/commit/9e59b34480398d9b585572477ea840508a12ac27"
+      "version": "9e59b34480398d9b585572477ea840508a12ac27",
+      "revision": "9e59b34480398d9b585572477ea840508a12ac27"
     },
     "python-jupytext": {
       "version": "1.19.4",
