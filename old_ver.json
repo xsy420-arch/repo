@@ -50,9 +50,9 @@
       "revision": "261b84fa79abc02b8d6a82ef9b2d82ef8f1da8b1"
     },
     "fzf-make": {
-      "version": "0.69.0",
-      "gitref": "refs/tags/v0.69.0",
-      "revision": "2a107ef069c203294e76522a597fd9e9893d57da"
+      "version": "0.70.0",
+      "gitref": "refs/tags/v0.70.0",
+      "revision": "c9fe77876a92b5229f9c4b82563a8b7bdb1de114"
     },
     "google-chrome": {
       "version": "150.0.7871.128"
