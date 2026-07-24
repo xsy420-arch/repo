@@ -36,6 +36,7 @@ source = "aur"
 [cherry-studio-bin]
 source = "git"
 git = "https://github.com/cherryHQ/cherry-studio"
+exclude_regex = ".*(alpha|beta|rc).*"
 prefix = "v"
 
 [dmg2img]
