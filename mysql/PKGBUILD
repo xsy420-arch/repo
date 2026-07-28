@@ -6,7 +6,7 @@
 
 pkgname=('mysql' 'libmysqlclient' 'mysql-clients')
 pkgbase=mysql
-pkgver=9.7.1
+pkgver=26.7.0
 pkgrel=1
 pkgdesc="Fast SQL database server, community edition"
 arch=('x86_64')
@@ -22,7 +22,7 @@ source=("https://cdn.mysql.com/Downloads/MySQL-${pkgver%.*}/${pkgbase}-${pkgver}
     "mysqld_service.patch"
     "systemd-tmpfiles.patch"
     "systemd-sysusers.conf")
-sha256sums=('dabff263022be6a09151c21812322873437e0d77aec8c4cc7381882c3ea1aeae'
+sha256sums=('95e949183b94bbe39e70c6355e6c90d2a640a62ede996ca5f7a6a3e0827a3260'
             'SKIP'
             '4dcfb343be20f5d70dff2bc6cac5c38c52c9fe80bd0383c4e8c52fc4c0dff6da'
             'e1c23fa0971a13d998f2790379b68c475438d05b6d6f2691b99051dbf497567f'
