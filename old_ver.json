@@ -157,9 +157,9 @@
       "revision": "3aae491c5ffd93d3c9e23da53733cf15026a50cb"
     },
     "python-pandas-stubs": {
-      "version": "3.0.3.260530",
-      "gitref": "refs/tags/v3.0.3.260530",
-      "revision": "1a40eeca820c57ebbe0287fa16ec71297593a7e5"
+      "version": "3.0.5.260730",
+      "gitref": "refs/tags/v3.0.5.260730",
+      "revision": "bf7bb7b9c433ad1460d4d8b9b7d6b2f87ef4a7f8"
     },
     "python-pathlib-abc": {
       "version": "0.5.2",
