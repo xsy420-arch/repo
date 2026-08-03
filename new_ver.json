@@ -177,8 +177,8 @@
       "revision": "f25a001de9ff1ee3034498b0941d6083c4b93272"
     },
     "python-shandy-sqlfmt": {
-      "version": "0.30.0",
-      "url": "https://pypi.org/project/shandy-sqlfmt/0.30.0/"
+      "version": "0.31.0",
+      "url": "https://pypi.org/project/shandy-sqlfmt/0.31.0/"
     },
     "python-sixelcrop": {
       "version": "0.1.9",
