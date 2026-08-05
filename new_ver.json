@@ -31,9 +31,9 @@
       "revision": "794e964e966b6783b4e9b98ecbdda5152c0620cc"
     },
     "cherry-studio-bin": {
-      "version": "1.9.13",
-      "gitref": "refs/tags/v1.9.13",
-      "revision": "da22fb797343fd3760e5dd2d467eda9bf0017632"
+      "version": "2.0.0",
+      "gitref": "refs/tags/v2.0.0",
+      "revision": "e31b31b4355afa06359c17b587d16625d8f12d79"
     },
     "dmg2img": {
       "version": "1.6.7-5",
