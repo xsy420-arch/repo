@@ -1,6 +1,6 @@
 pkgbase = typora
 	pkgdesc = A minimal markdown editor and reader.
-	pkgver = 1.14.8
+	pkgver = 1.14.9
 	pkgrel = 1
 	url = https://typora.io/
 	arch = x86_64
@@ -10,10 +10,10 @@ pkgbase = typora
 	depends = alsa-lib
 	optdepends = noto-fonts-emoji: Or some other emoji font to see emojis
 	optdepends = pandoc: Import/export for extra file formats
-	source = https://typora.io/linux/typora_1.14.8_amd64.deb
+	source = https://typora.io/linux/typora_1.14.9_amd64.deb
 	source = typora.sh
 	source = apply-license.crypt
-	sha512sums = 38ed5ce4301def6e4ba1aeb2a4b06e114bde3816b46f3977468dbb738dd7566428f30bc913c3b888f86fd53390bd54f4f6f09b07e5765789091e4bfdf7718006
+	sha512sums = 075db5be472077b4c8f898b2995a6d47c2b932482a1536badf417db4bdc51edfef50083a18e2f2b9eda741c90fad2b1796e92f2826ec9ab03d543931916237c4
 	sha512sums = de9c883c63f3ea35bd551c8761e605f8e1a3468943e000abcbf94bb0c5cbb5f0f6c7fa4d49ab39c177f167e0e3d0b061c861bf828627b4a34f7f1589119c3d04
 	sha512sums = 8da0a2c05d3161291f3f601bbfe5f6c1070a655e2d9fde7f26fd8df686140b2c3aa8ddfc3f44e62d3b653cd580a84cdf14b608506cc7df3de3fc42005b4f8894
 
