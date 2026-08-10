@@ -62,9 +62,9 @@
       "url": "https://hackage.haskell.org/package/greenclip-4.3.1"
     },
     "harlequin": {
-      "version": "2.8.0",
-      "gitref": "refs/tags/v2.8.0",
-      "revision": "12cac75283adc6285a7632bdca3d08ec5487a5c8"
+      "version": "2.8.1",
+      "gitref": "refs/tags/v2.8.1",
+      "revision": "91ac0ccb459247fee4d3d454fccbbd1a34ae0072"
     },
     "harlequin-mysql": {
       "version": "1.3.1",
