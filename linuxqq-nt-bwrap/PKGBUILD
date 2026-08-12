@@ -37,7 +37,7 @@ sha256sums=('a82d64970b59017ce4f55d523fbea78edd01fb8e69756db5f7038badfd4fb6e8'
             'cc002ee0eb2e8702c97d16f4ce628841cd5fe10195875a075432e92248741424'
             '447dcda65d0b04edc5d639847723aa5a327d276793857cdf9296f231fada77c8'
             '1736b2abac282c3b4428b9efcacd2197c23503b7e7a663f1a744fbbf59e9c5fc')
-sha256sums_x86_64=('81ae2b8542ef5311fc72ecf53c9a523923c834569c7b0da52e0bf4360b9cb5f9')
+sha256sums_x86_64=('d085dd89397225061eb9f194308f688129818ed445777e97a4a0a16e13d7b0e8')
 DLAGENTS=('https::/usr/bin/bash linuxqq-nt-bwrap-dlagent.sh %u %o')
 
 prepare() {
