@@ -11,16 +11,16 @@ url="http://vu1tur.eu.org/tools/"
 license=("GPL-2.0-only")
 depends=("openssl" "bzip2" "zlib")
 source=(
-	"https://archive.ubuntu.com/ubuntu/pool/universe/d/dmg2img/${pkgname}_$pkgver+git20201227.a3e4134.orig.tar.xz"
+    "https://archive.ubuntu.com/ubuntu/pool/universe/d/dmg2img/${pkgname}_$pkgver+git20201227.a3e4134.orig.tar.xz"
 )
 sha256sums=('b802d5c614da9aa21a9b05ba94d02cb3f1d873d0d3f813972f41126a977e4ef4')
 
 build() {
-	cd "$srcdir/${pkgname}-$pkgver+git20201227.a3e4134"
-	make PREFIX="/usr"
+    cd "$srcdir/${pkgname}-$pkgver+git20201227.a3e4134"
+    make PREFIX="/usr"
 }
 
 package() {
-	cd "$srcdir/${pkgname}-$pkgver+git20201227.a3e4134"
-	make PREFIX="/usr" DESTDIR="$pkgdir" install
+    cd "$srcdir/${pkgname}-$pkgver+git20201227.a3e4134"
+    make PREFIX="/usr" DESTDIR="$pkgdir" install
 }
