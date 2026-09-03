@@ -3,7 +3,7 @@
 
 pkgname=typora
 pkgver=1.14.9
-pkgrel=1
+pkgrel=2
 pkgdesc="A minimal markdown editor and reader."
 arch=('x86_64')
 license=('custom:"Copyright (c) 2015 Abner Lee All Rights Reserved."')
@@ -24,6 +24,8 @@ package() {
 
     # remove lintian overrides
     rm -rf "$pkgdir/usr/share/lintian/"
+    # remove MacOS stuff
+    rm -rf "$pkgdir"/usr/share/typora/resources/node_modules/spellchecker/node_modules/
     # replace bin link with custom launch script
     rm -rf "$pkgdir/usr/bin/$pkgname"
     install -m755 "$srcdir/$pkgname.sh" "$pkgdir/usr/bin/$pkgname"
