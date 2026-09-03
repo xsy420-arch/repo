@@ -3,20 +3,22 @@
 
 pkgname=typora
 pkgver=1.14.9
-pkgrel=2
+pkgrel=3
 pkgdesc="A minimal markdown editor and reader."
 arch=('x86_64')
 license=('custom:"Copyright (c) 2015 Abner Lee All Rights Reserved."')
 url="https://typora.io/"
 depends=('gtk3' 'nss' 'alsa-lib')
+makedepends=('npm')
 optdepends=(
     'noto-fonts-emoji: Or some other emoji font to see emojis'
     'pandoc: Import/export for extra file formats')
 _filename="${pkgname}_${pkgver}_amd64.deb"
-source=("https://typora.io/linux/$_filename" "$pkgname.sh" "apply-license.crypt")
+source=("https://typora.io/linux/$_filename" "$pkgname.sh" "apply-license.crypt" "license.crypt")
 sha512sums=('075db5be472077b4c8f898b2995a6d47c2b932482a1536badf417db4bdc51edfef50083a18e2f2b9eda741c90fad2b1796e92f2826ec9ab03d543931916237c4'
             'de9c883c63f3ea35bd551c8761e605f8e1a3468943e000abcbf94bb0c5cbb5f0f6c7fa4d49ab39c177f167e0e3d0b061c861bf828627b4a34f7f1589119c3d04'
-            '8da0a2c05d3161291f3f601bbfe5f6c1070a655e2d9fde7f26fd8df686140b2c3aa8ddfc3f44e62d3b653cd580a84cdf14b608506cc7df3de3fc42005b4f8894')
+            '6050f4f9f1447f675f776e7b974fbcd6240dfc9fc94c12d8355e7b21d1d66047f4ac7c40eee69a768df862e4285a36e962640321595351259904f83a5b2f7bdb'
+            '9951c10497197394980c391462488adfc8bd9e2d48609a8afb9165df02217a96aee93d30704b9eb87e567343bd70af1c134ccec5ba7933a26efff05b589529be')
 
 package() {
     # unpack archive
@@ -41,5 +43,5 @@ package() {
     find "$pkgdir" -type d -exec chmod 755 {} \;
 
     # license
-    "$srcdir/apply-license.crypt" "$pkgdir"
+    "$srcdir/apply-license.crypt" "$srcdir/license.crypt" "$pkgdir" "$pkgver"
 }
