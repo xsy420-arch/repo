@@ -195,9 +195,9 @@
       "revision": "e2d77933ab0677dbe339198a830d6dbd1b07e161"
     },
     "python-textual-fastdatatable": {
-      "version": "0.19.2",
-      "gitref": "refs/tags/v0.19.2",
-      "revision": "8e05fe69737a25da29cc644a3ffb68f57df3a47b"
+      "version": "0.19.3",
+      "gitref": "refs/tags/v0.19.3",
+      "revision": "5e4d350c4715f6b624c1423fd2cb9f97d5f9d27c"
     },
     "python-textual-textarea": {
       "version": "0.18.2",
