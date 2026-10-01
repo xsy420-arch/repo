@@ -26,9 +26,9 @@
       "revision": "e39516cf3ea8ca5e1f6cd53db97429771da4f8f8"
     },
     "blockbench": {
-      "version": "5.1.6",
-      "gitref": "refs/tags/v5.1.6",
-      "revision": "794e964e966b6783b4e9b98ecbdda5152c0620cc"
+      "version": "5.2.1",
+      "gitref": "refs/tags/v5.2.1",
+      "revision": "e2ede0809ee6bc91f374ac7e00d34cffbdf86a14"
     },
     "cherry-studio-bin": {
       "version": "2.0.6",
