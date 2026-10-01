@@ -40,9 +40,9 @@
       "url": "https://aur.archlinux.org/packages/dmg2img"
     },
     "downgrade": {
-      "version": "12.0.2",
-      "gitref": "refs/tags/v12.0.2",
-      "revision": "2d5b0e15af0ad3bd4d8396119cfcc91c226808ee"
+      "version": "12.0.3",
+      "gitref": "refs/tags/v12.0.3",
+      "revision": "b301fc69ddff8cc856aa8702f08095347d5a1ef1"
     },
     "euporie": {
       "version": "2.10.4",
