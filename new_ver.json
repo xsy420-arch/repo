@@ -148,9 +148,9 @@
       "revision": "9e59b34480398d9b585572477ea840508a12ac27"
     },
     "python-jupytext": {
-      "version": "1.19.5",
-      "gitref": "refs/tags/v1.19.5",
-      "revision": "3132c6c1cc6738b355c711e07de4666413c42878"
+      "version": "1.19.6",
+      "gitref": "refs/tags/v1.19.6",
+      "revision": "9fccc3d85485e01264eb3454fae8c5ab4d093cfb"
     },
     "python-moviepy": {
       "version": "2.2.1",
