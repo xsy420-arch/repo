@@ -67,9 +67,9 @@
       "revision": "2b04162ab18708717075980bab8d3e4032f8f67e"
     },
     "harlequin": {
-      "version": "2.16.1",
-      "gitref": "refs/tags/v2.16.1",
-      "revision": "60b1d554a4e699f3521c38a8161e6a24431c432d"
+      "version": "2.16.2",
+      "gitref": "refs/tags/v2.16.2",
+      "revision": "3ca0bab461dbc351965b9e90ee851751663f8ac4"
     },
     "harlequin-mysql": {
       "version": "1.4.0",
