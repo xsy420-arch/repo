@@ -6,7 +6,7 @@
 
 pkgname=('mysql' 'libmysqlclient' 'mysql-clients')
 pkgbase=mysql
-pkgver=26.7.0
+pkgver=26.10.0
 pkgrel=1
 pkgdesc="Fast SQL database server, community edition"
 arch=('x86_64')
@@ -22,7 +22,7 @@ source=("https://cdn.mysql.com/Downloads/MySQL-${pkgver%.*}/${pkgbase}-${pkgver}
     "mysqld_service.patch"
     "systemd-tmpfiles.patch"
     "systemd-sysusers.conf")
-sha256sums=('95e949183b94bbe39e70c6355e6c90d2a640a62ede996ca5f7a6a3e0827a3260'
+sha256sums=('984507622ddfa4d84ad23fc56ec5b5f18f4fda328af5a23e5f5b1a062301ea2c'
             'SKIP'
             '4dcfb343be20f5d70dff2bc6cac5c38c52c9fe80bd0383c4e8c52fc4c0dff6da'
             'e1c23fa0971a13d998f2790379b68c475438d05b6d6f2691b99051dbf497567f'
@@ -161,11 +161,13 @@ package_mysql() {
     install -m 644 -D "${srcdir}/build/packaging/rpm-common/mysqlrouter.conf" "${pkgdir}/etc/mysqlrouter/mysqlrouter.conf"
 
     # provided by libmysqlclient
+    shared_lib_major_version=$(awk -F\" '/SHARED_LIB_MAJOR_VERSION/ {print $2}' "$srcdir/$pkgname-$pkgver/cmake/mysql_version.cmake")
+    shared_lib_minor_version=$(awk -F\" '/SHARED_LIB_MINOR_VERSION/ {print $2}' "$srcdir/$pkgname-$pkgver/cmake/mysql_version.cmake")
     rm "${pkgdir}/usr/bin/mysql_config"
     rm "${pkgdir}/usr/lib/libmysqlclient.a"
     rm "${pkgdir}/usr/lib/libmysqlclient.so"
-    rm "${pkgdir}/usr/lib/libmysqlclient.so.24"
-    rm "${pkgdir}/usr/lib/libmysqlclient.so.24.1.${pkgver##*.}"
+    rm "${pkgdir}/usr/lib/libmysqlclient.so.${shared_lib_major_version}"
+    rm "${pkgdir}/usr/lib/libmysqlclient.so.${shared_lib_major_version}.${shared_lib_minor_version}.${pkgver##*.}"
     rm "${pkgdir}/usr/lib/libmysqlservices.a"
     rm "${pkgdir}/usr/lib/pkgconfig/mysqlclient.pc"
     rmdir "${pkgdir}/usr/lib/pkgconfig"
