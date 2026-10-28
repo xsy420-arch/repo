@@ -200,9 +200,9 @@
       "revision": "0384669de29ec74b25bfc0c68036903b4021e8c9"
     },
     "python-textual-textarea": {
-      "version": "0.18.5",
-      "url": "https://pypi.org/project/textual-textarea/0.18.5/",
-      "creation_time": "2026-10-01T20:49:49.959223Z"
+      "version": "0.19.0",
+      "url": "https://pypi.org/project/textual-textarea/0.19.0/",
+      "creation_time": "2026-10-28T03:11:54.188008Z"
     },
     "python-timg": {
       "version": "1.2.0",
