@@ -139,9 +139,9 @@
       "revision": "8e396906dd5d0d40ac466d60cd948046090d6c59"
     },
     "python-imageio-ffmpeg": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/v0.6.0",
-      "revision": "ae47d8028c237ca5507ceef1b843ee427b442887"
+      "version": "0.7.0",
+      "gitref": "refs/tags/v0.7.0",
+      "revision": "be2a02bdeaa728047df3822fa14db2aee0bed4ff"
     },
     "python-img2unicode": {
       "version": "9e59b34480398d9b585572477ea840508a12ac27",
