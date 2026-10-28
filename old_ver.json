@@ -235,9 +235,9 @@
       "url": "https://crates.io/crates/xwin/0.10.0"
     },
     "yay": {
-      "version": "13.0.1",
-      "gitref": "refs/tags/v13.0.1",
-      "revision": "6bbe52a3c5b2477203a1e4992328df25d189b85e"
+      "version": "13.1.0",
+      "gitref": "refs/tags/v13.1.0",
+      "revision": "0938a75e98e63648ebf6e22ece6b4a30ec11a907"
     }
   }
 }
