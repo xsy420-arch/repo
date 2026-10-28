@@ -72,9 +72,9 @@
       "revision": "8958f8c80388ba010005f294d57b51cd01321226"
     },
     "harlequin-mysql": {
-      "version": "1.4.0",
-      "gitref": "refs/tags/v1.4.0",
-      "revision": "23764f54aeb8d07670b5f690a30cc2c08ba0721d"
+      "version": "1.5.0",
+      "gitref": "refs/tags/v1.5.0",
+      "revision": "6f5365574108f097fce5ffd743f4472236d2aeac"
     },
     "haskell-semigroups": {
       "version": "0.20.1",

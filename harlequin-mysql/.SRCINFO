@@ -1,6 +1,6 @@
 pkgbase = harlequin-mysql
 	pkgdesc = The SQL IDE for Your Terminal
-	pkgver = 1.4.0
+	pkgver = 1.5.0
 	pkgrel = 1
 	url = https://github.com/tconbeer/harlequin-mysql
 	arch = any
@@ -13,7 +13,7 @@ pkgbase = harlequin-mysql
 	depends = harlequin
 	depends = python-mysql-connector
 	options = !strip
-	source = harlequin-mysql-1.4.0.tar.gz::https://github.com/tconbeer/harlequin-mysql/archive/v1.4.0.tar.gz
-	b2sums = 9990604ffd1e229fb37331f4aa315641bb4feccf95b63b61e2b1eb734d24f3109e02cf3a476360476b68d62496b9bdf52d6bd54b93bcef791efc2e5ef8471700
+	source = harlequin-mysql-1.5.0.tar.gz::https://github.com/tconbeer/harlequin-mysql/archive/v1.5.0.tar.gz
+	b2sums = dea430b59119934c95d652111a417f705b9f9006e8b7c63ced5cacc88439c0fffb4b9e3bde78bffbe3577d03e35414037a07313c73ec8eea406088d0ccc6de4b
 
 pkgname = harlequin-mysql
