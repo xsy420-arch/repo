@@ -21,9 +21,9 @@
       "revision": "35326539120d55dbdff456c306c55b615dccd016"
     },
     "bilibili": {
-      "version": "1.20.0-2",
-      "gitref": "refs/tags/v1.20.0-2",
-      "revision": "ddda1ff6345e9cca8059722a375d60064d8648fb"
+      "version": "1.20.0-3",
+      "gitref": "refs/tags/v1.20.0-3",
+      "revision": "dbb8841313c3c923c225a758585e4d692f456697"
     },
     "blockbench": {
       "version": "5.2.2",
