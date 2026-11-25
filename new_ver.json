@@ -209,9 +209,9 @@
       "url": "https://pypi.org/project/timg/1.2.0/"
     },
     "python-universal_pathlib": {
-      "version": "0.3.11a1",
-      "gitref": "refs/tags/v0.3.11a1",
-      "revision": "2e48c6dff20ac9d89460d360874d8864a5c32e3d"
+      "version": "0.3.11",
+      "gitref": "refs/tags/v0.3.11",
+      "revision": "eacf0f22997415037650217de36044aa3832274f"
     },
     "reg": {
       "version": "0.16.1",
